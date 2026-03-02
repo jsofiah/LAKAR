@@ -1,0 +1,1925 @@
+{
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2025",
+    "description": "Master skill list yang sinkron dengan jobs.json. Setiap skill punya level, kategori, roadmap belajar, dan tools/platform terkait.",
+    "level_definitions": {
+      "beginner": "Paham konsep dasar, bisa mengikuti tutorial, belum bisa mandiri",
+      "intermediate": "Bisa mengerjakan task nyata secara mandiri, paham best practice",
+      "advanced": "Bisa memimpin, mengoptimasi, dan mengajarkan orang lain"
+    }
+  },
+
+  "categories": [
+    {
+      "id": "programming",
+      "label": "Bahasa Pemrograman",
+      "icon": "bi bi-code-square",
+      "skills": [
+        {
+          "id": "python",
+          "label": "Python",
+          "description": "Bahasa pemrograman serbaguna yang dominan di bidang data, AI, dan backend.",
+          "type": "hard",
+          "field_tags": ["data_ai", "it_software"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Menulis script sederhana", "Memahami variabel, loop, dan fungsi", "Menggunakan library standar"],
+              "learn_from": ["Python.org tutorial", "freeCodeCamp Python", "CS50P (Harvard)"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["OOP, error handling, file I/O", "Menggunakan library pandas, numpy, requests", "Membuat API sederhana dengan Flask/FastAPI"],
+              "learn_from": ["Real Python", "Automate the Boring Stuff", "FastAPI docs"],
+              "duration_estimate": "2-4 bulan"
+            },
+            "advanced": {
+              "can_do": ["Optimasi performa, async programming", "Design pattern, testing, packaging", "Contribute ke open source"],
+              "learn_from": ["Fluent Python (buku)", "Architecture Patterns with Python", "CPython source code"],
+              "duration_estimate": "6+ bulan"
+            }
+          },
+          "tools": ["VS Code", "PyCharm", "Jupyter Notebook"],
+          "related_skills": ["machine_learning", "sql", "api_integration", "deep_learning"]
+        },
+        {
+          "id": "javascript",
+          "label": "JavaScript",
+          "description": "Bahasa utama web development, bisa dipakai di frontend maupun backend (Node.js).",
+          "type": "hard",
+          "field_tags": ["it_software"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Manipulasi DOM", "Memahami variabel, fungsi, event", "Membuat halaman web interaktif sederhana"],
+              "learn_from": ["javascript.info", "freeCodeCamp", "The Odin Project"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Async/await, promises, fetch API", "ES6+ features", "Menggunakan framework seperti React"],
+              "learn_from": ["Eloquent JavaScript", "React docs", "Full Stack Open (Helsinki)"],
+              "duration_estimate": "3-5 bulan"
+            },
+            "advanced": {
+              "can_do": ["Optimasi bundle, performance tuning", "TypeScript, design patterns", "Testing (Jest, Cypress)"],
+              "learn_from": ["You Don't Know JS (buku)", "Frontend Masters", "Kent C. Dodds blog"],
+              "duration_estimate": "6+ bulan"
+            }
+          },
+          "tools": ["VS Code", "Chrome DevTools", "Node.js", "npm/yarn"],
+          "related_skills": ["react", "nodejs", "typescript", "git"]
+        },
+        {
+          "id": "sql",
+          "label": "SQL",
+          "description": "Bahasa query standar untuk berinteraksi dengan database relasional.",
+          "type": "hard",
+          "field_tags": ["data_ai", "it_software", "business_finance"],
+          "levels": {
+            "beginner": {
+              "can_do": ["SELECT, WHERE, ORDER BY", "JOIN dasar", "Filtering dan aggregasi sederhana"],
+              "learn_from": ["SQLZoo", "Mode Analytics SQL Tutorial", "W3Schools SQL"],
+              "duration_estimate": "2-4 minggu"
+            },
+            "intermediate": {
+              "can_do": ["Subquery, CTE, window functions", "Index dan optimasi query", "Stored procedure"],
+              "learn_from": ["Advanced SQL for Data Scientists", "pgExercises", "LeetCode SQL"],
+              "duration_estimate": "1-3 bulan"
+            },
+            "advanced": {
+              "can_do": ["Query optimization, execution plan", "Database design normalization", "Partitioning, sharding"],
+              "learn_from": ["Use The Index, Luke", "PostgreSQL docs", "CMU Database Group YouTube"],
+              "duration_estimate": "4+ bulan"
+            }
+          },
+          "tools": ["PostgreSQL", "MySQL", "DBeaver", "BigQuery", "Snowflake"],
+          "related_skills": ["python", "data_visualization", "etl", "data_analysis"]
+        },
+        {
+          "id": "dart",
+          "label": "Dart (Flutter)",
+          "description": "Bahasa pemrograman untuk Flutter yang digunakan dalam pengembangan aplikasi mobile cross-platform.",
+          "type": "hard",
+          "field_tags": ["it_software"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Sintaks dasar Dart", "Widget sederhana Flutter", "Stateless & Stateful widget"],
+              "learn_from": ["Flutter.dev codelabs", "Dart.dev tour", "Angela Yu Flutter Udemy"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["State management (Provider/Bloc)", "Navigasi & routing", "API integration"],
+              "learn_from": ["Flutter documentation", "Riverpod docs", "ResoCoder YouTube"],
+              "duration_estimate": "2-4 bulan"
+            },
+            "advanced": {
+              "can_do": ["Custom widget & animation", "Performance optimization", "Platform channels & native integration"],
+              "learn_from": ["Flutter internals blog posts", "Advanced Flutter (buku)", "Flutter GitHub"],
+              "duration_estimate": "5+ bulan"
+            }
+          },
+          "tools": ["Android Studio", "VS Code", "Flutter SDK", "Firebase"],
+          "related_skills": ["mobile_ui", "api_integration", "firebase"]
+        },
+        {
+          "id": "c_sharp",
+          "label": "C#",
+          "description": "Bahasa pemrograman Microsoft yang digunakan untuk game (Unity) dan aplikasi enterprise.",
+          "type": "hard",
+          "field_tags": ["it_software", "art_media"],
+          "levels": {
+            "beginner": {
+              "can_do": ["OOP dasar", "Script Unity sederhana", "Memahami tipe data dan control flow"],
+              "learn_from": ["Microsoft Learn C#", "Unity Learn", "Brackeys YouTube"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["LINQ, delegates, events", "Design pattern dalam Unity", "Asynchronous programming"],
+              "learn_from": ["C# in Depth (buku)", "Game Programming Patterns", "Code Monkey YouTube"],
+              "duration_estimate": "3-5 bulan"
+            },
+            "advanced": {
+              "can_do": ["Memory management, performance profiling", "Custom editor tools Unity", "Shader programming dasar"],
+              "learn_from": ["Unity Blog technical posts", "catlikecoding.com", "Rider debugging tools"],
+              "duration_estimate": "6+ bulan"
+            }
+          },
+          "tools": ["Visual Studio", "Unity", "Rider", ".NET SDK"],
+          "related_skills": ["unity", "game_design", "programming"]
+        },
+        {
+          "id": "r",
+          "label": "R (Statistical Computing)",
+          "description": "Bahasa khusus statistik dan analisis data, populer di kalangan peneliti dan data scientist.",
+          "type": "hard",
+          "field_tags": ["data_ai", "healthcare"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Manipulasi data dengan tidyverse", "Visualisasi dengan ggplot2", "Statistik deskriptif"],
+              "learn_from": ["R for Data Science (buku gratis online)", "Swirl package", "RStudio Education"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Regresi, uji hipotesis, ANOVA", "R Markdown untuk laporan", "Shiny app sederhana"],
+              "learn_from": ["Advanced R (Hadley Wickham)", "Statistical Learning with R", "Posit Community"],
+              "duration_estimate": "2-4 bulan"
+            },
+            "advanced": {
+              "can_do": ["Package development", "High-performance computing dengan R", "Bayesian modeling"],
+              "learn_from": ["R Packages (buku)", "Stan documentation", "Bioconductor workflows"],
+              "duration_estimate": "5+ bulan"
+            }
+          },
+          "tools": ["RStudio", "Posit Cloud", "Tidyverse", "Shiny"],
+          "related_skills": ["statistics", "data_visualization", "research_methodology"]
+        }
+      ]
+    },
+
+    {
+      "id": "data_tools",
+      "label": "Data & Analytics Tools",
+      "icon": "bi bi-bar-chart-steps",
+      "skills": [
+        {
+          "id": "machine_learning",
+          "label": "Machine Learning",
+          "description": "Teknik membuat sistem yang belajar dari data tanpa diprogram secara eksplisit.",
+          "type": "hard",
+          "field_tags": ["data_ai"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Memahami supervised vs unsupervised learning", "Linear/logistic regression", "Menggunakan scikit-learn untuk model sederhana"],
+              "learn_from": ["Andrew Ng ML Course (Coursera)", "Kaggle Intro to ML", "StatQuest YouTube"],
+              "duration_estimate": "2-3 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Feature engineering, cross-validation", "Ensemble methods (Random Forest, XGBoost)", "Model evaluation metrics mendalam"],
+              "learn_from": ["Hands-on ML with Scikit-Learn (buku)", "fast.ai", "Kaggle competitions"],
+              "duration_estimate": "3-6 bulan"
+            },
+            "advanced": {
+              "can_do": ["AutoML, hyperparameter tuning", "Custom model architectures", "MLOps deployment"],
+              "learn_from": ["ML Engineering for Production (Coursera)", "Made With ML", "Papers With Code"],
+              "duration_estimate": "6+ bulan"
+            }
+          },
+          "tools": ["scikit-learn", "XGBoost", "LightGBM", "Optuna"],
+          "related_skills": ["python", "statistics", "deep_learning", "mlops"]
+        },
+        {
+          "id": "deep_learning",
+          "label": "Deep Learning",
+          "description": "Subset ML menggunakan neural network berlapis untuk menangani data kompleks seperti gambar, teks, audio.",
+          "type": "hard",
+          "field_tags": ["data_ai"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Memahami neural network & backpropagation", "Implementasi MLP sederhana", "Menggunakan Keras API"],
+              "learn_from": ["Deep Learning Specialization (Coursera/Andrew Ng)", "fast.ai Practical DL", "3Blue1Brown Neural Network series"],
+              "duration_estimate": "2-3 bulan"
+            },
+            "intermediate": {
+              "can_do": ["CNN untuk image classification", "RNN/LSTM untuk sequence data", "Transfer learning & fine-tuning"],
+              "learn_from": ["PyTorch tutorials", "Dive into Deep Learning", "Hugging Face course"],
+              "duration_estimate": "4-6 bulan"
+            },
+            "advanced": {
+              "can_do": ["Transformer architecture dari scratch", "Custom training loops & optimization", "Model distillation & quantization"],
+              "learn_from": ["Attention Is All You Need (paper)", "The Annotated Transformer", "Andrej Karpathy videos"],
+              "duration_estimate": "8+ bulan"
+            }
+          },
+          "tools": ["PyTorch", "TensorFlow", "Keras", "Hugging Face"],
+          "related_skills": ["machine_learning", "python", "llm", "mlops"]
+        },
+        {
+          "id": "statistics",
+          "label": "Statistika",
+          "description": "Fondasi matematis untuk analisis data, uji hipotesis, dan pengambilan keputusan berbasis data.",
+          "type": "hard",
+          "field_tags": ["data_ai", "healthcare", "education"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Mean, median, modus, standar deviasi", "Distribusi normal", "Korelasi dasar"],
+              "learn_from": ["Khan Academy Statistics", "CrashCourse Statistics YouTube", "Seeing Theory (visualisasi)"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Uji hipotesis (t-test, chi-square, ANOVA)", "Regresi linier & logistik", "A/B testing"],
+              "learn_from": ["Think Stats (buku gratis)", "StatQuest YouTube", "Practical Statistics for Data Scientists"],
+              "duration_estimate": "2-4 bulan"
+            },
+            "advanced": {
+              "can_do": ["Bayesian statistics", "Time series analysis", "Causal inference"],
+              "learn_from": ["Statistical Rethinking (buku)", "Causal Inference in Statistics (Pearl)", "Econometrics courses"],
+              "duration_estimate": "5+ bulan"
+            }
+          },
+          "tools": ["Python (scipy, statsmodels)", "R", "SPSS", "Jamovi"],
+          "related_skills": ["python", "r", "data_analysis", "research_methodology"]
+        },
+        {
+          "id": "data_visualization",
+          "label": "Data Visualization",
+          "description": "Kemampuan menyajikan data secara visual agar mudah dipahami oleh berbagai audiens.",
+          "type": "hard",
+          "field_tags": ["data_ai", "business_finance"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Chart dasar (bar, line, pie) di Excel/Sheets", "Visualisasi dengan matplotlib/seaborn", "Dashboard sederhana di Tableau/Power BI"],
+              "learn_from": ["Data Visualization with Python (Coursera)", "Tableau Public Gallery", "Storytelling with Data (buku)"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Dashboard interaktif", "Memilih chart yang tepat untuk konteks", "Visualisasi geospasial"],
+              "learn_from": ["Tableau eLearning", "Power BI guided learning", "Observable Plot docs"],
+              "duration_estimate": "2-3 bulan"
+            },
+            "advanced": {
+              "can_do": ["Custom D3.js visualizations", "Real-time dashboard", "Data storytelling untuk eksekutif"],
+              "learn_from": ["Interactive Data Visualization for the Web (D3.js book)", "Flourish advanced tutorials"],
+              "duration_estimate": "4+ bulan"
+            }
+          },
+          "tools": ["Tableau", "Power BI", "Looker Studio", "Matplotlib", "Plotly", "D3.js"],
+          "related_skills": ["sql", "python", "statistics", "excel"]
+        },
+        {
+          "id": "excel",
+          "label": "Microsoft Excel / Google Sheets",
+          "description": "Tool spreadsheet yang esensial untuk analisis data, reporting, dan pemodelan keuangan.",
+          "type": "hard",
+          "field_tags": ["business_finance", "data_ai"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Formula dasar (SUM, IF, VLOOKUP)", "Sorting dan filtering", "Membuat chart sederhana"],
+              "learn_from": ["Excel Easy", "GCFLearnFree Excel", "Microsoft Excel Training"],
+              "duration_estimate": "2-4 minggu"
+            },
+            "intermediate": {
+              "can_do": ["PivotTable & PivotChart", "INDEX/MATCH, array formulas", "Power Query untuk data cleaning"],
+              "learn_from": ["Excel for Data Analysis (Coursera)", "Chandoo.org", "ExcelJet"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "advanced": {
+              "can_do": ["VBA macro automation", "Financial modeling", "Power Pivot & DAX"],
+              "learn_from": ["Financial Modeling & Valuation (WSP)", "Excel VBA Programming (buku)", "FMVA certification"],
+              "duration_estimate": "3+ bulan"
+            }
+          },
+          "tools": ["Microsoft Excel", "Google Sheets", "Power Query", "Power Pivot"],
+          "related_skills": ["financial_modeling", "data_analysis", "sql"]
+        },
+        {
+          "id": "etl",
+          "label": "ETL (Extract, Transform, Load)",
+          "description": "Proses memindahkan dan mengubah data dari berbagai sumber ke data warehouse.",
+          "type": "hard",
+          "field_tags": ["data_ai"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Memahami konsep pipeline data", "ETL sederhana dengan Python/pandas", "Membaca data dari CSV/API"],
+              "learn_from": ["DataCamp Data Engineer track", "dbt Fundamentals (gratis)", "Google Cloud ETL basics"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Membangun pipeline dengan Airflow", "Incremental loading & data validation", "Transformasi dengan dbt"],
+              "learn_from": ["Apache Airflow dokumentasi", "dbt Learn", "Fundamentals of Data Engineering (buku)"],
+              "duration_estimate": "2-4 bulan"
+            },
+            "advanced": {
+              "can_do": ["Streaming pipeline dengan Kafka/Flink", "Data quality monitoring", "Cost optimization pada cloud warehouse"],
+              "learn_from": ["Designing Data-Intensive Applications (buku)", "Streaming Systems (buku)", "Confluent Kafka courses"],
+              "duration_estimate": "5+ bulan"
+            }
+          },
+          "tools": ["Apache Airflow", "dbt", "Spark", "Kafka", "Fivetran", "Airbyte"],
+          "related_skills": ["sql", "python", "cloud", "spark"]
+        },
+        {
+          "id": "mlops",
+          "label": "MLOps",
+          "description": "Praktik mengoperasionalkan model ML di production secara reliable dan scalable.",
+          "type": "hard",
+          "field_tags": ["data_ai"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Versioning model dengan MLflow", "Deploy model sederhana ke API", "Memahami CI/CD untuk ML"],
+              "learn_from": ["Made With ML MLOps course", "MLflow quickstart", "Full Stack Deep Learning"],
+              "duration_estimate": "2-3 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Feature store, model monitoring", "A/B testing model di production", "Containerize ML dengan Docker"],
+              "learn_from": ["Evidently AI tutorials", "Neptune.ai blog", "Weights & Biases courses"],
+              "duration_estimate": "3-5 bulan"
+            },
+            "advanced": {
+              "can_do": ["Membangun ML platform internal", "Cost optimization GPU/cloud", "Kubeflow / Vertex AI pipelines"],
+              "learn_from": ["Designing ML Systems (buku Chip Huyen)", "Google Cloud ML Engineering", "MLOps.community"],
+              "duration_estimate": "6+ bulan"
+            }
+          },
+          "tools": ["MLflow", "Kubeflow", "Weights & Biases", "BentoML", "SageMaker"],
+          "related_skills": ["machine_learning", "docker", "cloud", "python"]
+        }
+      ]
+    },
+
+    {
+      "id": "web_dev",
+      "label": "Web & Mobile Development",
+      "icon": "bi bi-browser-chrome",
+      "skills": [
+        {
+          "id": "react",
+          "label": "React.js",
+          "description": "Library JavaScript untuk membangun UI yang reaktif dan component-based.",
+          "type": "hard",
+          "field_tags": ["it_software"],
+          "levels": {
+            "beginner": {
+              "can_do": ["JSX, component, props", "State & hooks (useState, useEffect)", "Membuat aplikasi sederhana"],
+              "learn_from": ["React.dev official tutorial", "Scrimba React course", "Kevin Powell + Bob Ziroll"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Context API, useReducer", "React Router", "Fetch data dari API & loading state"],
+              "learn_from": ["Epic React (Kent C. Dodds)", "React Query docs", "Full Stack Open Helsinki"],
+              "duration_estimate": "2-4 bulan"
+            },
+            "advanced": {
+              "can_do": ["Performance optimization (memo, lazy)", "Custom hooks library", "Server components (Next.js)"],
+              "learn_from": ["Next.js docs", "Patterns.dev", "Vercel blog"],
+              "duration_estimate": "4+ bulan"
+            }
+          },
+          "tools": ["Vite", "Next.js", "React Query", "Zustand", "Storybook"],
+          "related_skills": ["javascript", "typescript", "nodejs", "api_integration"]
+        },
+        {
+          "id": "nodejs",
+          "label": "Node.js",
+          "description": "Runtime JavaScript di sisi server untuk membangun API dan aplikasi backend.",
+          "type": "hard",
+          "field_tags": ["it_software"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Setup server dengan Express", "REST API sederhana", "Koneksi ke database"],
+              "learn_from": ["Node.js official docs", "The Odin Project backend", "freeCodeCamp Node/Express"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Authentication (JWT, OAuth)", "Error handling & middleware", "Unit testing dengan Jest"],
+              "learn_from": ["Node.js Design Patterns (buku)", "NestJS docs", "Academind Node.js course"],
+              "duration_estimate": "2-4 bulan"
+            },
+            "advanced": {
+              "can_do": ["Microservices, event-driven architecture", "Performance profiling", "WebSocket & real-time apps"],
+              "learn_from": ["Node.js Under the Hood", "Designing Distributed Systems", "Hussein Nasser YouTube"],
+              "duration_estimate": "4+ bulan"
+            }
+          },
+          "tools": ["Express.js", "NestJS", "Fastify", "Prisma", "PM2"],
+          "related_skills": ["javascript", "sql", "docker", "api_design"]
+        },
+        {
+          "id": "flutter",
+          "label": "Flutter",
+          "description": "Framework Google untuk membangun aplikasi mobile, web, dan desktop dari satu codebase.",
+          "type": "hard",
+          "field_tags": ["it_software"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Widget dasar, layout, styling", "Navigation sederhana", "Stateful & stateless widget"],
+              "learn_from": ["Flutter.dev codelabs", "Traversy Media Flutter", "Net Ninja Flutter"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["State management (Riverpod/Bloc)", "API integration & dio", "Local storage & SQLite"],
+              "learn_from": ["Flutter Architecture Samples", "Very Good Ventures blog", "Code With Andrea"],
+              "duration_estimate": "3-5 bulan"
+            },
+            "advanced": {
+              "can_do": ["Custom paint & animation", "Platform channels untuk native feature", "Release & CI/CD pipeline"],
+              "learn_from": ["Flutter Boring Show YouTube", "Advanced Flutter (buku)", "Codemagic CI/CD docs"],
+              "duration_estimate": "6+ bulan"
+            }
+          },
+          "tools": ["Flutter SDK", "Android Studio", "VS Code", "Firebase", "Codemagic"],
+          "related_skills": ["dart", "mobile_ui", "api_integration", "firebase"]
+        },
+        {
+          "id": "mobile_ui",
+          "label": "Mobile UI Design",
+          "description": "Prinsip desain antarmuka untuk aplikasi mobile yang nyaman dan intuitif.",
+          "type": "hard",
+          "field_tags": ["it_software", "design_creative"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Memahami platform guidelines (Material/HIG)", "Layout mobile responsif", "Komponen UI dasar"],
+              "learn_from": ["Material Design docs", "Apple HIG", "Refactoring UI (buku)"],
+              "duration_estimate": "2-4 minggu"
+            },
+            "intermediate": {
+              "can_do": ["Design system untuk mobile", "Prototype interaktif di Figma", "Accessibility mobile"],
+              "learn_from": ["Figma mobile design tutorials", "Google UX Design Certificate", "Mobbin (inspirasi)"],
+              "duration_estimate": "1-3 bulan"
+            },
+            "advanced": {
+              "can_do": ["Motion design & micro-interaction", "Custom gestures", "Handoff developer yang akurat"],
+              "learn_from": ["Design+Code", "Advanced Prototyping Figma", "NN/g Mobile UX"],
+              "duration_estimate": "3+ bulan"
+            }
+          },
+          "tools": ["Figma", "Protopie", "Zeplin", "Lottie"],
+          "related_skills": ["figma", "ux_ui_designer", "flutter", "prototyping"]
+        },
+        {
+          "id": "api_integration",
+          "label": "API Integration",
+          "description": "Kemampuan menghubungkan aplikasi dengan layanan pihak ketiga melalui API (REST/GraphQL).",
+          "type": "hard",
+          "field_tags": ["it_software", "data_ai"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Memahami HTTP method (GET, POST, PUT, DELETE)", "Menggunakan Postman untuk testing API", "Konsumsi REST API di frontend/backend"],
+              "learn_from": ["Postman Learning Center", "REST API Tutorial", "freeCodeCamp API course"],
+              "duration_estimate": "2-4 minggu"
+            },
+            "intermediate": {
+              "can_do": ["Authentication (API key, OAuth, JWT)", "Error handling & retry logic", "GraphQL query dasar"],
+              "learn_from": ["GraphQL.org learn", "Auth0 docs", "Swagger/OpenAPI specification"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "advanced": {
+              "can_do": ["Webhook, event-driven integration", "Rate limiting & caching strategies", "API gateway & versioning"],
+              "learn_from": ["API Design Patterns (buku)", "Kong API Gateway docs", "AWS API Gateway tutorials"],
+              "duration_estimate": "2+ bulan"
+            }
+          },
+          "tools": ["Postman", "Swagger", "Insomnia", "Axios", "Fetch API"],
+          "related_skills": ["javascript", "python", "nodejs", "api_design"]
+        },
+        {
+          "id": "git",
+          "label": "Git & Version Control",
+          "description": "Sistem kontrol versi untuk melacak perubahan kode dan kolaborasi tim developer.",
+          "type": "hard",
+          "field_tags": ["it_software"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Commit, push, pull", "Branch & merge dasar", "Resolve conflict sederhana"],
+              "learn_from": ["Git Book (gratis online)", "GitHub Learning Lab", "Atlassian Git Tutorial"],
+              "duration_estimate": "1-2 minggu"
+            },
+            "intermediate": {
+              "can_do": ["Rebase, cherry-pick", "Git flow workflow", "Pull request & code review"],
+              "learn_from": ["Pro Git (buku)", "Oh Shit, Git!", "GitHub Docs"],
+              "duration_estimate": "1 bulan"
+            },
+            "advanced": {
+              "can_do": ["Bisect, reflog, hooks", "Monorepo management", "Git strategy untuk tim besar"],
+              "learn_from": ["Advanced Git (Pluralsight)", "Git Internals (blog)", "Lerna docs"],
+              "duration_estimate": "2+ bulan"
+            }
+          },
+          "tools": ["Git CLI", "GitHub", "GitLab", "Bitbucket", "SourceTree"],
+          "related_skills": ["ci_cd", "devops", "javascript", "python"]
+        }
+      ]
+    },
+
+    {
+      "id": "infrastructure",
+      "label": "Cloud, DevOps & Infrastruktur",
+      "icon": "bi bi-cloud",
+      "skills": [
+        {
+          "id": "cloud",
+          "label": "Cloud Computing",
+          "description": "Pengelolaan infrastruktur komputasi melalui platform cloud seperti AWS, GCP, atau Azure.",
+          "type": "hard",
+          "field_tags": ["it_software", "data_ai"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Memahami layanan cloud utama (compute, storage, database)", "Deploy aplikasi sederhana ke cloud", "Manajemen IAM dasar"],
+              "learn_from": ["AWS Cloud Practitioner Essentials", "Google Cloud Skills Boost", "A Cloud Guru"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["VPC & networking, load balancing", "Serverless (Lambda/Cloud Functions)", "Managed database & caching"],
+              "learn_from": ["AWS Solutions Architect Associate", "GCP Professional Cloud Architect", "Linux Foundation courses"],
+              "duration_estimate": "2-4 bulan"
+            },
+            "advanced": {
+              "can_do": ["Multi-region architecture", "Cost optimization strategies", "Well-Architected Framework review"],
+              "learn_from": ["AWS Advanced Networking", "Site Reliability Engineering (Google buku)", "Cloud Security Alliance"],
+              "duration_estimate": "4+ bulan"
+            }
+          },
+          "tools": ["AWS", "Google Cloud", "Azure", "Terraform", "Pulumi"],
+          "related_skills": ["linux", "docker", "kubernetes", "devops", "networking"]
+        },
+        {
+          "id": "docker",
+          "label": "Docker & Containerization",
+          "description": "Teknologi untuk membungkus aplikasi dan dependensinya dalam container yang portable.",
+          "type": "hard",
+          "field_tags": ["it_software"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Pull & run image", "Menulis Dockerfile sederhana", "Docker Compose untuk multi-container"],
+              "learn_from": ["Docker Getting Started", "TechWorld with Nana YouTube", "Play with Docker"],
+              "duration_estimate": "2-4 minggu"
+            },
+            "intermediate": {
+              "can_do": ["Multi-stage builds", "Volume, network Docker", "Container security best practices"],
+              "learn_from": ["Docker Deep Dive (Nigel Poulton)", "Docker docs", "Snyk Container Security"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "advanced": {
+              "can_do": ["Optimasi image size", "Docker Swarm / Kubernetes migration", "Container scanning & hardening"],
+              "learn_from": ["Container Security (buku)", "OWASP Container Security", "Chainguard"],
+              "duration_estimate": "2+ bulan"
+            }
+          },
+          "tools": ["Docker Desktop", "Docker Hub", "Docker Compose", "Podman"],
+          "related_skills": ["kubernetes", "ci_cd", "linux", "cloud"]
+        },
+        {
+          "id": "kubernetes",
+          "label": "Kubernetes",
+          "description": "Platform orkestrasi container untuk mengelola deployment skala besar secara otomatis.",
+          "type": "hard",
+          "field_tags": ["it_software"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Memahami Pod, Service, Deployment", "Deploy aplikasi ke cluster", "kubectl dasar"],
+              "learn_from": ["Kubernetes.io tutorial", "KodeKloud Kubernetes", "TechWorld with Nana K8s"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["ConfigMap, Secret, PersistentVolume", "Rolling update & rollback", "Helm charts"],
+              "learn_from": ["Kubernetes in Action (buku)", "Helm docs", "CNCF learning path"],
+              "duration_estimate": "2-4 bulan"
+            },
+            "advanced": {
+              "can_do": ["Custom Resource Definitions (CRD)", "Cluster autoscaling & cost optimization", "Service mesh (Istio)"],
+              "learn_from": ["Kubernetes Patterns (buku)", "Istio in Action", "CKA/CKAD certification"],
+              "duration_estimate": "4+ bulan"
+            }
+          },
+          "tools": ["kubectl", "Helm", "Minikube", "k3s", "Rancher", "Lens"],
+          "related_skills": ["docker", "cloud", "ci_cd", "devops"]
+        },
+        {
+          "id": "ci_cd",
+          "label": "CI/CD Pipeline",
+          "description": "Otomatisasi proses testing, building, dan deployment kode ke production secara continuous.",
+          "type": "hard",
+          "field_tags": ["it_software"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Setup pipeline dasar di GitHub Actions", "Automated testing dasar", "Deploy ke hosting otomatis"],
+              "learn_from": ["GitHub Actions docs", "GitLab CI quickstart", "freeCodeCamp CI/CD"],
+              "duration_estimate": "2-4 minggu"
+            },
+            "intermediate": {
+              "can_do": ["Parallel jobs, caching, artifacts", "Docker build dalam pipeline", "Environment-based deployment"],
+              "learn_from": ["GitHub Actions in Action", "CircleCI learning", "Jenkins documentation"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "advanced": {
+              "can_do": ["GitOps dengan ArgoCD/FluxCD", "Pipeline security & secret management", "Multi-environment deployment strategy"],
+              "learn_from": ["GitOps with Kubernetes (buku)", "ArgoCD docs", "DORA metrics research"],
+              "duration_estimate": "3+ bulan"
+            }
+          },
+          "tools": ["GitHub Actions", "GitLab CI", "Jenkins", "CircleCI", "ArgoCD"],
+          "related_skills": ["docker", "kubernetes", "git", "cloud"]
+        },
+        {
+          "id": "linux",
+          "label": "Linux / Command Line",
+          "description": "Sistem operasi dan environment yang dominan di server dan cloud infrastructure.",
+          "type": "hard",
+          "field_tags": ["it_software"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Navigasi file system", "Basic commands (ls, cd, mkdir, grep, chmod)", "Text editor (nano/vim dasar)"],
+              "learn_from": ["Linux Journey", "The Linux Command Line (buku gratis)", "Ryan's Linux Tutorial"],
+              "duration_estimate": "2-4 minggu"
+            },
+            "intermediate": {
+              "can_do": ["Shell scripting (bash)", "Process management, cron jobs", "SSH, scp, network commands"],
+              "learn_from": ["Bash Scripting Tutorial", "OverTheWire Bandit (gamified)", "Linux Foundation courses"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "advanced": {
+              "can_do": ["Kernel tuning, performance monitoring", "System hardening & security", "Advanced networking (iptables, namespaces)"],
+              "learn_from": ["Linux Performance Analysis (Brendan Gregg)", "Linux Kernel Development (buku)", "RHCSA/LFCS certification"],
+              "duration_estimate": "3+ bulan"
+            }
+          },
+          "tools": ["Ubuntu", "CentOS", "Bash", "Zsh", "tmux", "Vim"],
+          "related_skills": ["networking", "cloud", "docker", "cybersecurity"]
+        },
+        {
+          "id": "network_security",
+          "label": "Network Security",
+          "description": "Perlindungan jaringan komunikasi dari ancaman, intrusi, dan akses tidak sah.",
+          "type": "hard",
+          "field_tags": ["it_software"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Memahami OSI model & TCP/IP", "Firewall & packet filtering dasar", "Penggunaan Wireshark"],
+              "learn_from": ["CompTIA Network+ study guide", "Professor Messer YouTube", "TryHackMe Pre-Security"],
+              "duration_estimate": "2-3 bulan"
+            },
+            "intermediate": {
+              "can_do": ["VPN, IDS/IPS configuration", "VLAN & network segmentation", "Incident response dasar"],
+              "learn_from": ["CompTIA Security+", "Cybrary Network Security", "SANS reading room"],
+              "duration_estimate": "3-5 bulan"
+            },
+            "advanced": {
+              "can_do": ["Threat hunting", "Zero-trust architecture design", "Red team/blue team simulation"],
+              "learn_from": ["CEH certification", "OSCP (Offensive Security)", "MITRE ATT&CK framework"],
+              "duration_estimate": "6+ bulan"
+            }
+          },
+          "tools": ["Wireshark", "Nmap", "Snort", "pfSense", "Cisco Packet Tracer"],
+          "related_skills": ["linux", "penetration_testing", "cloud_security", "networking"]
+        },
+        {
+          "id": "penetration_testing",
+          "label": "Penetration Testing",
+          "description": "Simulasi serangan siber yang dilakukan secara etis untuk menemukan kerentanan sistem.",
+          "type": "hard",
+          "field_tags": ["it_software"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Memahami metodologi pentest (PTES, OWASP)", "Kali Linux dasar", "Web vulnerability scanning"],
+              "learn_from": ["TryHackMe", "HackTheBox Starting Point", "OWASP WebGoat"],
+              "duration_estimate": "2-3 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Exploitation dengan Metasploit", "Privilege escalation", "Web app pentesting (OWASP Top 10)"],
+              "learn_from": ["TCM Security courses", "PortSwigger Web Academy (gratis)", "Hack The Box Academy"],
+              "duration_estimate": "4-6 bulan"
+            },
+            "advanced": {
+              "can_do": ["Custom exploit development", "Red team operations", "Malware analysis"],
+              "learn_from": ["OSCP certification", "Red Team Development (Joe Vest)", "Exploit Development (Corelan)"],
+              "duration_estimate": "8+ bulan"
+            }
+          },
+          "tools": ["Kali Linux", "Metasploit", "Burp Suite", "Nessus", "Nmap"],
+          "related_skills": ["network_security", "linux", "ethical_hacking", "programming"]
+        }
+      ]
+    },
+
+    {
+      "id": "design_tools",
+      "label": "Design & Kreatif Tools",
+      "icon": "bi bi-brush",
+      "skills": [
+        {
+          "id": "figma",
+          "label": "Figma",
+          "description": "Tool desain kolaboratif berbasis cloud untuk UI/UX, prototyping, dan design system.",
+          "type": "hard",
+          "field_tags": ["design_creative"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Frame, auto layout, komponen dasar", "Wireframe dan mockup sederhana", "Export asset untuk developer"],
+              "learn_from": ["Figma Academy (official)", "DesignCourse YouTube", "Buildspace design basics"],
+              "duration_estimate": "2-4 minggu"
+            },
+            "intermediate": {
+              "can_do": ["Design system & shared component library", "Interactive prototype dengan flow", "Responsive design dengan constraints"],
+              "learn_from": ["Figma advanced tutorials", "Design Systems by Figma (kursus)", "Figmaland.co"],
+              "duration_estimate": "2-3 bulan"
+            },
+            "advanced": {
+              "can_do": ["Variables & modes (dark/light)", "Plugin development", "Dev mode handoff"],
+              "learn_from": ["Figma Config conference talks", "Figma plugin API docs", "Design Systems Slack community"],
+              "duration_estimate": "4+ bulan"
+            }
+          },
+          "tools": ["Figma", "FigJam", "Figma Community plugins"],
+          "related_skills": ["prototyping", "wireframing", "design_thinking", "ux_research"]
+        },
+        {
+          "id": "wireframing",
+          "label": "Wireframing & Information Architecture",
+          "description": "Perancangan struktur dan tata letak konten sebelum masuk ke visual desain.",
+          "type": "hard",
+          "field_tags": ["design_creative"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Lo-fi wireframe dengan pen & paper / Figma", "Card sorting konsep", "Sitemap sederhana"],
+              "learn_from": ["UX Beginners Guide (Nielsen Norman)", "Balsamiq tutorials", "Interaction Design Foundation"],
+              "duration_estimate": "2-4 minggu"
+            },
+            "intermediate": {
+              "can_do": ["Mid-fi wireframe dengan anotasi", "User flow diagram", "Navigation structure optimal"],
+              "learn_from": ["IA: For the Web and Beyond (buku)", "UX Collective Medium", "IDF UX courses"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "advanced": {
+              "can_do": ["Kompleks navigasi multi-platform", "IA audit existing product", "Mental model research"],
+              "learn_from": ["Don't Make Me Think (Steve Krug)", "Everyday IA (buku)", "IA Summit talks"],
+              "duration_estimate": "3+ bulan"
+            }
+          },
+          "tools": ["Figma", "Balsamiq", "Miro", "Whimsical", "Mermaid"],
+          "related_skills": ["figma", "user_research", "design_thinking", "prototyping"]
+        },
+        {
+          "id": "prototyping",
+          "label": "Prototyping & Interaction Design",
+          "description": "Membuat simulasi interaktif dari desain untuk diuji ke pengguna sebelum development.",
+          "type": "hard",
+          "field_tags": ["design_creative"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Clickable prototype di Figma", "Link antar frame", "Prototype sederhana untuk usability test"],
+              "learn_from": ["Figma prototyping tutorial", "InVision basics", "Maze docs"],
+              "duration_estimate": "2-4 minggu"
+            },
+            "intermediate": {
+              "can_do": ["Animasi micro-interaction di Figma", "Conditional logic di ProtoPie", "High-fidelity prototype untuk investor demo"],
+              "learn_from": ["ProtoPie tutorials", "Figma Smart Animate guide", "Framer docs"],
+              "duration_estimate": "1-3 bulan"
+            },
+            "advanced": {
+              "can_do": ["Motion design system", "Physics-based animation", "Prototype yang terasa seperti app sungguhan"],
+              "learn_from": ["Design+Code animation course", "Framer University", "Principle app tutorials"],
+              "duration_estimate": "3+ bulan"
+            }
+          },
+          "tools": ["Figma", "ProtoPie", "Framer", "Principle", "InVision"],
+          "related_skills": ["figma", "motion_design", "ux_research", "wireframing"]
+        },
+        {
+          "id": "user_research",
+          "label": "User Research & Usability Testing",
+          "description": "Metodologi untuk memahami kebutuhan, perilaku, dan masalah pengguna secara mendalam.",
+          "type": "hard",
+          "field_tags": ["design_creative"],
+          "levels": {
+            "beginner": {
+              "can_do": ["User interview sederhana", "Membuat survey dengan Google Forms", "Usability test dengan think-aloud"],
+              "learn_from": ["Just Enough Research (buku)", "NN/g UX Research Methods", "Maze learn"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Affinity mapping & synthesis", "A/B testing analisis", "Persona & journey mapping berbasis data"],
+              "learn_from": ["Observing the User Experience (buku)", "Dovetail tutorials", "IDF UX Research course"],
+              "duration_estimate": "2-3 bulan"
+            },
+            "advanced": {
+              "can_do": ["Mixed method research", "Research ops & repository", "Stakeholder research buy-in"],
+              "learn_from": ["Strategic UX Research (Nielsen Norman)", "Rosenfeld Media books", "ResearchOps community"],
+              "duration_estimate": "4+ bulan"
+            }
+          },
+          "tools": ["Maze", "Dovetail", "Optimal Workshop", "Lookback", "Notion"],
+          "related_skills": ["design_thinking", "prototyping", "data_analysis", "communication"]
+        },
+        {
+          "id": "design_thinking",
+          "label": "Design Thinking",
+          "description": "Framework berpikir kreatif yang berpusat pada manusia untuk memecahkan masalah secara inovatif.",
+          "type": "soft",
+          "field_tags": ["design_creative", "business_finance"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Memahami 5 fase design thinking", "Empathy map dasar", "Brainstorming dengan How Might We"],
+              "learn_from": ["IDEO Design Thinking (gratis)", "d.school K12 resources", "IDEO U courses"],
+              "duration_estimate": "2-4 minggu"
+            },
+            "intermediate": {
+              "can_do": ["Facilitasi workshop design sprint", "Jobs To Be Done framework", "Prototype & test rapid"],
+              "learn_from": ["Sprint (Jake Knapp - buku)", "Design Sprint School", "Google Ventures Design Sprint"],
+              "duration_estimate": "1-3 bulan"
+            },
+            "advanced": {
+              "can_do": ["Systems thinking", "Service design", "Design leadership"],
+              "learn_from": ["This is Service Design Doing (buku)", "Stanford d.school executive education", "IDEO Design for Change"],
+              "duration_estimate": "4+ bulan"
+            }
+          },
+          "tools": ["Miro", "FigJam", "Mural", "Notion", "physical post-its"],
+          "related_skills": ["user_research", "product_thinking", "creativity", "communication"]
+        },
+        {
+          "id": "adobe_illustrator",
+          "label": "Adobe Illustrator",
+          "description": "Software desain vektor profesional untuk logo, ilustrasi, dan materi cetak.",
+          "type": "hard",
+          "field_tags": ["design_creative"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Shape, pen tool, text dasar", "Warna & gradient", "Export untuk cetak & web"],
+              "learn_from": ["Adobe Learn & Support", "Illustrator Essentials (Udemy)", "Tutvid YouTube"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Pathfinder, clipping mask", "Pattern & brush kustom", "Logo design workflow"],
+              "learn_from": ["Logo Design Masterclass (Udemy)", "Satori Graphics YouTube", "Will Paterson YouTube"],
+              "duration_estimate": "2-4 bulan"
+            },
+            "advanced": {
+              "can_do": ["Complex illustration workflow", "Brand identity system", "Print production preparation"],
+              "learn_from": ["Illustrator Advanced (Pluralsight)", "Behance portfolio review", "Logo Lounge trends"],
+              "duration_estimate": "4+ bulan"
+            }
+          },
+          "tools": ["Adobe Illustrator", "Adobe Fonts", "Pantone tools"],
+          "related_skills": ["adobe_photoshop", "branding", "typography", "layout"]
+        },
+        {
+          "id": "adobe_photoshop",
+          "label": "Adobe Photoshop",
+          "description": "Software editing foto dan desain raster paling populer di industri kreatif.",
+          "type": "hard",
+          "field_tags": ["design_creative"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Cropping, selection, layer dasar", "Adjustment layer", "Basic retouching"],
+              "learn_from": ["Adobe Learn Photoshop", "Phlearn YouTube", "Photoshop Essentials (Udemy)"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Masking, blending mode", "Smart object & non-destructive editing", "Photo manipulation dasar"],
+              "learn_from": ["Photoshop Advanced (LinkedIn Learning)", "Phlearn Pro", "PiXimperfect YouTube"],
+              "duration_estimate": "2-4 bulan"
+            },
+            "advanced": {
+              "can_do": ["Composite & photo manipulation kompleks", "Batch processing & action automation", "High-end retouching"],
+              "learn_from": ["Retouching Academy", "Phlearn Master courses", "Beauty retouch tutorials"],
+              "duration_estimate": "4+ bulan"
+            }
+          },
+          "tools": ["Adobe Photoshop", "Lightroom", "Camera RAW"],
+          "related_skills": ["adobe_illustrator", "photography", "branding", "layout"]
+        },
+        {
+          "id": "after_effects",
+          "label": "Adobe After Effects",
+          "description": "Software motion graphics dan visual effects standar industri untuk video dan animasi.",
+          "type": "hard",
+          "field_tags": ["design_creative", "art_media"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Layer, keyframe, timing dasar", "Text animation", "Basic transitions"],
+              "learn_from": ["Motion Array YouTube", "School of Motion Starter", "Adobe Learn After Effects"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Shape layers & morphing", "Expression dasar", "Lower thirds & broadcast graphics"],
+              "learn_from": ["School of Motion EXP", "Ben Marriott YouTube", "Motion Design School"],
+              "duration_estimate": "2-4 bulan"
+            },
+            "advanced": {
+              "can_do": ["3D camera & lighting AE", "Complex expression & scripting", "Plugin development (AEFX)"],
+              "learn_from": ["School of Motion Advanced courses", "Motion Design Summit talks", "AEJuice resources"],
+              "duration_estimate": "5+ bulan"
+            }
+          },
+          "tools": ["Adobe After Effects", "Adobe Premiere Pro", "Lottie", "Plugin packs"],
+          "related_skills": ["motion_design", "animation_principles", "adobe_premiere", "storytelling"]
+        },
+        {
+          "id": "blender",
+          "label": "Blender 3D",
+          "description": "Software 3D open-source gratis yang powerful untuk modeling, animasi, dan rendering.",
+          "type": "hard",
+          "field_tags": ["design_creative", "art_media"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Interface Blender, navigasi viewport", "Basic modeling (extrude, loop cut)", "Material & simple render"],
+              "learn_from": ["Blender Guru Donut Tutorial", "Grant Abbitt YouTube", "Blender.org learn"],
+              "duration_estimate": "1-3 bulan"
+            },
+            "intermediate": {
+              "can_do": ["UV unwrapping, texturing", "Rigging & animasi karakter dasar", "Geometry nodes intro"],
+              "learn_from": ["CG Cookie", "Blender Bros", "Ducky 3D YouTube"],
+              "duration_estimate": "3-6 bulan"
+            },
+            "advanced": {
+              "can_do": ["Photorealistic rendering (Cycles)", "Procedural texturing", "Python scripting di Blender"],
+              "learn_from": ["Blender Studio open movies", "Architecture Viz courses", "Blender Conference talks"],
+              "duration_estimate": "6+ bulan"
+            }
+          },
+          "tools": ["Blender", "Substance Painter", "Quixel Megascans", "HDRI Haven"],
+          "related_skills": ["3d_modeling", "texturing", "animation_principles", "unity"]
+        },
+        {
+          "id": "adobe_indesign",
+          "label": "Adobe InDesign",
+          "description": "Software layout profesional untuk desain majalah, buku, e-book, dan dokumen cetak multi-halaman.",
+          "type": "hard",
+          "field_tags": ["design_creative"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Layout satu halaman", "Typography dasar", "Export PDF untuk print & digital"],
+              "learn_from": ["Adobe Learn InDesign", "Envato Tuts+", "Bring Your Own Laptop YouTube"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Master page & style system", "Grid layout kompleks", "Prepress preparation"],
+              "learn_from": ["InDesign Advanced Udemy", "LinkedIn Learning", "CreativeLive"],
+              "duration_estimate": "2-4 bulan"
+            },
+            "advanced": {
+              "can_do": ["Long document workflow", "Interactive PDF & ePub", "Print production professional"],
+              "learn_from": ["Adobe Certified Expert prep", "Print production guides", "Magazine layout case study"],
+              "duration_estimate": "4+ bulan"
+            }
+          },
+          "tools": ["Adobe InDesign", "Adobe Fonts", "Print preview tools"],
+          "related_skills": ["typography", "layout", "branding", "adobe_illustrator"]
+        },
+        {
+          "id": "canva",
+          "label": "Canva",
+          "description": "Tool desain berbasis web untuk membuat konten visual cepat seperti social media, presentasi, dan materi marketing.",
+          "type": "hard",
+          "field_tags": ["design_creative", "business_finance"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Gunakan template", "Edit teks & warna", "Export konten untuk social media"],
+              "learn_from": ["Canva Design School", "Canva YouTube Channel"],
+              "duration_estimate": "1-2 minggu"
+            },
+            "intermediate": {
+              "can_do": ["Brand kit setup", "Custom template", "Simple animation"],
+              "learn_from": ["Canva Pro tutorials", "Social media design course"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "advanced": {
+              "can_do": ["Team collaboration", "Brand consistency system", "Marketing asset optimization"],
+              "learn_from": ["Canva for Teams resources", "Digital marketing courses"],
+              "duration_estimate": "3+ bulan"
+            }
+          },
+          "tools": ["Canva", "Canva Pro", "Magic Design AI"],
+          "related_skills": ["branding", "social_media_marketing", "content_creation"]
+        },
+        {
+          "id": "motion_design",
+          "label": "Motion Design Fundamentals",
+          "description": "Dasar prinsip animasi dan gerakan visual untuk meningkatkan kualitas UI, video, dan konten digital.",
+          "type": "hard",
+          "field_tags": ["design_creative", "art_media"],
+          "levels": {
+            "beginner": {
+              "can_do": ["12 principles of animation dasar", "Timing & easing", "Simple UI animation"],
+              "learn_from": ["School of Motion free course", "Ben Marriott YouTube"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Microinteraction system", "Storyboarding animasi", "Brand motion guideline"],
+              "learn_from": ["Motion Design School", "Design+Code"],
+              "duration_estimate": "2-4 bulan"
+            },
+            "advanced": {
+              "can_do": ["Motion system untuk produk digital", "Advanced storytelling visual", "Cross-platform animation consistency"],
+              "learn_from": ["School of Motion Advanced", "Brand case study analysis"],
+              "duration_estimate": "4+ bulan"
+            }
+          },
+          "tools": ["After Effects", "Figma", "Lottie", "Framer"],
+          "related_skills": ["after_effects", "prototyping", "storytelling"]
+        },
+        {
+          "id": "ui_design",
+          "label": "UI Design",
+          "description": "Perancangan tampilan visual antarmuka digital yang estetis, usable, dan konsisten.",
+          "type": "hard",
+          "field_tags": ["design_creative"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Design mobile app sederhana", "Gunakan grid & spacing", "Basic color theory"],
+              "learn_from": ["UI Design basics YouTube", "Refactoring UI", "Figma tutorials"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Component-based design", "Responsive layout", "Dark mode system"],
+              "learn_from": ["Refactoring UI course", "Mobbin case study"],
+              "duration_estimate": "2-4 bulan"
+            },
+            "advanced": {
+              "can_do": ["Design system scalable", "Accessibility compliance", "Design handoff optimal ke developer"],
+              "learn_from": ["Design system deep dive", "WCAG documentation", "Enterprise UI case study"],
+              "duration_estimate": "4+ bulan"
+            }
+          },
+          "tools": ["Figma", "Sketch", "Adobe XD"],
+          "related_skills": ["figma", "prototyping", "design_system", "ux_research"]
+        }
+      ]
+    },
+
+    {
+      "id": "healthcare_skills",
+      "label": "Skill Kesehatan & Medis",
+      "icon": "bi bi-hospital",
+      "skills": [
+        {
+          "id": "patient_care",
+          "label": "Patient Care",
+          "description": "Kemampuan memberikan perawatan langsung dan empatik kepada pasien.",
+          "type": "mixed",
+          "field_tags": ["healthcare"],
+          "levels": {
+            "beginner": { "can_do": ["Vital signs monitoring", "Asepsis dasar", "Komunikasi dengan pasien"], "learn_from": ["Nursing fundamentals textbook", "Keterampilan klinik D3 Keperawatan"], "duration_estimate": "Selama pendidikan keperawatan" },
+            "intermediate": { "can_do": ["Perawatan luka, kateter, NGT", "Manajemen nyeri", "Dokumentasi keperawatan SOAP"], "learn_from": ["Praktik klinik RS", "PPNI continuing education"], "duration_estimate": "1-2 tahun pengalaman" },
+            "advanced": { "can_do": ["Critical care nursing", "Manajemen pasien kompleks", "Supervisi tim keperawatan"], "learn_from": ["ICU/CCU training", "Ners spesialis"], "duration_estimate": "3+ tahun" }
+          },
+          "tools": ["EHR (Electronic Health Record)", "Medical devices", "CPPT documentation"],
+          "related_skills": ["clinical_skills", "empathy", "medical_knowledge", "documentation"]
+        },
+        {
+          "id": "clinical_skills",
+          "label": "Clinical Skills & Procedures",
+          "description": "Keterampilan klinis teknis seperti injeksi, EKG, tindakan medis dasar.",
+          "type": "hard",
+          "field_tags": ["healthcare"],
+          "levels": {
+            "beginner": { "can_do": ["Injeksi IM/IV/SC", "EKG recording", "Pemasangan infus"], "learn_from": ["Skills lab pendidikan kesehatan", "OSCE preparation"], "duration_estimate": "Selama pendidikan" },
+            "intermediate": { "can_do": ["Intubasi, CPR", "USG point-of-care dasar", "Minor surgical assist"], "learn_from": ["ACLS/BLS certification", "Koas/internship"], "duration_estimate": "1-2 tahun" },
+            "advanced": { "can_do": ["Prosedur spesialis", "Bedah minor mandiri", "Emergency medicine"], "learn_from": ["Residensi spesialis", "Fellowship"], "duration_estimate": "3+ tahun" }
+          },
+          "tools": ["Medical devices", "SIMRS", "EHR systems"],
+          "related_skills": ["patient_care", "medical_knowledge", "medical_diagnosis"]
+        },
+        {
+          "id": "medical_knowledge",
+          "label": "Medical Knowledge",
+          "description": "Pengetahuan ilmu kedokteran dasar hingga klinis: anatomi, fisiologi, patologi, farmakologi.",
+          "type": "hard",
+          "field_tags": ["healthcare"],
+          "levels": {
+            "beginner": { "can_do": ["Anatomi & fisiologi dasar", "Patofisiologi penyakit umum", "Prinsip farmakologi"], "learn_from": ["Netter Atlas of Human Anatomy", "Guyton Physiology", "Farmakologi Katzung"], "duration_estimate": "Selama pre-klinik (2-3 tahun)" },
+            "intermediate": { "can_do": ["Diagnosis diferensial", "Tatalaksana penyakit umum", "Evidence-based medicine"], "learn_from": ["Harrison Principles of Internal Medicine", "ACEP clinical guidelines", "PubMed literature"], "duration_estimate": "Selama koas/internship" },
+            "advanced": { "can_do": ["Spesialisasi mendalam", "Research & publikasi", "Clinical teaching"], "learn_from": ["Spesialisasi residensi", "Jurnal spesialis"], "duration_estimate": "4-6 tahun spesialisasi" }
+          },
+          "tools": ["UpToDate", "MDCalc", "PubMed", "Epocrates"],
+          "related_skills": ["clinical_skills", "research_methodology", "medical_diagnosis"]
+        },
+        {
+          "id": "pharmacology",
+          "label": "Farmakologi & Manajemen Obat",
+          "description": "Pengetahuan tentang obat-obatan, dosis, interaksi, dan distribusi ke pasien.",
+          "type": "hard",
+          "field_tags": ["healthcare"],
+          "levels": {
+            "beginner": { "can_do": ["Klasifikasi obat dasar", "Dosis dan rute pemberian", "Kontraindikasi umum"], "learn_from": ["Farmakologi Katzung", "Drug Facts & Comparisons", "ISO Indonesia"], "duration_estimate": "Selama pendidikan farmasi" },
+            "intermediate": { "can_do": ["Drug interaction checking", "Compounding sederhana", "Patient counseling"], "learn_from": ["MIMS Indonesia", "Micromedex", "Praktik apoteker"], "duration_estimate": "1-2 tahun" },
+            "advanced": { "can_do": ["Clinical pharmacy service", "Formularium RS", "Farmakovigilans"], "learn_from": ["Clinical Pharmacology training", "ISFI continuing education"], "duration_estimate": "2+ tahun" }
+          },
+          "tools": ["MIMS", "ISO", "SIM RS Farmasi", "BPOM database"],
+          "related_skills": ["medical_knowledge", "patient_care", "documentation"]
+        },
+        {
+          "id": "medical_diagnosis",
+          "label": "Medical Diagnosis & Clinical Reasoning",
+          "description": "Kemampuan menganalisis gejala, hasil pemeriksaan, dan data klinis untuk menentukan diagnosis yang tepat.",
+          "type": "hard",
+          "field_tags": ["healthcare"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Anamnesis terstruktur", "Pemeriksaan fisik dasar", "Diagnosis penyakit umum"],
+              "learn_from": ["Bates' Guide to Physical Examination", "OSCE training", "Case-based learning"],
+              "duration_estimate": "Selama pendidikan klinik"
+            },
+            "intermediate": {
+              "can_do": ["Diagnosis diferensial kompleks", "Interpretasi lab & radiologi", "Clinical decision making"],
+              "learn_from": ["Harrison Internal Medicine", "Clinical case discussion", "UpToDate case review"],
+              "duration_estimate": "1-3 tahun pengalaman klinis"
+            },
+            "advanced": {
+              "can_do": ["Diagnosis kasus jarang", "Manajemen multi-komorbid", "Clinical leadership decision"],
+              "learn_from": ["Residensi spesialis", "Grand round RS", "Clinical research"],
+              "duration_estimate": "3+ tahun"
+            }
+          },
+          "tools": ["UpToDate", "MDCalc", "Clinical Guidelines", "SIMRS"],
+          "related_skills": ["medical_knowledge", "clinical_skills", "research_methodology"]
+        },
+        {
+          "id": "public_health",
+          "label": "Public Health & Epidemiology",
+          "description": "Kemampuan menganalisis dan mengelola kesehatan masyarakat berbasis data dan kebijakan.",
+          "type": "hard",
+          "field_tags": ["healthcare"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Konsep epidemiologi dasar", "Prevalensi & insidensi", "Promosi kesehatan"],
+              "learn_from": ["Buku Epidemiologi Dasar", "WHO online courses", "Kemenkes modules"],
+              "duration_estimate": "1-2 semester"
+            },
+            "intermediate": {
+              "can_do": ["Analisis outbreak sederhana", "Program intervensi kesehatan", "Data surveillance"],
+              "learn_from": ["CDC training modules", "SPSS epidemiology workshop"],
+              "duration_estimate": "1-2 tahun"
+            },
+            "advanced": {
+              "can_do": ["Policy making berbasis data", "Health system evaluation", "Large-scale epidemiological research"],
+              "learn_from": ["Master of Public Health", "WHO guideline training"],
+              "duration_estimate": "2+ tahun"
+            }
+          },
+          "tools": ["SPSS", "Epi Info", "R", "WHO databases"],
+          "related_skills": ["data_analysis", "research_methodology", "medical_knowledge"]
+        },
+        {
+          "id": "medical_laboratory",
+          "label": "Medical Laboratory Skills",
+          "description": "Kemampuan melakukan dan menginterpretasikan pemeriksaan laboratorium klinis.",
+          "type": "hard",
+          "field_tags": ["healthcare"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Hematologi dasar", "Urinalisis", "Pengambilan sampel darah"],
+              "learn_from": ["Praktikum ATLM", "Buku Patologi Klinik"],
+              "duration_estimate": "Selama pendidikan"
+            },
+            "intermediate": {
+              "can_do": ["Interpretasi hasil lab kompleks", "Quality control lab", "Mikrobiologi dasar"],
+              "learn_from": ["Workshop lab klinik", "Clinical pathology training"],
+              "duration_estimate": "1-2 tahun"
+            },
+            "advanced": {
+              "can_do": ["Validasi metode lab", "Manajemen laboratorium", "Advanced molecular diagnostics"],
+              "learn_from": ["Spesialis patologi klinik", "Molecular lab training"],
+              "duration_estimate": "3+ tahun"
+            }
+          },
+          "tools": ["Hematology analyzer", "Microscope", "LIS (Lab Information System)"],
+          "related_skills": ["medical_diagnosis", "documentation", "quality_control"]
+        },
+        {
+          "id": "radiology_imaging",
+          "label": "Radiology & Medical Imaging",
+          "description": "Kemampuan melakukan dan membaca hasil pencitraan medis seperti X-ray, CT, MRI, dan USG.",
+          "type": "hard",
+          "field_tags": ["healthcare"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Basic X-ray positioning", "USG dasar", "Radiation safety"],
+              "learn_from": ["Radiologi dasar textbook", "Praktikum radiografi"],
+              "duration_estimate": "Selama pendidikan"
+            },
+            "intermediate": {
+              "can_do": ["Interpretasi X-ray thorax", "CT-scan reading dasar", "Ultrasound abdomen"],
+              "learn_from": ["Radiology case review", "Clinical radiology workshop"],
+              "duration_estimate": "1-3 tahun"
+            },
+            "advanced": {
+              "can_do": ["Advanced MRI interpretation", "Interventional radiology", "Spesialis radiologi"],
+              "learn_from": ["Residensi radiologi", "Radiology fellowship"],
+              "duration_estimate": "4+ tahun"
+            }
+          },
+          "tools": ["PACS", "Ultrasound machine", "CT Scan", "MRI"],
+          "related_skills": ["medical_diagnosis", "clinical_skills", "medical_knowledge"]
+        },
+        {
+          "id": "healthcare_administration",
+          "label": "Healthcare Administration & Management",
+          "description": "Kemampuan mengelola operasional layanan kesehatan, manajemen SDM, dan sistem rumah sakit.",
+          "type": "mixed",
+          "field_tags": ["healthcare", "business_finance"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Administrasi pasien", "Rekam medis dasar", "Penjadwalan layanan"],
+              "learn_from": ["Manajemen RS textbook", "SIMRS training"],
+              "duration_estimate": "1-2 semester"
+            },
+            "intermediate": {
+              "can_do": ["Manajemen unit layanan", "Quality assurance", "Akreditasi RS"],
+              "learn_from": ["Workshop manajemen RS", "Pelatihan akreditasi KARS"],
+              "duration_estimate": "1-3 tahun"
+            },
+            "advanced": {
+              "can_do": ["Strategic hospital management", "Health policy implementation", "Financial planning RS"],
+              "learn_from": ["Magister Manajemen RS", "Leadership training"],
+              "duration_estimate": "3+ tahun"
+            }
+          },
+          "tools": ["SIMRS", "EHR systems", "Hospital dashboard"],
+          "related_skills": ["documentation", "leadership", "public_health"]
+        }
+      ]
+    },
+    {
+      "id": "education_skills",
+      "label": "Skill Bidang Pendidikan",
+      "icon": "bi bi-book-half",
+      "skills": [
+        {
+          "id": "curriculum_design",
+          "label": "Curriculum Design",
+          "description": "Kemampuan merancang kurikulum dan struktur pembelajaran yang sistematis, relevan, dan sesuai standar kompetensi.",
+          "type": "hard",
+          "field_tags": ["education"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Menyusun RPP / modul ajar sederhana", "Menentukan learning objectives", "Menyelaraskan materi dengan kompetensi dasar"],
+              "learn_from": ["Kurikulum Merdeka guidebook", "Coursera - Foundations of Teaching", "YouTube channel pendidikan"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Menyusun silabus lengkap 1 semester", "Menerapkan backward design", "Integrasi asesmen dalam kurikulum"],
+              "learn_from": ["Understanding by Design (Wiggins & McTighe)", "Instructional Design course", "Pelatihan MGMP"],
+              "duration_estimate": "3-4 bulan"
+            },
+            "advanced": {
+              "can_do": ["Merancang kurikulum institusi", "Mapping CPL & LO", "Evaluasi dan revisi kurikulum berbasis data"],
+              "learn_from": ["Curriculum Leadership training", "Higher Education curriculum workshops"],
+              "duration_estimate": "6+ bulan"
+            }
+          },
+          "tools": ["Google Docs", "Notion", "LMS", "Miro"],
+          "related_skills": ["assessment_design", "pedagogy", "instructional_design"]
+        },
+        {
+          "id": "pedagogy",
+          "label": "Pedagogy & Teaching Method",
+          "description": "Pemahaman strategi dan metode mengajar untuk meningkatkan efektivitas pembelajaran.",
+          "type": "mixed",
+          "field_tags": ["education"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Menggunakan metode ceramah & diskusi", "Mengelola kelas dasar", "Membangun komunikasi dengan siswa"],
+              "learn_from": ["Microteaching practice", "Buku dasar pedagogik", "Workshop guru pemula"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Problem-based learning", "Project-based learning", "Differentiated instruction"],
+              "learn_from": ["Harvard Teaching Resources", "Edutopia", "Pelatihan PPG"],
+              "duration_estimate": "3-6 bulan"
+            },
+            "advanced": {
+              "can_do": ["Mendesain strategi pembelajaran inovatif", "Mengelola kelas inklusif", "Coaching guru lain"],
+              "learn_from": ["Instructional Coaching programs", "Educational leadership training"],
+              "duration_estimate": "6+ bulan"
+            }
+          },
+          "tools": ["Google Classroom", "Zoom", "Canva", "Mentimeter"],
+          "related_skills": ["classroom_management", "communication", "curriculum_design"]
+        },
+        {
+          "id": "assessment_design",
+          "label": "Assessment & Evaluation",
+          "description": "Kemampuan merancang dan menganalisis sistem penilaian untuk mengukur hasil belajar.",
+          "type": "hard",
+          "field_tags": ["education"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Membuat soal pilihan ganda & esai", "Rubrik penilaian sederhana", "Memberikan feedback dasar"],
+              "learn_from": ["Google Form tutorial", "Buku evaluasi pendidikan", "YouTube assessment guide"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Menyusun blueprint soal", "Analisis validitas & reliabilitas", "Menggunakan data hasil tes"],
+              "learn_from": ["Statistics for Education course", "SPSS dasar", "Workshop evaluasi pembelajaran"],
+              "duration_estimate": "3-4 bulan"
+            },
+            "advanced": {
+              "can_do": ["Learning analytics", "Assessment berbasis proyek kompleks", "Perancangan sistem evaluasi institusi"],
+              "learn_from": ["Educational measurement course", "Higher education QA training"],
+              "duration_estimate": "6+ bulan"
+            }
+          },
+          "tools": ["Google Forms", "Excel", "SPSS", "LMS"],
+          "related_skills": ["statistics", "data_analysis", "curriculum_design"]
+        },
+        {
+          "id": "lms_administration",
+          "label": "Learning Management System (LMS)",
+          "description": "Kemampuan mengelola dan mengoptimalkan platform pembelajaran digital.",
+          "type": "hard",
+          "field_tags": ["education", "data_ai"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Upload materi & tugas", "Membuat kuis online", "Mengelola peserta"],
+              "learn_from": ["Moodle documentation", "Google Classroom guide", "YouTube LMS tutorial"],
+              "duration_estimate": "2-4 minggu"
+            },
+            "intermediate": {
+              "can_do": ["Custom grading system", "Integrasi plugin", "Monitoring learning analytics dasar"],
+              "learn_from": ["Moodle advanced course", "LMS admin training"],
+              "duration_estimate": "2-3 bulan"
+            },
+            "advanced": {
+              "can_do": ["Integrasi API LMS", "Automasi laporan", "Optimasi UX pembelajaran digital"],
+              "learn_from": ["LMS developer documentation", "EdTech integration workshops"],
+              "duration_estimate": "4+ bulan"
+            }
+          },
+          "tools": ["Moodle", "Google Classroom", "Canvas LMS"],
+          "related_skills": ["instructional_design", "edtech_platforms", "data_analysis"]
+        }
+      ]
+    },
+    {
+      "id": "green_skills",
+      "label": "Lingkungan & Energi Terbarukan",
+      "icon": "bi bi-recycle",
+      "skills": [
+        {
+          "id": "environmental_science",
+          "label": "Ilmu Lingkungan",
+          "description": "Pemahaman mendalam tentang ekosistem, polusi, konservasi, dan dampak lingkungan.",
+          "type": "hard",
+          "field_tags": ["green_sustainability"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Memahami konsep dasar ekologi", "Identifikasi jenis polusi", "Dasar-dasar konservasi"],
+              "learn_from": ["Kuliah Dasar Ilmu Lingkungan", "Coursera - Introduction to Environmental Science"],
+              "duration_estimate": "2-3 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Analisis dampak lingkungan (AMDAL)", "Studi kelayakan lingkungan", "Monitoring kualitas lingkungan"],
+              "learn_from": ["Pelatihan AMDAL", "ISO 14001 training"],
+              "duration_estimate": "4-6 bulan"
+            },
+            "advanced": {
+              "can_do": ["Merancang program konservasi", "Evaluasi kebijakan lingkungan", "Restorasi ekosistem"],
+              "learn_from": ["Magister Ilmu Lingkungan", "Sertifikasi Profesional Lingkungan"],
+              "duration_estimate": "1-2 tahun"
+            }
+          },
+          "tools": ["GIS", "Environmental monitoring tools", "AMDAL software"],
+          "related_skills": ["data_analysis", "regulation_compliance", "research_methodology"]
+        },
+        {
+          "id": "esg_frameworks",
+          "label": "ESG Frameworks",
+          "description": "Pemahaman tentang kerangka Environmental, Social, and Governance untuk pelaporan keberlanjutan.",
+          "type": "hard",
+          "field_tags": ["green_sustainability", "business_finance"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Memahami konsep ESG", "Mengenal GRI Standards", "Dasar-dasar sustainability reporting"],
+              "learn_from": ["GRI Certified Training", "SASB Fundamentals"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Menyusun laporan keberlanjutan", "Analisis materialitas ESG", "Carbon accounting dasar"],
+              "learn_from": ["CFA ESG Investing", "TCFD training"],
+              "duration_estimate": "3-4 bulan"
+            },
+            "advanced": {
+              "can_do": ["ESG risk assessment", "Sustainability strategy", "ESG rating improvement"],
+              "learn_from": ["Sertifikasi GRESB", "Advanced ESG analysis"],
+              "duration_estimate": "6+ bulan"
+            }
+          },
+          "tools": ["GRI Standards", "SASB", "TCFD", "Carbon accounting tools"],
+          "related_skills": ["data_analysis", "reporting", "policy", "stakeholder_engagement"]
+        },
+        {
+          "id": "energy_systems",
+          "label": "Energy Systems",
+          "description": "Pengetahuan tentang sistem energi konvensional dan terbarukan.",
+          "type": "hard",
+          "field_tags": ["green_sustainability"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Memahami jenis-jenis energi terbarukan", "Dasar-dasar grid integration", "Efisiensi energi"],
+              "learn_from": ["Renewable Energy courses", "DOE Energy Basics"],
+              "duration_estimate": "2-3 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Desain sistem solar PV", "Analisis potensi energi", "Feasibility study energi"],
+              "learn_from": ["Solar PV design certification", "Energy modeling training"],
+              "duration_estimate": "4-6 bulan"
+            },
+            "advanced": {
+              "can_do": ["Smart grid integration", "Energy storage systems", "Microgrid design"],
+              "learn_from": ["Master in Renewable Energy", "Advanced energy engineering"],
+              "duration_estimate": "1-2 tahun"
+            }
+          },
+          "tools": ["PVSyst", "HOMER", "RETScreen", "Energy modeling software"],
+          "related_skills": ["electrical_engineering", "data_analysis", "project_management"]
+        },
+        {
+          "id": "regulation_compliance",
+          "label": "Regulasi & Kepatuhan Lingkungan",
+          "description": "Pemahaman tentang peraturan lingkungan dan standar kepatuhan.",
+          "type": "hard",
+          "field_tags": ["green_sustainability", "business_finance"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Memahami peraturan lingkungan dasar", "Identifikasi persyaratan legal", "Dokumentasi kepatuhan"],
+              "learn_from": ["Kursus Hukum Lingkungan", "Pelatihan K3L"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Audit kepatuhan lingkungan", "Pengurusan izin lingkungan", "Sistem manajemen lingkungan"],
+              "learn_from": ["ISO 14001 Lead Auditor", "Pelatihan PROPER"],
+              "duration_estimate": "3-4 bulan"
+            },
+            "advanced": {
+              "can_do": ["Kebijakan lingkungan strategis", "Negosiasi dengan regulator", "Standar internasional"],
+              "learn_from": ["Environmental Law specialist", "International environmental policy"],
+              "duration_estimate": "6+ bulan"
+            }
+          },
+          "tools": ["Environmental compliance software", "ISO 14001", "PROPER tools"],
+          "related_skills": ["environmental_science", "policy", "risk_assessment"]
+        },
+        {
+          "id": "carbon_accounting",
+          "label": "Carbon Accounting",
+          "description": "Pengukuran, pelaporan, dan verifikasi emisi gas rumah kaca.",
+          "type": "hard",
+          "field_tags": ["green_sustainability"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Memahami GHG Protocol", "Scope 1,2,3 emissions", "Carbon footprint dasar"],
+              "learn_from": ["GHG Protocol training", "Carbon Trust courses"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Inventarisasi emisi", "Verifikasi data emisi", "Carbon offset projects"],
+              "learn_from": ["Sertifikasi Carbon Auditor", "CDP reporting training"],
+              "duration_estimate": "3-4 bulan"
+            },
+            "advanced": {
+              "can_do": ["Carbon trading", "Net zero strategy", "Climate risk assessment"],
+              "learn_from": ["Advanced carbon management", "Climate finance certification"],
+              "duration_estimate": "6+ bulan"
+            }
+          },
+          "tools": ["GHG Protocol tools", "Carbon management software", "CDP platform"],
+          "related_skills": ["data_analysis", "esg_frameworks", "reporting"]
+        },
+        {
+          "id": "gis",
+          "label": "Geographic Information System (GIS)",
+          "description": "Sistem informasi geografis untuk analisis dan visualisasi data spasial lingkungan.",
+          "type": "hard",
+          "field_tags": ["green_sustainability", "data_ai"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Dasar-dasar peta digital", "Layer management", "Query spasial sederhana"],
+              "learn_from": ["QGIS tutorial", "Esri training free courses"],
+              "duration_estimate": "2-3 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Analisis spasial", "Geoprocessing", "Map layout dan presentasi"],
+              "learn_from": ["Advanced GIS analysis", "Remote sensing basics"],
+              "duration_estimate": "4-5 bulan"
+            },
+            "advanced": {
+              "can_do": ["Spatial modeling", "GIS programming (Python)", "Web GIS"],
+              "learn_from": ["Geospatial data science", "Master in GIS"],
+              "duration_estimate": "6+ bulan"
+            }
+          },
+          "tools": ["ArcGIS", "QGIS", "Google Earth Engine", "PostGIS"],
+          "related_skills": ["data_analysis", "environmental_science", "python"]
+        }
+      ]
+    },
+    {
+      "id": "ai_emerging",
+      "label": "AI & Teknologi Emerging",
+      "icon": "bi bi-robot",
+      "skills": [
+        {
+          "id": "llm",
+          "label": "LLM & Generative AI",
+          "description": "Pemahaman dan penggunaan model bahasa besar (GPT, Claude, Llama) dalam membangun aplikasi AI.",
+          "type": "hard",
+          "field_tags": ["data_ai"],
+          "levels": {
+            "beginner": { "can_do": ["Menggunakan API OpenAI/Anthropic", "Prompt engineering dasar", "Memahami token, temperature, context window"], "learn_from": ["Andrej Karpathy Intro to LLM (YouTube)", "Deeplearning.ai Prompt Engineering", "OpenAI cookbook"], "duration_estimate": "2-4 minggu" },
+            "intermediate": { "can_do": ["RAG (Retrieval Augmented Generation)", "Function calling & tool use", "Streaming response & batching"], "learn_from": ["LangChain docs", "LlamaIndex docs", "Hugging Face LLM course"], "duration_estimate": "2-3 bulan" },
+            "advanced": { "can_do": ["Fine-tuning & PEFT (LoRA)", "LLM evaluation & safety", "Inference optimization"], "learn_from": ["Hugging Face Advanced NLP", "LLM University (Cohere)", "Lmsys leaderboard research"], "duration_estimate": "4+ bulan" }
+          },
+          "tools": ["OpenAI API", "Anthropic API", "LangChain", "LlamaIndex", "HuggingFace", "Ollama"],
+          "related_skills": ["prompt_engineering", "python", "api_integration", "deep_learning"]
+        },
+        {
+          "id": "prompt_engineering",
+          "label": "Prompt Engineering",
+          "description": "Teknik merancang instruksi yang optimal untuk mendapatkan output terbaik dari model AI.",
+          "type": "hard",
+          "field_tags": ["data_ai"],
+          "levels": {
+            "beginner": { "can_do": ["Zero-shot & few-shot prompting", "Instruction clarity", "Iterasi prompt sederhana"], "learn_from": ["Anthropic Prompt Library", "OpenAI Prompt Engineering guide", "Deeplearning.ai course"], "duration_estimate": "1-2 minggu" },
+            "intermediate": { "can_do": ["Chain-of-thought prompting", "Role prompting", "Structured output prompting"], "learn_from": ["Learnprompting.org", "Prompt Engineering Guide (DAIR)", "AGI House talks"], "duration_estimate": "1-2 bulan" },
+            "advanced": { "can_do": ["Agentic prompt design", "System prompt security", "Evaluation framework prompts"], "learn_from": ["Red teaming LLM papers", "Constitutional AI (Anthropic)", "LLM evaluation benchmarks"], "duration_estimate": "2+ bulan" }
+          },
+          "tools": ["ChatGPT", "Claude", "Playground OpenAI", "PromptFlow", "LangSmith"],
+          "related_skills": ["llm", "ai_literacy", "api_integration", "python"]
+        },
+        {
+          "id": "ai_literacy",
+          "label": "AI Literacy",
+          "description": "Pemahaman konseptual tentang cara kerja, kemampuan, dan keterbatasan AI untuk non-teknis.",
+          "type": "mixed",
+          "field_tags": ["data_ai", "business_finance", "education"],
+          "levels": {
+            "beginner": { "can_do": ["Membedakan AI, ML, DL, GenAI", "Menggunakan AI tools produktivitas", "Memahami bias AI secara umum"], "learn_from": ["Elements of AI (gratis, Univ Helsinki)", "Google AI Essentials", "MIT AI Literacy"], "duration_estimate": "2-4 minggu" },
+            "intermediate": { "can_do": ["Evaluasi use case AI di bisnis", "AI readiness assessment", "Dasar-dasar AI ethics"], "learn_from": ["AI for Everyone (Andrew Ng - Coursera)", "Responsible AI practices (Google)", "World Economic Forum AI Framework"], "duration_estimate": "1-2 bulan" },
+            "advanced": { "can_do": ["AI governance & policy design", "AI risk assessment", "AI transformation roadmap"], "learn_from": ["Oxford Internet Institute", "Stanford HAI policy papers", "OECD AI principles"], "duration_estimate": "3+ bulan" }
+          },
+          "tools": ["ChatGPT", "Claude", "Gemini", "Midjourney", "Copilot"],
+          "related_skills": ["ethics", "policy", "critical_thinking", "prompt_engineering"]
+        },
+        {
+          "id": "unity",
+          "label": "Unity Game Engine",
+          "description": "Engine game paling populer untuk membuat game 2D/3D, AR/VR, dan simulasi interaktif.",
+          "type": "hard",
+          "field_tags": ["art_media", "design_creative"],
+          "levels": {
+            "beginner": { "can_do": ["Scene, GameObject, Component", "Physics & collision dasar", "Script C# sederhana di Unity"], "learn_from": ["Unity Learn official", "Brackeys YouTube", "Game Dev.tv Unity course"], "duration_estimate": "1-3 bulan" },
+            "intermediate": { "can_do": ["State machine & animation", "UI system Unity", "Scene management & saving"], "learn_from": ["Code Monkey YouTube", "Jason Weimann", "Unity Certified Associate prep"], "duration_estimate": "3-6 bulan" },
+            "advanced": { "can_do": ["Shader graph & VFX graph", "DOTS architecture", "Multiplayer networking (Netcode)"], "learn_from": ["Unity DOTS documentation", "Catlike Coding tutorials", "Unite conference talks"], "duration_estimate": "6+ bulan" }
+          },
+          "tools": ["Unity", "Visual Studio", "Rider", "Git LFS", "Unity Asset Store"],
+          "related_skills": ["c_sharp", "game_design", "3d_modeling", "programming"]
+        }
+      ]
+    },
+    {
+      "id": "business_skills",
+      "label": "Skill Bisnis & Manajemen",
+      "icon": "bi bi-briefcase",
+      "skills": [
+        {
+          "id": "product_thinking",
+          "label": "Product Thinking",
+          "description": "Kemampuan berpikir strategis tentang produk: siapa penggunanya, apa masalahnya, bagaimana mengukur sukses.",
+          "type": "mixed",
+          "field_tags": ["business_finance", "design_creative"],
+          "levels": {
+            "beginner": { "can_do": ["User story writing", "Memahami product-market fit", "Jobs To Be Done dasar"], "learn_from": ["Inspired (Marty Cagan - buku)", "Product School free resources", "Lenny's Newsletter"], "duration_estimate": "1-2 bulan" },
+            "intermediate": { "can_do": ["Prioritization frameworks (RICE, MoSCoW)", "OKR setting", "Roadmap communication ke stakeholder"], "learn_from": ["Continuous Discovery Habits (Teresa Torres)", "Reforge programs", "Pragmatic Institute"], "duration_estimate": "3-6 bulan" },
+            "advanced": { "can_do": ["Product strategy & vision", "Portfolio management", "Build vs buy decisions"], "learn_from": ["Good Strategy Bad Strategy (buku)", "Stratechery", "PM interviews experience"], "duration_estimate": "1+ tahun" }
+          },
+          "tools": ["Productboard", "Notion", "Jira", "Amplitude", "Mixpanel"],
+          "related_skills": ["data_analysis", "user_research", "agile", "stakeholder_management"]
+        },
+        {
+          "id": "financial_modeling",
+          "label": "Financial Modeling",
+          "description": "Membangun model keuangan untuk proyeksi, valuasi, dan pengambilan keputusan bisnis.",
+          "type": "hard",
+          "field_tags": ["business_finance"],
+          "levels": {
+            "beginner": { "can_do": ["Laporan keuangan dasar (P&L, balance sheet)", "Asumsi & formula sederhana di Excel", "Cash flow projection"], "learn_from": ["CFI Financial Modeling (gratis)", "Excel for Finance basics", "WSP Introduction"], "duration_estimate": "1-2 bulan" },
+            "intermediate": { "can_do": ["3-statement model", "DCF valuation", "Sensitivity & scenario analysis"], "learn_from": ["Breaking Into Wall Street", "Financial Modeling & Valuation (WSP)", "Macabacus templates"], "duration_estimate": "2-4 bulan" },
+            "advanced": { "can_do": ["LBO model, M&A model", "Monte Carlo simulation", "Industry-specific models"], "learn_from": ["FMVA certification (CFI)", "Investment Banking course", "Damodaran valuation"], "duration_estimate": "4+ bulan" }
+          },
+          "tools": ["Microsoft Excel", "Google Sheets", "Power BI", "Bloomberg Terminal"],
+          "related_skills": ["excel", "accounting", "data_analysis", "reporting"]
+        },
+        {
+          "id": "seo_sem",
+          "label": "SEO & SEM",
+          "description": "Optimasi mesin pencari organik (SEO) dan berbayar (SEM/Google Ads) untuk visibilitas online.",
+          "type": "hard",
+          "field_tags": ["business_finance"],
+          "levels": {
+            "beginner": { "can_do": ["Keyword research dasar", "On-page SEO (meta, heading, alt-text)", "Google Search Console setup"], "learn_from": ["Moz Beginner's Guide to SEO", "Google Digital Garage", "Ahrefs Academy"], "duration_estimate": "1-2 bulan" },
+            "intermediate": { "can_do": ["Technical SEO audit", "Link building strategy", "Google Ads campaign management"], "learn_from": ["Semrush Academy", "Google Ads certifications", "Backlinko blog"], "duration_estimate": "2-4 bulan" },
+            "advanced": { "can_do": ["Enterprise SEO", "Programmatic SEO", "Attribution modeling"], "learn_from": ["Advanced SEO (DeepCrawl)", "Aleyda Solis resources", "Google Analytics 4 advanced"], "duration_estimate": "4+ bulan" }
+          },
+          "tools": ["Google Search Console", "Ahrefs", "Semrush", "Google Ads", "GA4"],
+          "related_skills": ["content_marketing", "analytics", "copywriting", "data_analysis"]
+        },
+        {
+          "id": "agile",
+          "label": "Agile & Scrum",
+          "description": "Metodologi pengembangan iteratif yang fleksibel untuk manajemen proyek software dan produk.",
+          "type": "soft",
+          "field_tags": ["business_finance", "it_software"],
+          "levels": {
+            "beginner": { "can_do": ["Sprint planning & retrospective", "User story & backlog grooming", "Daily standup"], "learn_from": ["Scrum.org free resources", "Atlassian Agile Coach", "Agile Manifesto"], "duration_estimate": "2-4 minggu" },
+            "intermediate": { "can_do": ["Velocity, burndown chart", "Release planning", "Cross-functional team facilitation"], "learn_from": ["PSM I / PSPO I certification", "Mountain Goat Software blog", "Mike Cohn books"], "duration_estimate": "1-3 bulan" },
+            "advanced": { "can_do": ["Scaling Agile (SAFe, LeSS)", "Agile transformation", "Kanban system optimization"], "learn_from": ["SAFe Agile certification", "Lean-Agile Center (Scaled Agile)", "Agile coaching training"], "duration_estimate": "6+ bulan" }
+          },
+          "tools": ["Jira", "Linear", "Trello", "Notion", "ClickUp"],
+          "related_skills": ["project_management", "stakeholder_management", "product_thinking"]
+        },
+        {
+          "id": "project_management",
+          "label": "Project Management",
+          "description": "Perencanaan, eksekusi, dan pengendalian proyek agar selesai tepat waktu, anggaran, dan kualitas.",
+          "type": "soft",
+          "field_tags": ["business_finance", "education", "green_sustainability"],
+          "levels": {
+            "beginner": { "can_do": ["Membuat timeline & milestone", "Task assignment & tracking", "Basic risk identification"], "learn_from": ["Google Project Management Certificate (Coursera)", "PMI intro resources", "Asana Academy"], "duration_estimate": "1-2 bulan" },
+            "intermediate": { "can_do": ["WBS, Gantt chart", "Budget management", "Stakeholder communication plan"], "learn_from": ["PMP exam prep", "CAPM certification", "PMBOK Guide"], "duration_estimate": "2-4 bulan" },
+            "advanced": { "can_do": ["Program & portfolio management", "Earned Value Management", "Organizational change management"], "learn_from": ["PMP Certification", "MSP (Managing Successful Programmes)", "Harvard ManageMentor"], "duration_estimate": "4+ bulan" }
+          },
+          "tools": ["Asana", "Monday.com", "MS Project", "Jira", "Notion"],
+          "related_skills": ["agile", "leadership", "stakeholder_management", "communication"]
+        },
+        {
+          "id": "stakeholder_management",
+          "label": "Stakeholder Management",
+          "description": "Kemampuan mengidentifikasi, melibatkan, dan mengkomunikasikan kepada semua pihak berkepentingan.",
+          "type": "soft",
+          "field_tags": ["business_finance"],
+          "levels": {
+            "beginner": { "can_do": ["Identifikasi stakeholder", "Update rutin via email/meeting", "Mengelola ekspektasi dasar"], "learn_from": ["PMI stakeholder management", "Coursera communication courses", "HBR articles"], "duration_estimate": "1-2 bulan" },
+            "intermediate": { "can_do": ["Stakeholder mapping matrix", "Negotiation dasar", "Executive presentation"], "learn_from": ["Never Split the Difference (buku)", "Presentation Zen (buku)", "Wharton negotiation course"], "duration_estimate": "2-4 bulan" },
+            "advanced": { "can_do": ["Politics organisasi", "C-level alignment", "Cross-cultural stakeholder management"], "learn_from": ["Harvard Kennedy School leadership", "Influence Without Authority (buku)", "MBB consulting frameworks"], "duration_estimate": "Experience-based" }
+          },
+          "tools": ["Notion", "Confluence", "Slack", "Presentation tools"],
+          "related_skills": ["communication", "project_management", "leadership", "presentation"]
+        },
+        {
+          "id": "content_marketing",
+          "label": "Content Marketing",
+          "description": "Strategi membuat dan mendistribusikan konten bernilai untuk menarik dan mempertahankan audiens target.",
+          "type": "hard",
+          "field_tags": ["business_finance"],
+          "levels": {
+            "beginner": { "can_do": ["Blog post & copywriting dasar", "Social media content calendar", "Memahami content funnel"], "learn_from": ["HubSpot Content Marketing Certification (gratis)", "Copyblogger", "Buffer blog"], "duration_estimate": "1-2 bulan" },
+            "intermediate": { "can_do": ["SEO content strategy", "Email marketing campaign", "Content performance analytics"], "learn_from": ["Content Marketing Institute", "Kursus Semrush content", "Ann Handley resources"], "duration_estimate": "2-4 bulan" },
+            "advanced": { "can_do": ["Content-led growth strategy", "Brand publishing", "Attribution & ROI content"], "learn_from": ["Content Inc. (Joe Pulizzi buku)", "Demand Curve newsletter", "Lenny's Newsletter"], "duration_estimate": "4+ bulan" }
+          },
+          "tools": ["HubSpot", "Mailchimp", "Notion", "Semrush", "Buffer", "Airtable"],
+          "related_skills": ["seo_sem", "copywriting", "social_media_marketing", "analytics"]
+        },
+        {
+          "id": "business_strategy",
+          "label": "Business Strategy",
+          "description": "Kemampuan merancang arah dan keunggulan kompetitif bisnis dalam jangka panjang.",
+          "type": "mixed",
+          "field_tags": ["business_finance"],
+          "levels": {
+            "beginner": {
+              "can_do": ["SWOT analysis", "Porter's Five Forces dasar", "Business Model Canvas"],
+              "learn_from": ["Strategyzer resources", "Harvard Business Review articles", "Business Model Generation (buku)"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Competitive positioning", "Growth strategy", "Unit economics analysis"],
+              "learn_from": ["Good Strategy Bad Strategy", "Reforge strategy programs", "McKinsey insights"],
+              "duration_estimate": "3-6 bulan"
+            },
+            "advanced": {
+              "can_do": ["Corporate strategy", "Market expansion strategy", "Strategic turnaround planning"],
+              "learn_from": ["Blue Ocean Strategy (buku)", "BCG strategy cases", "Executive MBA materials"],
+              "duration_estimate": "1+ tahun"
+            }
+          },
+          "tools": ["Miro", "Excel", "Notion", "Strategy templates"],
+          "related_skills": ["product_thinking", "financial_modeling", "leadership", "market_analysis"]
+        },
+        {
+          "id": "sales_management",
+          "label": "Sales & Revenue Management",
+          "description": "Kemampuan mengelola proses penjualan, pipeline, dan optimasi pendapatan.",
+          "type": "mixed",
+          "field_tags": ["business_finance"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Lead qualification", "Cold outreach dasar", "CRM usage"],
+              "learn_from": ["HubSpot Sales training", "Close.com blog", "Sales basics course"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Pipeline forecasting", "Negotiation & closing", "B2B sales process"],
+              "learn_from": ["SPIN Selling (buku)", "Winning by Design resources", "SaaS sales courses"],
+              "duration_estimate": "2-4 bulan"
+            },
+            "advanced": {
+              "can_do": ["Revenue strategy", "Sales team leadership", "Enterprise deal negotiation"],
+              "learn_from": ["Revenue architecture frameworks", "Gong.io case studies", "Executive sales coaching"],
+              "duration_estimate": "4+ bulan"
+            }
+          },
+          "tools": ["HubSpot CRM", "Salesforce", "Pipedrive", "Apollo.io"],
+          "related_skills": ["stakeholder_management", "communication", "negotiation", "business_strategy"]
+        },
+        {
+          "id": "data_driven_decision",
+          "label": "Data-Driven Decision Making",
+          "description": "Kemampuan menggunakan data untuk mendukung keputusan bisnis dan strategi.",
+          "type": "hard",
+          "field_tags": ["business_finance", "it_software"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Basic KPI tracking", "Dashboard reading", "Simple data interpretation"],
+              "learn_from": ["Google Analytics course", "Data basics YouTube", "Excel fundamentals"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Cohort analysis", "A/B testing", "Business reporting automation"],
+              "learn_from": ["Reforge analytics", "Mode Analytics tutorials", "SQL for business"],
+              "duration_estimate": "2-4 bulan"
+            },
+            "advanced": {
+              "can_do": ["Predictive modeling collaboration", "Advanced attribution modeling", "Strategic data storytelling"],
+              "learn_from": ["Advanced analytics course", "Data storytelling books", "Experimentation frameworks"],
+              "duration_estimate": "4+ bulan"
+            }
+          },
+          "tools": ["Google Analytics", "Looker", "Power BI", "SQL", "Excel"],
+          "related_skills": ["financial_modeling", "seo_sem", "product_thinking", "analytics"]
+        },
+        {
+          "id": "entrepreneurship",
+          "label": "Entrepreneurship",
+          "description": "Kemampuan membangun dan mengembangkan bisnis dari nol hingga scale.",
+          "type": "mixed",
+          "field_tags": ["business_finance"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Validasi ide bisnis", "Lean canvas", "MVP testing"],
+              "learn_from": ["The Lean Startup (buku)", "Y Combinator Startup School", "Buildspace"],
+              "duration_estimate": "1-3 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Fundraising pitch deck", "Unit economics startup", "Go-to-market strategy"],
+              "learn_from": ["Sequoia pitch deck template", "First Round Review", "Startup case study"],
+              "duration_estimate": "6+ bulan"
+            },
+            "advanced": {
+              "can_do": ["Scaling organization", "Investor relations", "Exit strategy"],
+              "learn_from": ["Venture Deals (buku)", "Founder interviews", "Startup accelerator mentorship"],
+              "duration_estimate": "Experience-based"
+            }
+          },
+          "tools": ["Notion", "Pitch deck tools", "Cap table software", "Financial models"],
+          "related_skills": ["business_strategy", "financial_modeling", "product_thinking", "leadership"]
+        },
+        {
+          "id": "risk_management",
+          "label": "Risk Management & Compliance",
+          "description": "Kemampuan mengidentifikasi, menganalisis, dan memitigasi risiko bisnis serta memastikan kepatuhan regulasi.",
+          "type": "mixed",
+          "field_tags": ["business_finance"],
+          "levels": {
+            "beginner": {
+              "can_do": ["Risk identification dasar", "Compliance awareness", "Internal control basics"],
+              "learn_from": ["COSO framework intro", "Risk management basics course"],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": ["Risk assessment matrix", "Audit preparation", "Regulatory compliance management"],
+              "learn_from": ["ISO 31000 training", "Internal audit workshop"],
+              "duration_estimate": "3-6 bulan"
+            },
+            "advanced": {
+              "can_do": ["Enterprise risk management", "Governance framework design", "Crisis management leadership"],
+              "learn_from": ["ERM certification", "Executive compliance program"],
+              "duration_estimate": "1+ tahun"
+            }
+          },
+          "tools": ["Risk register templates", "Compliance dashboards", "Audit software"],
+          "related_skills": ["business_strategy", "project_management", "leadership"]
+        }
+      ]
+    },
+    {
+      "id": "soft_skills",
+      "label": "Soft Skills & Umum",
+      "icon": "bi bi-people",
+      "skills": [
+        {
+          "id": "communication",
+          "label": "Komunikasi",
+          "description": "Kemampuan menyampaikan ide secara jelas dan efektif, baik lisan maupun tulisan.",
+          "type": "soft",
+          "field_tags": ["data_ai", "it_software", "design_creative", "healthcare", "business_finance", "education", "art_media"],
+          "levels": {
+            "beginner": { "can_do": ["Presentasi sederhana", "Email profesional", "Active listening dasar"], "learn_from": ["Toastmasters", "Coursera communication fundamentals", "HBR communication articles"], "duration_estimate": "Ongoing" },
+            "intermediate": { "can_do": ["Technical writing", "Presentasi ke berbagai audiens", "Feedback konstruktif"], "learn_from": ["On Writing Well (buku)", "TED Talk methodology", "Dale Carnegie courses"], "duration_estimate": "Ongoing" },
+            "advanced": { "can_do": ["Executive storytelling", "Crisis communication", "Public speaking level tinggi"], "learn_from": ["Talk Like TED (buku)", "Storytelling with Data", "Toastmasters DTM"], "duration_estimate": "Ongoing" }
+          },
+          "tools": ["Notion", "Google Slides", "Loom", "Grammarly"],
+          "related_skills": ["storytelling", "presentation", "leadership", "empathy"]
+        },
+        {
+          "id": "critical_thinking",
+          "label": "Critical Thinking",
+          "description": "Kemampuan menganalisis informasi secara objektif dan membuat pertimbangan yang logis.",
+          "type": "soft",
+          "field_tags": ["data_ai", "business_finance", "education", "healthcare"],
+          "levels": {
+            "beginner": { "can_do": ["Identifikasi bias kognitif", "Evaluasi sumber informasi", "Logical argument structure"], "learn_from": ["Thinking, Fast and Slow (Kahneman)", "Philosophy 101", "Your Logical Fallacy Is (website)"], "duration_estimate": "Ongoing" },
+            "intermediate": { "can_do": ["Root cause analysis (5 Whys, fishbone)", "First principles thinking", "Decision matrix"], "learn_from": ["Super Thinking (buku)", "Mental models dari Farnam Street", "MECE Framework"], "duration_estimate": "Ongoing" },
+            "advanced": { "can_do": ["Systems thinking", "Probabilistic thinking", "Strategic foresight"], "learn_from": ["Thinking in Systems (buku)", "Good Judgment Project", "RAND systems analysis"], "duration_estimate": "Ongoing" }
+          },
+          "tools": ["Mind maps", "Decision frameworks", "Miro"],
+          "related_skills": ["data_analysis", "research_methodology", "problem_solving"]
+        },
+        {
+          "id": "leadership",
+          "label": "Leadership",
+          "description": "Kemampuan menginspirasi, memotivasi, dan memimpin tim menuju tujuan bersama.",
+          "type": "soft",
+          "field_tags": ["business_finance", "education", "healthcare"],
+          "levels": {
+            "beginner": { "can_do": ["Self-leadership", "Meeting facilitation dasar", "Peer coaching sederhana"], "learn_from": ["Leaders Eat Last (Simon Sinek)", "Strengths Finder 2.0", "Radical Candor (buku)"], "duration_estimate": "Ongoing" },
+            "intermediate": { "can_do": ["Team performance management", "Delegation efektif", "Conflict resolution"], "learn_from": ["The Manager's Path (buku)", "Harvard ManageMentor", "DDI Leadership Mirror"], "duration_estimate": "Ongoing" },
+            "advanced": { "can_do": ["Organizational culture building", "C-level leadership", "Leading through change"], "learn_from": ["Good to Great (Jim Collins)", "Harvard Business School leadership", "Executive coaching"], "duration_estimate": "Ongoing" }
+          },
+          "tools": ["360-degree feedback tools", "Performance management systems"],
+          "related_skills": ["communication", "empathy", "stakeholder_management", "project_management"]
+        },
+        {
+          "id": "empathy",
+          "label": "Empati & Emotional Intelligence",
+          "description": "Kemampuan memahami dan merespons perasaan orang lain secara tepat dalam konteks profesional.",
+          "type": "soft",
+          "field_tags": ["healthcare", "education", "design_creative"],
+          "levels": {
+            "beginner": { "can_do": ["Active listening", "Perspective taking", "Mengelola emosi sendiri"], "learn_from": ["Emotional Intelligence (Daniel Goleman)", "Atlas of the Heart (Brené Brown)", "Mindfulness practice"], "duration_estimate": "Ongoing" },
+            "intermediate": { "can_do": ["User empathy dalam desain", "Klien/pasien-centered approach", "Negosiasi berbasis empati"], "learn_from": ["Empathy Map workshop", "Motivational interviewing training", "NN/g empathy resources"], "duration_estimate": "Ongoing" },
+            "advanced": { "can_do": ["Cultural empathy & DEI", "Trauma-informed practice", "Empathetic leadership"], "learn_from": ["Daring Greatly (Brené Brown)", "DEI training", "ACEs study materials"], "duration_estimate": "Ongoing" }
+          },
+          "tools": ["Empathy map canvas", "Feedback frameworks", "Journaling"],
+          "related_skills": ["communication", "counseling", "user_research", "leadership"]
+        },
+        {
+          "id": "research_methodology",
+          "label": "Metodologi Penelitian",
+          "description": "Kemampuan merancang, mengeksekusi, dan melaporkan penelitian ilmiah secara valid.",
+          "type": "hard",
+          "field_tags": ["education", "healthcare", "data_ai"],
+          "levels": {
+            "beginner": { "can_do": ["Literature review", "Kuantitatif vs kualitatif dasar", "Etika penelitian"], "learn_from": ["Research Methods (Creswell)", "Coursera Research Methods", "Google Scholar tutorial"], "duration_estimate": "1-3 bulan" },
+            "intermediate": { "can_do": ["Desain sampling & instrumen", "Analisis data dengan SPSS/R", "Penulisan laporan ilmiah"], "learn_from": ["Quantitative Methods for Social Scientists", "Qualitative Inquiry (Creswell)", "Mendeley/Zotero tutorial"], "duration_estimate": "3-6 bulan" },
+            "advanced": { "can_do": ["Mixed methods research", "Grant writing", "Peer review & publikasi"], "learn_from": ["Research Methods for Business (Saunders)", "APA / Cochrane guides", "Supervisor berpengalaman"], "duration_estimate": "6+ bulan" }
+          },
+          "tools": ["SPSS", "NVivo", "Mendeley", "Zotero", "ATLAS.ti"],
+          "related_skills": ["statistics", "data_analysis", "scientific_writing", "critical_thinking"]
+        },
+        {
+          "id": "teaching",
+          "label": "Pengajaran & Fasilitasi",
+          "description": "Kemampuan menyampaikan pengetahuan secara efektif kepada berbagai jenis pelajar.",
+          "type": "soft",
+          "field_tags": ["education"],
+          "levels": {
+            "beginner": { "can_do": ["Lesson plan sederhana", "Penjelasan konsep yang jelas", "Manajemen kelas dasar"], "learn_from": ["Pedagogy 101", "Khan Academy teaching resources", "Teach Like a Champion (buku)"], "duration_estimate": "Selama PPG/praktek" },
+            "intermediate": { "can_do": ["Differentiated instruction", "Formative assessment", "Active learning techniques"], "learn_from": ["Understanding by Design (Wiggins)", "Visible Learning (Hattie)", "ISTE resources"], "duration_estimate": "1-3 tahun pengalaman" },
+            "advanced": { "can_do": ["Curriculum design", "Teacher mentoring", "Program evaluation"], "learn_from": ["Harvard Graduate School of Education", "TESOL/TEFL advanced", "Instructional Systems Design"], "duration_estimate": "3+ tahun" }
+          },
+          "tools": ["Google Classroom", "Moodle", "Kahoot", "Nearpod", "Mentimeter"],
+          "related_skills": ["curriculum_design", "communication", "assessment_design", "empathy"]
+        }
+      ]
+    }
+  ]
+}
