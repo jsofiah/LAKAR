@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Lakar - Hubungi Kami</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/styleHubungi.css">
+</head>
+<body>
+    <div class="header-wrapper">
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div class="container">
+
+                <div class="d-none d-lg-flex gap-4 me-auto">
+                    <a class="nav-link" href="tren-pekerjaan.html">Tren<br>Pekerjaan</a>
+                    <a class="nav-link" href="temukan-kariermu.html">Temukan<br>Kariermu</a>
+                </div>
+
+                <a href="index.html" class="navbar-logo-center">
+                    <img src="img/logo-lakar.png" alt="Logo-Lakar" class="navbar-logo">
+                </a>
+
+                <button class="navbar-toggler ms-auto" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarMenu">
+                    <div class="d-lg-none text-center mt-3">
+                        <a class="nav-link" href="tren-pekerjaan.html">Tren Pekerjaan</a>
+                        <a class="nav-link" href="temukan-kariermu.html">Temukan Kariermu</a>
+                        <a class="nav-link" href="hubungi-kami.html">Hubungi Kami</a>
+                        <a class="nav-link" href="sekilas-info.html">Sekilas Info</a>
+                    </div>
+                </div>
+
+                <div class="d-none d-lg-flex gap-4 ms-auto">
+                    <a class="nav-link active-link" href="hubungi-kami.html">Hubungi<br>Kami</a>
+                    <a class="nav-link" href="sekilas-info.html">Sekilas<br>Info</a>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+
+    <main class="main-content">
+        <div class="contact-hero">
+            <div class="container">
+                <div class="row align-items-center g-0">
+
+                    <div class="col-12 col-md-7 hero-text-col">
+                        <h1 class="contact-hero-title">HUBUNGI KAMI</h1>
+
+                        <p class="contact-hero-desc">
+                            Punya pertanyaan, masukan, atau ingin bekerja sama dengan LAKAR?
+                            Kami siap mendengar dari Anda.
+                        </p>
+                    </div>
+
+                    <div class="col-12 col-md-5 hero-img-col">
+                        <div class="hero-arch-img">
+                            <img src="img/lokasi.jpg" alt="Hubungi Kami">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="contact-body">
+                <div class="kontak-info-section">
+                    <h2 class="kontak-info-title">Kontak Informasi</h2>
+                    <div class="kontak-info-grid">
+                        <div class="kontak-info-item">
+                            <div class="kontak-icon-wrap">
+                                <i class="bi bi-telephone-fill"></i>
+                            </div>
+                            <span>+6281234567890</span>
+                        </div>
+                        <div class="kontak-info-item">
+                            <div class="kontak-icon-wrap">
+                                <i class="bi bi-envelope-fill"></i>
+                            </div>
+                            <span>teamlakar@gmail.com</span>
+                        </div>
+                        <div class="kontak-info-item">
+                            <div class="kontak-icon-wrap">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </div>
+                            <span>Malang, Indonesia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-5 align-items-start mt-1">
+                    <div class="col-12 col-lg-6">
+                        <div class="contact-form-wrap">
+                            <div class="form-group-custom">
+                                <label for="nama">Nama</label>
+                                <input type="text" id="nama" class="form-input-custom">
+                            </div>
+
+                            <div class="form-group-custom">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" class="form-input-custom">
+                            </div>
+
+                            <div class="form-group-custom">
+                                <label for="pesan">Pesan</label>
+                                <textarea id="pesan"
+                                    class="form-input-custom form-textarea-custom"
+                                    rows="5"></textarea>
+                            </div>
+
+                            <div class="mt-4">
+                                <button class="btn-kirim" id="btnKirim" onclick="handleKirim(event)">
+                                    <span class="btn-arrow">
+                                        <i class="bi bi-arrow-right"></i>
+                                    </span>
+                                    <span class="btn-label">Kirim Pesan</span>
+                                </button>
+                            </div>
+
+                            <div class="send-success d-none" id="sendSuccess">
+                                <i class="bi bi-check-circle-fill"></i>
+                                Pesan berhasil dikirim! Kami akan segera menghubungi Anda.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <h2 class="lokasi-title">Lokasi Kami</h2>
+                        <div class="map-wrap">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1761.1465006467356!2d112.6140516131187!3d-7.944679692448132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd629dfd58aaf95%3A0xe72a182dfd18e01c!2sCivil%20Engineering%20and%20Information%20Technology%20Building%2C%20POLINEMA!5e1!3m2!1sen!2sid!4v1772901622468!5m2!1sen!2sid"
+                                width="100%"
+                                height="100%"
+                                style="border:0;border-radius:16px;"
+                                loading="lazy">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <div class="ticker-wrapper" aria-label="Tagline scroll">
+        <div class="ticker-track" id="tickerTrack"></div>
+    </div>
+
+    <footer class="footer-main">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-12 col-md-5 col-lg-4 footer-col">
+                    <div class="footer-logo-wrap">
+                        <img src="img/logo-lakar.png" alt="Logo-Lakar">
+                    </div>
+                    <p class="footer-desc">
+                        Dari skill ke karier, Lakar hadir untuk mendampingi perjalananmu. Kami menyediakan
+                        tes karier, dan data tren pekerjaan agar kamu bisa menemukan pekerjaan yang tepat
+                        dan membangun masa depan yang lebih baik.
+                    </p>
+                </div>
+                <div class="col-6 col-md-3 col-lg-3 offset-lg-1 footer-col">
+                    <h4 class="footer-heading">Navigasi</h4>
+                    <a class="footer-nav-link" href="tren-pekerjaan.html">Tren Pekerjaan</a>
+                    <a class="footer-nav-link" href="temukan-kariermu.html">Temukan Kariermu</a>
+                    <a class="footer-nav-link" href="hubungi-kami.html">Hubungi Kami</a>
+                    <a class="footer-nav-link" href="sekilas-info.html">Sekilas Info</a>
+                </div>
+                <div class="col-6 col-md-4 col-lg-4 footer-col">
+                    <h4 class="footer-heading">Kontak</h4>
+                    <div class="footer-contact-item">
+                        <i class="bi bi-telephone-fill"></i>
+                        <span>+6281234567890</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="bi bi-envelope-fill"></i>
+                        <span>teamlakar@gmail.com</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <span>Jl. Soekarno Hatta No.9</span>
+                    </div>
+                    <div class="mt-3">
+                        <a href="https://instagram.com/lakar.idn" class="social-btn"><i class="bi bi-instagram"></i></a>
+                        <a href="https://youtube.com/@lakarid" class="social-btn"><i class="bi bi-youtube"></i></a>
+                        <a href="https://linkedin.com/company/lakar-idn" class="social-btn"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-divider"/>
+            <p class="footer-copy">© 2026 Lakar. All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="js/loop-teks.js"></script>
+    <script>
+        function handleKirim(e) {
+            e.preventDefault();
+            const nama  = document.getElementById('nama').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const pesan = document.getElementById('pesan').value.trim();
+
+            if (!nama || !email || !pesan) {
+                alert('Mohon lengkapi semua field terlebih dahulu.');
+                return;
+            }
+
+            const btn = document.getElementById('btnKirim');
+            btn.classList.add('loading');
+            btn.disabled = true;
+
+            setTimeout(() => {
+                btn.classList.remove('loading');
+                btn.classList.add('sent');
+                document.getElementById('sendSuccess').classList.remove('d-none');
+                document.getElementById('nama').value = '';
+                document.getElementById('email').value = '';
+                document.getElementById('pesan').value = '';
+            }, 1200);
+        }
+    </script>
+</body>
+</html>
