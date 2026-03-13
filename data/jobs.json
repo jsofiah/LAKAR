@@ -94,7 +94,7 @@
     {
       "id": "it_software",
       "label": "IT & Software Development",
-      "icon": "bii bi-code-slash",
+      "icon": "bi bi-code-slash",
       "jobs": [
         {
           "id": "fullstack_developer",
