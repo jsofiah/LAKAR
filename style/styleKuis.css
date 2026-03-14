@@ -373,16 +373,16 @@ body {
 }
 
 .minat-name {
-    font-size: .82rem;
+    font-size: 1rem; 
     font-weight: 700;
     color: var(--lk-navy);
-    margin-bottom: .15rem;
+    margin-bottom: .2rem;
 }
 
 .minat-desc {
-    font-size: .7rem;
+    font-size: .8rem; 
     color: var(--lk-gray);
-    line-height: 1.45;
+    line-height: 1.5;
 }
 
 .search-wrap {
