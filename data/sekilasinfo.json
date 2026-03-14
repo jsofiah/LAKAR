@@ -18,11 +18,13 @@
   ],
   "articles": [
     {
-      "id": "art_001",
+      "id": "info_001",
       "category": "tips_karier",
       "title": "5 Hal yang Harus Ada di CV Kamu di 2025",
       "summary": "CV yang biasa tidak cukup lagi. Rekruter sekarang melihat lebih dari sekadar pengalaman kerja.",
       "read_time": "4 menit",
+      "image": "img/info/cv-2025.jpg",
+      "image_alt": "Ilustrasi CV profesional terbuka di laptop untuk melamar pekerjaan",
       "tags": ["CV", "Lamaran Kerja", "Fresh Graduate"],
       "content": {
         "intro": "Di era persaingan kerja yang makin ketat, CV kamu adalah kesan pertama — dan sering kali satu-satunya kesempatan untuk menarik perhatian rekruter dalam hitungan detik. Bukan soal panjangnya, tapi soal relevansinya.",
@@ -52,11 +54,13 @@
       }
     },
     {
-      "id": "art_002",
+      "id": "info_002",
       "category": "tips_karier",
       "title": "Cara Negosiasi Gaji yang Tidak Canggung",
       "summary": "Kebanyakan orang meninggalkan uang di meja hanya karena takut negosiasi. Ini cara melakukannya dengan percaya diri.",
       "read_time": "5 menit",
+      "image": "img/info/negosiasi-gaji.jpg",
+      "image_alt": "Ilustrasi kandidat kerja sedang melakukan negosiasi gaji saat interview",
       "tags": ["Negosiasi", "Gaji", "Interview"],
       "content": {
         "intro": "Negosiasi gaji adalah skill — bukan sesuatu yang kamu punya atau tidak punya dari lahir. Dan skill ini bisa dipelajari. Fakta: sebagian besar penawaran pertama dari perusahaan bukan angka final mereka.",
@@ -86,11 +90,13 @@
       }
     },
     {
-      "id": "art_003",
+      "id": "info_003",
       "category": "tips_karier",
       "title": "Kenapa Personal Branding Itu Penting (dan Cara Mulainya)",
       "summary": "Di era digital, reputasi online kamu bekerja bahkan saat kamu tidur. Mulai bangun dari sekarang.",
       "read_time": "6 menit",
+      "image": "img/info/personal-branding.jpg",
+      "image_alt": "Ilustrasi personal branding profesional di LinkedIn dan platform digital",
       "tags": ["Personal Branding", "LinkedIn", "Karier Digital"],
       "content": {
         "intro": "Personal branding bukan soal pamer atau jadi influencer. Ini soal mengontrol narasi tentang dirimu secara profesional — sebelum orang lain atau Google yang mendefinisikanmu.",
@@ -120,11 +126,13 @@
       }
     },
     {
-      "id": "art_004",
+      "id": "info_004",
       "category": "tips_karier",
       "title": "Cara Memanfaatkan LinkedIn untuk Dapat Pekerjaan",
       "summary": "Bukan sekadar upload CV. Ada cara spesifik supaya rekruter datang duluan ke kamu.",
       "read_time": "5 menit",
+      "image": "img/info/linkedin-job-search.jpg",
+      "image_alt": "Ilustrasi penggunaan LinkedIn untuk mencari pekerjaan dan networking",
       "tags": ["LinkedIn", "Networking", "Job Search"],
       "content": {
         "intro": "Sebagian besar orang pakai LinkedIn secara pasif — upload profil lalu nunggu. Padahal LinkedIn paling efektif kalau dipakai secara aktif dan strategis.",
@@ -154,11 +162,13 @@
       }
     },
     {
-      "id": "art_005",
+      "id": "info_005",
       "category": "tips_karier",
       "title": "Pindah Karier di Usia 25–30: Bisa, dan Ini Caranya",
       "summary": "Merasa terjebak di jalur yang salah? Tidak ada kata terlambat — tapi ada cara yang lebih cerdas untuk transisi.",
       "read_time": "7 menit",
+      "image": "img/info/career-switch.jpg",
+      "image_alt": "Ilustrasi seseorang mempertimbangkan pindah karier di usia 20 sampai 30 tahun",
       "tags": ["Career Switch", "Transisi Karier", "Reskilling"],
       "content": {
         "intro": "Pindah karier di usia 20-an atau awal 30-an bukan tanda kegagalan — justru tanda kedewasaan untuk mengenali apa yang benar-benar cocok untukmu. Yang penting bukan apakah kamu pindah, tapi bagaimana kamu mempersiapkannya.",
@@ -188,11 +198,13 @@
       }
     },
     {
-      "id": "art_006",
+      "id": "info_006",
       "category": "tips_karier",
       "title": "Remote Work 101: Cara Tetap Produktif dan Profesional",
       "summary": "Bekerja dari rumah terdengar ideal — sampai kamu sadar betapa mudahnya batasan blur. Ini cara menjaga keduanya.",
       "read_time": "5 menit",
+      "image": "img/info/remote-work.jpg",
+      "image_alt": "Ilustrasi seseorang bekerja remote dari rumah dengan laptop",
       "tags": ["Remote Work", "WFH", "Produktivitas"],
       "content": {
         "intro": "Remote work bukan sekadar pindah laptop ke rumah. Butuh sistem yang berbeda, disiplin yang berbeda, dan cara komunikasi yang berbeda. Yang gagal di remote bukan karena tidak berbakat — tapi karena masih pakai cara kerja kantor di lingkungan rumah.",
@@ -222,11 +234,13 @@
       }
     },
     {
-      "id": "art_007",
+      "id": "info_007",
       "category": "motivasi",
       "title": "Berhenti Menunggu 'Siap' — Tidak Ada yang Namanya Siap 100%",
       "summary": "Perfeksionisme adalah prokrastinasi yang disamarkan. Inilah mengapa mulai sekarang — walau belum sempurna — selalu lebih baik.",
       "read_time": "4 menit",
+      "image": "img/info/start-before-ready.jpg",
+      "image_alt": "Ilustrasi seseorang mulai mengambil langkah walau belum merasa siap",
       "tags": ["Mindset", "Action", "Perfeksionisme"],
       "content": {
         "intro": "Ada satu kalimat yang telah membunuh lebih banyak karier daripada kegagalan manapun: 'Saya akan mulai kalau sudah siap.' Masalahnya? Siap itu tidak pernah datang — kalau kamu nunggu.",
@@ -252,11 +266,13 @@
       }
     },
     {
-      "id": "art_008",
+      "id": "info_008",
       "category": "motivasi",
       "title": "Kegagalan Bukan Lawan dari Sukses — Ini Bagian Darinya",
       "summary": "Semua orang yang berhasil punya daftar kegagalan yang panjang. Yang membedakan bukan kemampuan — tapi cara merespons.",
       "read_time": "5 menit",
+      "image": "img/info/failure-to-success.jpg",
+      "image_alt": "Ilustrasi perjalanan dari kegagalan menuju kesuksesan",
       "tags": ["Resiliensi", "Gagal", "Growth Mindset"],
       "content": {
         "intro": "Kita dibesarkan dengan narasi bahwa sukses adalah garis lurus ke atas. Kenyataannya lebih mirip garis yang naik-turun, muter-muter, dan kadang mundur dulu sebelum maju. Yang kita lihat dari orang sukses adalah hasil akhirnya — bukan semua yang mereka lalui.",
@@ -282,11 +298,13 @@
       }
     },
     {
-      "id": "art_009",
+      "id": "info_009",
       "category": "motivasi",
       "title": "Mengapa Membandingkan Diri dengan Orang Lain Selalu Berakhir Buruk",
       "summary": "Social media membuat kita membandingkan kehidupan nyata kita dengan highlight reel orang lain. Ini cara keluarnya.",
       "read_time": "4 menit",
+      "image": "img/info/stop-comparing.jpg",
+      "image_alt": "Ilustrasi seseorang berhenti membandingkan diri dengan orang lain di media sosial",
       "tags": ["Mental Health", "Comparison", "Self-Worth"],
       "content": {
         "intro": "Teman sekelas sudah jadi manager di 25. Teman SD sudah punya rumah. Feed LinkedIn penuh dengan orang yang 'terasa' lebih maju. Dan kamu di sini, nanya ke diri sendiri: 'Apa yang salah dengan saya?'",
@@ -312,11 +330,13 @@
       }
     },
     {
-      "id": "art_010",
+      "id": "info_010",
       "category": "motivasi",
       "title": "Cara Bangkit Saat Motivasi Habis",
       "summary": "Motivasi itu tidak stabil — dan tidak bisa diandalkan. Yang lebih kuat adalah sistem dan identitas.",
       "read_time": "5 menit",
+      "image": "img/info/motivation-system.jpg",
+      "image_alt": "Ilustrasi membangun sistem kebiasaan saat motivasi sedang rendah",
       "tags": ["Motivasi", "Disiplin", "Kebiasaan"],
       "content": {
         "intro": "Ada hari-hari di mana kamu bangun tanpa semangat sedikitpun. Tidak mau belajar. Tidak mau apply kerja. Tidak mau apa-apa. Ini normal — dan ini bukan tanda bahwa kamu malas atau tidak serius. Ini tanda bahwa kamu manusia.",
@@ -346,11 +366,13 @@
       }
     },
     {
-      "id": "art_011",
+      "id": "info_011",
       "category": "motivasi",
       "title": "Surat untuk Kamu yang Merasa Terlambat",
       "summary": "Kalau saat ini kamu merasa semua orang sudah maju sementara kamu masih di tempat — ini untuk kamu.",
       "read_time": "3 menit",
+      "image": "img/info/late-bloomer.jpg",
+      "image_alt": "Ilustrasi seseorang yang memulai perjalanan karier meski merasa terlambat",
       "tags": ["Inspirasi", "Late Bloomer", "Perjalanan"],
       "content": {
         "intro": "Mungkin kamu baru lulus tapi teman-teman sudah kerja setahun. Mungkin kamu masih cari arah sementara yang lain sudah tahu mau ke mana. Mungkin kamu baru mulai di bidang baru sementara orang lain sudah jago. Dengarkan dulu.",
@@ -372,11 +394,13 @@
       }
     },
     {
-      "id": "art_012",
+      "id": "info_012",
       "category": "pengembangan_diri",
       "title": "Cara Belajar Lebih Cepat: Teknik yang Didukung Sains",
       "summary": "Bukan soal belajar lebih lama — tapi belajar dengan cara yang sesuai cara otak bekerja.",
       "read_time": "6 menit",
+      "image": "img/info/learning-techniques.jpg",
+      "image_alt": "Ilustrasi teknik belajar efektif dengan catatan dan laptop",
       "tags": ["Belajar", "Produktivitas", "Kognisi"],
       "content": {
         "intro": "Kita semua pernah belajar berjam-jam tapi besoknya lupa hampir semuanya. Bukan karena tidak pintar — tapi karena cara belajarnya tidak efektif. Ilmu kognitif sudah menemukan beberapa prinsip yang secara signifikan meningkatkan retensi dan pemahaman.",
@@ -406,11 +430,13 @@
       }
     },
     {
-      "id": "art_013",
+      "id": "info_013",
       "category": "pengembangan_diri",
       "title": "Kebiasaan Pagi 30 Menit yang Mengubah Hari",
       "summary": "Tidak butuh ritual 2 jam seperti CEO. Tiga kebiasaan sederhana di pagi hari sudah cukup untuk mengubah kualitas harimu.",
       "read_time": "4 menit",
+      "image": "img/info/morning-routine.jpg",
+      "image_alt": "Ilustrasi rutinitas pagi sederhana seperti minum air dan menulis prioritas",
       "tags": ["Morning Routine", "Kebiasaan", "Wellbeing"],
       "content": {
         "intro": "Morning routine yang viral di internet seringkali tidak realistis — bangun jam 4 pagi, meditasi 30 menit, olahraga 1 jam, journaling, cold shower, baca buku... Sebelum pukul 7. Ini bukan untuk semua orang. Tapi ada beberapa hal sederhana yang punya dampak besar.",
@@ -436,11 +462,13 @@
       }
     },
     {
-      "id": "art_014",
+      "id": "info_014",
       "category": "pengembangan_diri",
       "title": "Cara Membangun Fokus di Era Distraksi",
       "summary": "Kemampuan fokus dalam waktu lama adalah superpower yang makin langka — dan bisa dilatih.",
       "read_time": "5 menit",
+      "image": "img/info/deep-focus.jpg",
+      "image_alt": "Ilustrasi seseorang bekerja fokus tanpa distraksi di meja kerja",
       "tags": ["Fokus", "Deep Work", "Produktivitas"],
       "content": {
         "intro": "Cal Newport menyebut ini 'Deep Work' — kemampuan fokus tanpa distraksi pada tugas yang kognitif menantang. Ini adalah skill yang makin langka di era notifikasi tanpa henti, tapi juga makin berharga. Dan seperti otot, bisa dilatih.",
@@ -470,11 +498,13 @@
       }
     },
     {
-      "id": "art_015",
+      "id": "info_015",
       "category": "pengembangan_diri",
       "title": "Mengelola Keuangan di Awal Karier: Yang Harus Kamu Tahu",
       "summary": "Gaji pertama yang dikelola dengan buruk vs dengan benar bisa menghasilkan perbedaan ratusan juta dalam 5 tahun.",
       "read_time": "6 menit",
+      "image": "img/info/early-career-finance.jpg",
+      "image_alt": "Ilustrasi mengatur keuangan dan menabung di awal karier",
       "tags": ["Keuangan", "Menabung", "Investasi"],
       "content": {
         "intro": "Tidak ada yang mengajari kita manajemen keuangan pribadi di sekolah — padahal ini skill yang dampaknya terasa seumur hidup. Di awal karier, kebiasaan keuangan yang kamu bangun sekarang akan compound selama puluhan tahun ke depan.",
@@ -504,11 +534,13 @@
       }
     },
     {
-      "id": "art_016",
+      "id": "info_016",
       "category": "pengembangan_diri",
       "title": "Cara Membangun Kebiasaan yang Benar-Benar Bertahan",
       "summary": "Sebagian besar kebiasaan baru gagal dalam 2 minggu pertama. Ini kenapa — dan cara menghindarinya.",
       "read_time": "5 menit",
+      "image": "img/info/building-habits.jpg",
+      "image_alt": "Ilustrasi membangun kebiasaan kecil yang konsisten setiap hari",
       "tags": ["Kebiasaan", "Konsistensi", "Perubahan"],
       "content": {
         "intro": "Kita semua pernah semangat memulai kebiasaan baru di awal tahun, awal bulan, atau setelah dapat motivasi dari video YouTube — lalu 2 minggu kemudian semuanya sudah kembali seperti semula. Bukan karena tidak niat. Tapi karena cara membangun kebiasaannya salah.",
@@ -534,11 +566,13 @@
       }
     },
     {
-      "id": "art_017",
+      "id": "info_017",
       "category": "pengembangan_diri",
       "title": "Soft Skills yang Lebih Berharga dari Gelar di Dunia Kerja",
       "summary": "Gelar membuka pintu — tapi soft skills yang menentukan seberapa jauh kamu bisa pergi setelah masuk.",
       "read_time": "5 menit",
+      "image": "img/info/soft-skills.jpg",
+      "image_alt": "Ilustrasi soft skills seperti komunikasi dan kerja tim di lingkungan kerja",
       "tags": ["Soft Skills", "Komunikasi", "Karier"],
       "content": {
         "intro": "Survei LinkedIn terhadap rekruter global menemukan bahwa 92% dari mereka menganggap soft skills sama atau lebih penting dari hard skills. Namun di sekolah dan kampus, hampir semua waktu kita habiskan untuk hard skills. Ini ketidakseimbangan yang mahal.",
