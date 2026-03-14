@@ -50,7 +50,6 @@
     <main class="main-content">
         <div class="quiz-main">
  
-            <!-- Step Bar -->
             <div class="step-bar" id="stepBar">
                 <div class="step-bar-item s-active" id="sbi-1">
                     <div class="step-circle">1</div>
@@ -70,7 +69,6 @@
                 </div>
             </div>
  
-            <!-- Step 1: Data Diri -->
             <section class="quiz-step quiz-active" id="step1">
                 <div class="quiz-card">
  
@@ -134,7 +132,6 @@
                 </div>
             </section>
  
-            <!-- Step 2: Minat -->
             <section class="quiz-step" id="step2">
                 <div class="quiz-card">
  
@@ -147,7 +144,6 @@
                         <span>Pilihan minat bidang akan digunakan sebagai salah satu faktor utama dalam menentukan rekomendasi karier yang paling sesuai denganmu.</span>
                     </div>
  
-                    <!-- Diisi dinamis dari jobs.json -->
                     <div class="row g-3" id="fieldGrid"></div>
  
                     <div class="form-nav">
@@ -159,7 +155,6 @@
                 </div>
             </section>
  
-            <!-- Step 3: Skills -->
             <section class="quiz-step" id="step3">
                 <div class="quiz-card">
  
@@ -177,7 +172,6 @@
                         <input type="text" id="searchInput" class="search-input" placeholder="Cari skill..." oninput="filterSkills(this.value)">
                     </div>
  
-                    <!-- Diisi dinamis dari skills.json sesuai minat -->
                     <p class="skill-counter-txt">Skill terpilih: <strong id="selectedCount">0</strong></p>
                     <div class="skills-scroll-area" id="skillsArea"></div>
  
@@ -190,7 +184,6 @@
                 </div>
             </section>
  
-            <!-- Step 4: Preferensi Kerja -->
             <section class="quiz-step" id="step4">
                 <div class="quiz-card">
  

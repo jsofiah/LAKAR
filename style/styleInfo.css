@@ -82,7 +82,7 @@ body {
 .article-category {
     display: inline-flex; align-items: center; gap: 7px;
     padding: 5px 14px; border-radius: 100px;
-    font-size: 10px; font-weight: 800;
+    font-size: .8rem; font-weight: 800;
     letter-spacing: 0.1em; text-transform: uppercase;
     margin-bottom: 18px;
 }
@@ -99,6 +99,22 @@ body {
     margin-bottom: 22px;
 }
 
+.article-image-wrap{
+    width:100%;
+    height:300px;
+    margin-bottom:22px;
+    border-radius: var(--radius-sm);
+    overflow:hidden;
+}
+
+.article-image{
+    width:100%;
+    height:100%;
+    display:block;
+    object-fit:cover;
+    object-position:center;
+}
+
 .article-meta {
     display: flex; flex-wrap: wrap; align-items: center; gap: 14px;
     padding-bottom: 26px;
@@ -107,14 +123,18 @@ body {
 }
 .meta-item {
     display: flex; align-items: center; gap: 6px;
-    font-size: 12px; color: var(--text-muted); font-weight: 500;
+    font-size: .8rem; color: var(--text-muted); font-weight: 500;
 }
 .meta-item i { font-size: 13px; opacity: 0.7; }
 .tag-list { display: flex; flex-wrap: wrap; gap: 6px; margin-left: auto; }
 .tag-chip {
     padding: 4px 11px; border-radius: 100px;
     background: var(--border); color: var(--navy);
-    font-size: 11px; font-weight: 700; letter-spacing: 0.04em;
+    font-size: .8rem; font-weight: 700; letter-spacing: 0.04em;
+}
+
+hr{
+    opacity: 100%;
 }
 
 .article-intro {
@@ -244,25 +264,33 @@ body {
 
 .ticker-wrapper {
     background: var(--gold-light);
-    padding: 13px 0;
+    padding: 14px 0;
     overflow: hidden;
     white-space: nowrap;
-    margin-top: 40px;
 }
 .ticker-track {
     display: inline-flex;
-    animation: ticker-scroll 22s linear infinite;
+    gap: 0;
+    animation: ticker-scroll 20s linear infinite;
 }
-.ticker-track:hover { animation-play-state: paused; }
 .ticker-item {
-    display: inline-flex; align-items: center; gap: 12px;
-    padding: 0 28px;
-    font-size: 13px; font-weight: 800;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 24px;
+    font-size: 1rem;
+    font-weight: 800;
     color: var(--navy);
-    text-transform: uppercase; letter-spacing: 0.08em;
+    text-transform: uppercase;
+    letter-spacing: .06em;
 }
-.ticker-item i { font-size: 0.85rem; opacity: 0.6; }
-@keyframes ticker-scroll { to { transform: translateX(-50%); } }
+.ticker-item i { color: var(--navy); font-size: .9rem; }
+
+@keyframes ticker-scroll {
+    0%     { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+.ticker-wrapper:hover .ticker-track { animation-play-state: paused; }
 
 .footer-main {
     background: var(--navy);
@@ -297,8 +325,9 @@ body {
 }
 .social-btn:hover { background: var(--gold); color: var(--navy); transform: scale(1.1); }
 .footer-divider {
-    border: none; height: 1.5px;
-    background: rgba(255,255,255,.15);
+    border: none;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
     margin: 32px 0 20px;
 }
 .footer-copy { font-size: .8rem; color: rgba(255,255,255,.4); text-align: center; }
