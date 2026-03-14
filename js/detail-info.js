@@ -66,7 +66,7 @@ function renderArticle(article, data) {
             const rc = CAT_CONFIG[r.category] || { label: r.category, icon: '📄', cls: '' };
             return `
                 <a href="detail-info.html?id=${r.id}" class="related-card">
-                <div class="related-card-cat ${rc.cls}">${rc.icon} ${rc.label}</div>
+                <div class="related-card-cat ${rc.cls}">${rc.label}</div>
                 <div class="related-card-title">${r.title}</div>
                 <div class="related-card-meta">
                     <i class="bi bi-clock"></i>
@@ -84,9 +84,13 @@ function renderArticle(article, data) {
         <div class="col-lg-8">
             <div class="article-main">
 
-                <div class="article-category ${cat.cls}">${cat.icon} ${cat.label}</div>
+                <div class="article-category ${cat.cls}">${cat.label}</div>
 
                 <h1 class="article-title">${article.title}</h1>
+                
+                <div class="article-image-wrap">
+                    <img src="${article.image}" alt="${article.image_alt || article.title}" class="article-image">
+                </div>
 
                 <div class="article-meta">
                     <div class="meta-item">
