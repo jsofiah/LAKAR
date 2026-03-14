@@ -80,13 +80,18 @@ function calculateAllStats(data) {
     return { topSkills, topJobs, trendChange, trendDir, currentPct: lastVal };
 }
 
+let lineChartInstance = null;
+
 function renderLineChart() {
-    const ctx = document.getElementById('lineChart').getContext('2d');
-    const gradient = ctx.createLinearGradient(0, 0, 0, 220);
+    const canvas = document.getElementById('lineChart');
+    const ctx = canvas.getContext('2d');
+    const gradient = ctx.createLinearGradient(0, 0, 0, canvas.offsetHeight || 220);
     gradient.addColorStop(0, 'rgba(9,64,116,0.18)');
     gradient.addColorStop(1, 'rgba(9,64,116,0)');
 
-    new Chart(ctx, {
+    if (lineChartInstance) lineChartInstance.destroy();
+
+    lineChartInstance = new Chart(ctx, {
         type: 'line',
         data: {
             labels: trendData.labels,
@@ -106,6 +111,8 @@ function renderLineChart() {
         },
         options: {
             responsive: true,
+            maintainAspectRatio: true,
+            aspectRatio: 3,
             plugins: {
                 legend: { display: false },
                 tooltip: {
@@ -122,15 +129,19 @@ function renderLineChart() {
                 },
                 y: {
                     min: 0,
-                    max: 100,
+                    max: 50,
                     grid: { color: '#f0f0f0', drawBorder: false },
                     border: { display: false, dash: [4, 4] },
-                    ticks: { font: { family: 'Sora', size: 11 }, color: '#6b7280', stepSize: 20, callback: v => v }
+                    ticks: { font: { family: 'Sora', size: 11 }, color: '#6b7280', stepSize: 10, callback: v => v }
                 }
             }
         }
     });
 }
+
+window.addEventListener('resize', () => {
+    if (lineChartInstance) lineChartInstance.resize();
+});
 
 function renderSkillBars(skills) {
     const container = document.getElementById('skillDemandContainer');
@@ -219,7 +230,7 @@ function renderTopJobs(jobs) {
 
 function init(data) {
     const stats = calculateAllStats(data);
-    
+
     const pctEl = document.getElementById('currentPct');
     if (pctEl) pctEl.innerHTML = `${stats.currentPct}<span class="big-pct-unit">%</span>`;
 

@@ -55,12 +55,16 @@ filter:invert(1);
     width:auto;
 }
 
-.navbar-logo-center{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+@media (min-width: 992px) {
+    .navbar-custom .container {
+        position: relative;
+    }
+    .navbar-logo-center {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
-
 
 .page-content {
     max-width: 1200px;
@@ -80,7 +84,7 @@ filter:invert(1);
     margin-bottom: 0.8rem;
 }
 .main-title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 800;
     color: var(--navy);
     line-height: 1.2;
@@ -88,7 +92,7 @@ filter:invert(1);
 .main-title span { color: var(--gold); }
 .main-sub {
     color: var(--text-muted);
-    font-size: 0.95rem;
+    font-size: 1rem;
     margin-top: 0.5rem;
 }
 
@@ -117,13 +121,13 @@ filter:invert(1);
 }
 
 .card-title {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 800;
     color: var(--navy);
     margin-bottom: 0.3rem;
 }
 .card-title-white {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 800;
     color: #fff;
     margin-bottom: 0.3rem;
@@ -188,7 +192,7 @@ canvas#lineChart { width: 100% !important; }
     display: flex;
     justify-content: space-between;
     font-weight: 600;
-    font-size: 0.88rem;
+    font-size: 1rem;
     color: var(--text-dark);
     margin-bottom: 0.25rem;
 }
@@ -218,8 +222,8 @@ canvas#lineChart { width: 100% !important; }
 }
 .sektor-item:last-child { margin-bottom: 0; }
 .sektor-icon { font-size: 1.3rem; flex-shrink: 0; margin-top: 1px;  color: #1a1a2e;}
-.sektor-name { font-weight: 700; font-size: 0.95rem; color: #1a1a2e; }
-.sektor-sub { font-size: 0.78rem; color: #6b7280; margin-top: 1px; }
+.sektor-name { font-weight: 700; font-size: 1rem; color: #1a1a2e; }
+.sektor-sub { font-size: 0.8rem; color: #6b7280; margin-top: 1px; }
 
 .job-row {
     display: flex;
@@ -247,13 +251,13 @@ canvas#lineChart { width: 100% !important; }
 
 .job-info { flex: 1; margin-left: 1rem; }
 .job-title-text {
-    font-size: 0.98rem;
+    font-size: 1rem;
     font-weight: 700;
     color: var(--navy);
     margin-bottom: 2px;
 }
 .job-skills-text {
-    font-size: 0.76rem;
+    font-size: 0.8rem;
     color: var(--text-muted);
     font-weight: 400;
 }
@@ -384,3 +388,46 @@ hr{
 }
 
 .footer-copy { font-size: .8rem; color: rgba(255,255,255,.5); text-align: center; }
+@media (max-width: 991px) {
+    .header-wrapper {
+        margin: 14px;
+        padding: 10px 10px 16px;
+        border-radius: 20px;
+    }
+    .navbar-custom {
+        padding: 12px 0;
+    }
+    .navbar-nav {
+        margin-top: 15px;
+    }
+    .navbar-nav .nav-link {
+        padding: 12px 0;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-wrapper {
+        margin: 10px;
+        padding: 10px;
+        border-radius: 18px;
+    }
+    .navbar-custom {
+        padding: 12px 0;
+    }
+    .navbar-logo {
+        height: 32px;
+    }
+    .footer-main {
+        padding: 40px 0 24px;
+    }
+    .footer-col {
+        margin-bottom: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-logo {
+        height: 28px;
+    }
+}
