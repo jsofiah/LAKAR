@@ -11,16 +11,15 @@ const state = {
 };
 
 const fieldToCatMap = {
-    data_ai:              ['programming', 'data_tools', 'infrastructure', 'ai_emerging'],
-    it_software:          ['programming', 'web_dev', 'infrastructure'],
-    design_creative:      ['design_tools'],
-    healthcare:           ['healthcare_skills'],
-    business_finance:     ['business_skills'],
-    education:            ['business_skills', 'soft_skills'],
-    art_media:            ['design_tools', 'ai_emerging'],
-    green_sustainability: ['business_skills'],
-    teknik_manufaktur:    ['programming', 'business_skills'],
-    engineering_manufacturing: ['programming', 'business_skills', 'soft_skills'],
+    data_ai:          ['programming', 'data_tools', 'infrastructure', 'ai_emerging'],
+    it_software:      ['programming', 'web_dev', 'infrastructure'],
+    design_creative:  ['design_tools'],
+    healthcare:       ['healthcare_skills'],
+    business_finance: ['business_skills'],
+    education:        ['education_skills','business_skills', 'soft_skills'],
+    art_media:        ['design_tools', 'ai_emerging'],
+    green_sustainability: ['green_skills','business_skills'],
+    teknik_manufaktur: ['manufacturing_skills']
 };
 
 const fieldDescMap = {
