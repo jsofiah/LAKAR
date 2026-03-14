@@ -419,6 +419,17 @@ function computeResults() {
     const top3 = scoredJobs.slice(0, 3);
     const roadmap = buildRoadmap(top3);
 
+    const allJobSkills = new Set();
+    state.jobsData.fields.forEach(f =>
+        f.jobs.forEach(j => {
+            (j.required_skills || []).forEach(s => allJobSkills.add(s));
+        })
+    );
+    const userSkillCount = Object.keys(userSkills).length;
+    const overallSkillScore = userSkillCount > 0
+        ? Math.round((userSkillCount / Math.max(allJobSkills.size, 1)) * 100)
+        : 0;
+
     return {
         profile:            state.profile,
         selectedFields:     state.selectedFields,
@@ -426,6 +437,7 @@ function computeResults() {
         preferredCompanies: state.preferredCompanies,
         top3,
         allJobsScored:      scoredJobs,
+        overallSkillScore,
         roadmap,
         generatedAt:        new Date().toISOString(),
         jobsData:           state.jobsData,
