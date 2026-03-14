@@ -122,12 +122,12 @@ body {
 }
 
 .step-circle {
-    width: 36px;
-    height: 36px;
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
     display: grid;
     place-items: center;
-    font-size: .78rem;
+    font-size: 1rem;
     font-weight: 800;
     border: 2px solid var(--lk-border);
     background: var(--lk-white);
@@ -141,6 +141,7 @@ body {
     background: var(--lk-orange);
     border-color: var(--lk-orange);
     color: var(--lk-navy);
+    font-size: 1.4rem;
 }
 
 .step-bar-item.s-active .step-circle {
@@ -251,7 +252,7 @@ body {
 
 .form-lbl {
     display: block;
-    font-size: .72rem;
+    font-size: 1rem;
     font-weight: 700;
     color: var(--lk-navy);
     margin-bottom: .4rem;
@@ -271,7 +272,7 @@ body {
     border-radius: 9px;
     background: #ffffff;
     font-family: var(--lk-font);
-    font-size: .85rem;
+    font-size: 1rem;
     color: var(--lk-navy);
     outline: none;
     transition: border-color .2s, box-shadow .2s;
@@ -294,7 +295,7 @@ body {
 }
 
 .form-hint {
-    font-size: .68rem;
+    font-size: .8rem;
     color: var(--lk-gray2);
     margin-top: .28rem;
 }
@@ -337,14 +338,14 @@ body {
     position: absolute;
     top: .6rem;
     right: .6rem;
-    width: 18px;
-    height: 18px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
-    border: 1.5px solid var(--lk-border);
+    border: 2px solid var(--lk-border);
     background: var(--lk-white);
     display: grid;
     place-items: center;
-    font-size: .6rem;
+    font-size: 1rem;
     color: transparent;
     transition: all .2s;
 }
@@ -501,13 +502,13 @@ body {
 }
 
 .skill-name {
-    font-size: .82rem;
+    font-size: 1rem;
     font-weight: 700;
     color: var(--lk-navy);
 }
 
 .skill-cat {
-    font-size: .66rem;
+    font-size: .8rem;
     color: var(--lk-gray2);
     margin-top: .1rem;
 }
@@ -714,14 +715,14 @@ body {
 }
 
 .pref-name {
-    font-size: .85rem;
+    font-size: 1rem;
     font-weight: 700;
     color: var(--lk-navy);
     margin-bottom: .25rem;
 }
 
 .pref-desc {
-    font-size: .7rem;
+    font-size: .8rem;
     color: var(--lk-gray);
     line-height: 1.5;
     margin-bottom: .65rem;
@@ -1306,4 +1307,110 @@ hr {
     #fieldGrid {
         grid-template-columns: 1fr;
     }
+}
+/* ── Tambahan kuis dinamis ── */
+
+.minat-card input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+}
+
+.minat-ico {
+    min-height: 2rem;
+    margin-bottom: .45rem;
+    display: flex;
+    align-items: center;
+}
+
+.minat-ico i {
+    font-size: 1.6rem;
+    color: var(--lk-navy2);
+    line-height: 1;
+}
+
+.minat-card.sel .minat-ico i {
+    color: var(--lk-orange);
+}
+
+.skill-ico i {
+    font-size: 1.1rem;
+    color: var(--lk-navy2);
+}
+
+.skill-counter-txt {
+    font-size: .85rem;
+    color: var(--lk-gray2);
+    margin-bottom: 1rem;
+}
+
+.skill-counter-txt strong {
+    color: var(--lk-navy);
+}
+
+.skills-scroll-area {
+    max-height: 440px;
+    overflow-y: auto;
+    padding-right: 4px;
+}
+
+.skills-scroll-area::-webkit-scrollbar { width: 4px; }
+.skills-scroll-area::-webkit-scrollbar-thumb { background: var(--lk-border); border-radius: 4px; }
+
+#fieldGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+#fieldGrid .col-md-4 {
+    width: 100% !important;
+    padding: 0 !important;
+    flex: none !important;
+    max-width: none !important;
+}
+
+@media (max-width: 768px) {
+    #fieldGrid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 480px) {
+    #fieldGrid { grid-template-columns: 1fr; }
+}
+
+.loading-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(255,255,255,.88);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .3s;
+    backdrop-filter: blur(4px);
+}
+
+.loading-overlay.show { opacity: 1; pointer-events: all; }
+
+.loading-spinner {
+    width: 44px;
+    height: 44px;
+    border: 3px solid var(--lk-border);
+    border-top-color: var(--lk-navy);
+    border-radius: 50%;
+    animation: spin .8s linear infinite;
+}
+
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.loading-text {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--lk-navy);
 }
