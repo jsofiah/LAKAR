@@ -17,12 +17,37 @@
           "description": "Menganalisis data kompleks untuk menghasilkan insight bisnis menggunakan statistik dan machine learning.",
           "demand_level": "very_high",
           "growth_rate": "36%",
-          "company_types": ["tech_startup", "big_tech", "corporate", "finance", "healthcare"],
-          "required_skills": ["python", "statistics", "machine_learning", "sql", "data_visualization"],
-          "nice_to_have_skills": ["deep_learning", "spark", "tableau", "r"],
+          "company_types": [
+            "tech_startup",
+            "big_tech",
+            "corporate",
+            "finance",
+            "healthcare"
+          ],
+          "required_skills": [
+            "python",
+            "statistics",
+            "machine_learning",
+            "sql",
+            "data_visualization"
+          ],
+          "nice_to_have_skills": [
+            "deep_learning",
+            "spark",
+            "tableau",
+            "r"
+          ],
           "education_level": "S1/S2",
-          "work_type": ["remote", "hybrid", "onsite"],
-          "salary_range": { "min": 8000000, "max": 30000000, "currency": "IDR" }
+          "work_type": [
+            "remote",
+            "hybrid",
+            "onsite"
+          ],
+          "salary_range": {
+            "min": 8000000,
+            "max": 30000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "ml_engineer",
@@ -30,12 +55,35 @@
           "description": "Membangun dan mendeploy model ML ke production environment.",
           "demand_level": "very_high",
           "growth_rate": "163%",
-          "company_types": ["big_tech", "tech_startup", "corporate", "finance"],
-          "required_skills": ["python", "machine_learning", "deep_learning", "mlops", "cloud"],
-          "nice_to_have_skills": ["pytorch", "tensorflow", "kubernetes", "docker"],
+          "company_types": [
+            "big_tech",
+            "tech_startup",
+            "corporate",
+            "finance"
+          ],
+          "required_skills": [
+            "python",
+            "machine_learning",
+            "deep_learning",
+            "mlops",
+            "cloud"
+          ],
+          "nice_to_have_skills": [
+            "pytorch",
+            "tensorflow",
+            "kubernetes",
+            "docker"
+          ],
           "education_level": "S1/S2",
-          "work_type": ["remote", "hybrid"],
-          "salary_range": { "min": 12000000, "max": 45000000, "currency": "IDR" }
+          "work_type": [
+            "remote",
+            "hybrid"
+          ],
+          "salary_range": {
+            "min": 12000000,
+            "max": 45000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "ai_engineer",
@@ -43,12 +91,33 @@
           "description": "Mengembangkan aplikasi berbasis AI seperti chatbot, sistem rekomendasi, dan computer vision.",
           "demand_level": "very_high",
           "growth_rate": "163%",
-          "company_types": ["big_tech", "tech_startup", "corporate"],
-          "required_skills": ["python", "llm", "prompt_engineering", "api_integration", "machine_learning"],
-          "nice_to_have_skills": ["langchain", "vector_database", "fine_tuning"],
+          "company_types": [
+            "big_tech",
+            "tech_startup",
+            "corporate"
+          ],
+          "required_skills": [
+            "python",
+            "llm",
+            "prompt_engineering",
+            "api_integration",
+            "machine_learning"
+          ],
+          "nice_to_have_skills": [
+            "langchain",
+            "vector_database",
+            "fine_tuning"
+          ],
           "education_level": "S1",
-          "work_type": ["remote", "hybrid"],
-          "salary_range": { "min": 15000000, "max": 50000000, "currency": "IDR" }
+          "work_type": [
+            "remote",
+            "hybrid"
+          ],
+          "salary_range": {
+            "min": 15000000,
+            "max": 50000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "data_analyst",
@@ -56,12 +125,37 @@
           "description": "Mengolah dan menginterpretasi data untuk mendukung pengambilan keputusan bisnis.",
           "demand_level": "high",
           "growth_rate": "23%",
-          "company_types": ["corporate", "tech_startup", "finance", "retail", "government"],
-          "required_skills": ["sql", "excel", "data_visualization", "statistics", "python"],
-          "nice_to_have_skills": ["tableau", "power_bi", "looker", "r"],
+          "company_types": [
+            "corporate",
+            "tech_startup",
+            "finance",
+            "retail",
+            "government"
+          ],
+          "required_skills": [
+            "sql",
+            "excel",
+            "data_visualization",
+            "statistics",
+            "python"
+          ],
+          "nice_to_have_skills": [
+            "tableau",
+            "power_bi",
+            "looker",
+            "r"
+          ],
           "education_level": "S1",
-          "work_type": ["hybrid", "onsite", "remote"],
-          "salary_range": { "min": 6000000, "max": 20000000, "currency": "IDR" }
+          "work_type": [
+            "hybrid",
+            "onsite",
+            "remote"
+          ],
+          "salary_range": {
+            "min": 6000000,
+            "max": 20000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "data_engineer",
@@ -69,12 +163,35 @@
           "description": "Membangun dan mengelola infrastruktur pipeline data skala besar.",
           "demand_level": "very_high",
           "growth_rate": "40%",
-          "company_types": ["big_tech", "corporate", "finance", "tech_startup"],
-          "required_skills": ["sql", "python", "etl", "cloud", "spark"],
-          "nice_to_have_skills": ["airflow", "kafka", "dbt", "snowflake"],
+          "company_types": [
+            "big_tech",
+            "corporate",
+            "finance",
+            "tech_startup"
+          ],
+          "required_skills": [
+            "sql",
+            "python",
+            "etl",
+            "cloud",
+            "spark"
+          ],
+          "nice_to_have_skills": [
+            "airflow",
+            "kafka",
+            "dbt",
+            "snowflake"
+          ],
           "education_level": "S1",
-          "work_type": ["remote", "hybrid"],
-          "salary_range": { "min": 10000000, "max": 35000000, "currency": "IDR" }
+          "work_type": [
+            "remote",
+            "hybrid"
+          ],
+          "salary_range": {
+            "min": 10000000,
+            "max": 35000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "ai_ethics_consultant",
@@ -82,12 +199,34 @@
           "description": "Memastikan penerapan AI yang bertanggung jawab, transparan, dan tidak bias.",
           "demand_level": "medium",
           "growth_rate": "emerging",
-          "company_types": ["big_tech", "corporate", "government", "ngo"],
-          "required_skills": ["ai_literacy", "ethics", "policy", "risk_assessment", "communication"],
-          "nice_to_have_skills": ["machine_learning", "law", "sociology"],
+          "company_types": [
+            "big_tech",
+            "corporate",
+            "government",
+            "ngo"
+          ],
+          "required_skills": [
+            "ai_literacy",
+            "ethics",
+            "policy",
+            "risk_assessment",
+            "communication"
+          ],
+          "nice_to_have_skills": [
+            "machine_learning",
+            "law",
+            "sociology"
+          ],
           "education_level": "S1/S2",
-          "work_type": ["hybrid", "remote"],
-          "salary_range": { "min": 10000000, "max": 30000000, "currency": "IDR" }
+          "work_type": [
+            "hybrid",
+            "remote"
+          ],
+          "salary_range": {
+            "min": 10000000,
+            "max": 30000000,
+            "currency": "IDR"
+          }
         }
       ]
     },
@@ -102,12 +241,37 @@
           "description": "Mengembangkan aplikasi web dari sisi frontend maupun backend.",
           "demand_level": "very_high",
           "growth_rate": "17%",
-          "company_types": ["tech_startup", "agency", "corporate", "big_tech", "freelance"],
-          "required_skills": ["javascript", "react", "nodejs", "sql", "git"],
-          "nice_to_have_skills": ["typescript", "nextjs", "docker", "aws"],
+          "company_types": [
+            "tech_startup",
+            "agency",
+            "corporate",
+            "big_tech",
+            "freelance"
+          ],
+          "required_skills": [
+            "javascript",
+            "react",
+            "nodejs",
+            "sql",
+            "git"
+          ],
+          "nice_to_have_skills": [
+            "typescript",
+            "nextjs",
+            "docker",
+            "aws"
+          ],
           "education_level": "D3/S1 atau otodidak",
-          "work_type": ["remote", "hybrid", "onsite"],
-          "salary_range": { "min": 8000000, "max": 35000000, "currency": "IDR" }
+          "work_type": [
+            "remote",
+            "hybrid",
+            "onsite"
+          ],
+          "salary_range": {
+            "min": 8000000,
+            "max": 35000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "mobile_developer",
@@ -115,12 +279,35 @@
           "description": "Membangun aplikasi mobile untuk platform Android dan/atau iOS.",
           "demand_level": "high",
           "growth_rate": "20%",
-          "company_types": ["tech_startup", "corporate", "big_tech", "agency"],
-          "required_skills": ["flutter", "react_native", "dart", "mobile_ui", "api_integration"],
-          "nice_to_have_skills": ["kotlin", "swift", "firebase", "app_store_optimization"],
+          "company_types": [
+            "tech_startup",
+            "corporate",
+            "big_tech",
+            "agency"
+          ],
+          "required_skills": [
+            "flutter",
+            "react_native",
+            "dart",
+            "mobile_ui",
+            "api_integration"
+          ],
+          "nice_to_have_skills": [
+            "kotlin",
+            "swift",
+            "firebase",
+            "app_store_optimization"
+          ],
           "education_level": "D3/S1 atau otodidak",
-          "work_type": ["remote", "hybrid"],
-          "salary_range": { "min": 8000000, "max": 30000000, "currency": "IDR" }
+          "work_type": [
+            "remote",
+            "hybrid"
+          ],
+          "salary_range": {
+            "min": 8000000,
+            "max": 30000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "cybersecurity_engineer",
@@ -128,12 +315,36 @@
           "description": "Melindungi sistem dan jaringan dari ancaman siber dan serangan digital.",
           "demand_level": "very_high",
           "growth_rate": "124%",
-          "company_types": ["corporate", "finance", "government", "big_tech", "consultancy"],
-          "required_skills": ["network_security", "penetration_testing", "siem", "cloud_security", "linux"],
-          "nice_to_have_skills": ["ethical_hacking", "digital_forensics", "iso27001", "ceh"],
+          "company_types": [
+            "corporate",
+            "finance",
+            "government",
+            "big_tech",
+            "consultancy"
+          ],
+          "required_skills": [
+            "network_security",
+            "penetration_testing",
+            "siem",
+            "cloud_security",
+            "linux"
+          ],
+          "nice_to_have_skills": [
+            "ethical_hacking",
+            "digital_forensics",
+            "iso27001",
+            "ceh"
+          ],
           "education_level": "S1",
-          "work_type": ["hybrid", "onsite"],
-          "salary_range": { "min": 10000000, "max": 40000000, "currency": "IDR" }
+          "work_type": [
+            "hybrid",
+            "onsite"
+          ],
+          "salary_range": {
+            "min": 10000000,
+            "max": 40000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "cloud_engineer",
@@ -141,12 +352,35 @@
           "description": "Merancang, membangun, dan mengelola infrastruktur cloud untuk organisasi.",
           "demand_level": "very_high",
           "growth_rate": "28%",
-          "company_types": ["big_tech", "corporate", "finance", "tech_startup"],
-          "required_skills": ["aws", "cloud_architecture", "linux", "networking", "devops"],
-          "nice_to_have_skills": ["gcp", "azure", "terraform", "kubernetes"],
+          "company_types": [
+            "big_tech",
+            "corporate",
+            "finance",
+            "tech_startup"
+          ],
+          "required_skills": [
+            "aws",
+            "cloud_architecture",
+            "linux",
+            "networking",
+            "devops"
+          ],
+          "nice_to_have_skills": [
+            "gcp",
+            "azure",
+            "terraform",
+            "kubernetes"
+          ],
           "education_level": "S1",
-          "work_type": ["remote", "hybrid"],
-          "salary_range": { "min": 12000000, "max": 40000000, "currency": "IDR" }
+          "work_type": [
+            "remote",
+            "hybrid"
+          ],
+          "salary_range": {
+            "min": 12000000,
+            "max": 40000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "devops_engineer",
@@ -154,12 +388,34 @@
           "description": "Menjembatani development dan operations untuk mempercepat deployment software.",
           "demand_level": "high",
           "growth_rate": "22%",
-          "company_types": ["big_tech", "tech_startup", "corporate"],
-          "required_skills": ["docker", "kubernetes", "ci_cd", "linux", "cloud"],
-          "nice_to_have_skills": ["ansible", "terraform", "monitoring", "scripting"],
+          "company_types": [
+            "big_tech",
+            "tech_startup",
+            "corporate"
+          ],
+          "required_skills": [
+            "docker",
+            "kubernetes",
+            "ci_cd",
+            "linux",
+            "cloud"
+          ],
+          "nice_to_have_skills": [
+            "ansible",
+            "terraform",
+            "monitoring",
+            "scripting"
+          ],
           "education_level": "S1",
-          "work_type": ["remote", "hybrid"],
-          "salary_range": { "min": 10000000, "max": 35000000, "currency": "IDR" }
+          "work_type": [
+            "remote",
+            "hybrid"
+          ],
+          "salary_range": {
+            "min": 10000000,
+            "max": 35000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "backend_developer",
@@ -167,12 +423,35 @@
           "description": "Membangun logika server, API, dan manajemen database untuk aplikasi.",
           "demand_level": "high",
           "growth_rate": "17%",
-          "company_types": ["tech_startup", "corporate", "big_tech", "agency"],
-          "required_skills": ["python", "nodejs", "sql", "api_design", "git"],
-          "nice_to_have_skills": ["golang", "microservices", "redis", "docker"],
+          "company_types": [
+            "tech_startup",
+            "corporate",
+            "big_tech",
+            "agency"
+          ],
+          "required_skills": [
+            "python",
+            "nodejs",
+            "sql",
+            "api_design",
+            "git"
+          ],
+          "nice_to_have_skills": [
+            "golang",
+            "microservices",
+            "redis",
+            "docker"
+          ],
           "education_level": "D3/S1 atau otodidak",
-          "work_type": ["remote", "hybrid"],
-          "salary_range": { "min": 7000000, "max": 30000000, "currency": "IDR" }
+          "work_type": [
+            "remote",
+            "hybrid"
+          ],
+          "salary_range": {
+            "min": 7000000,
+            "max": 30000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "network_architect",
@@ -180,12 +459,35 @@
           "description": "Merancang dan mengoptimalkan sistem jaringan komunikasi data organisasi.",
           "demand_level": "high",
           "growth_rate": "13%",
-          "company_types": ["corporate", "government", "telecom", "finance"],
-          "required_skills": ["networking", "cisco", "cloud_networking", "security", "wan_lan"],
-          "nice_to_have_skills": ["sd_wan", "ccnp", "cloud", "vpn"],
+          "company_types": [
+            "corporate",
+            "government",
+            "telecom",
+            "finance"
+          ],
+          "required_skills": [
+            "networking",
+            "cisco",
+            "cloud_networking",
+            "security",
+            "wan_lan"
+          ],
+          "nice_to_have_skills": [
+            "sd_wan",
+            "ccnp",
+            "cloud",
+            "vpn"
+          ],
           "education_level": "S1",
-          "work_type": ["hybrid", "onsite"],
-          "salary_range": { "min": 12000000, "max": 40000000, "currency": "IDR" }
+          "work_type": [
+            "hybrid",
+            "onsite"
+          ],
+          "salary_range": {
+            "min": 12000000,
+            "max": 40000000,
+            "currency": "IDR"
+          }
         }
       ]
     },
@@ -200,12 +502,36 @@
           "description": "Merancang pengalaman dan antarmuka pengguna yang intuitif dan menarik.",
           "demand_level": "very_high",
           "growth_rate": "23%",
-          "company_types": ["tech_startup", "agency", "corporate", "big_tech", "freelance"],
-          "required_skills": ["figma", "user_research", "wireframing", "prototyping", "design_thinking"],
-          "nice_to_have_skills": ["motion_design", "usability_testing", "html_css", "adobe_xd"],
+          "company_types": [
+            "tech_startup",
+            "agency",
+            "corporate",
+            "big_tech",
+            "freelance"
+          ],
+          "required_skills": [
+            "figma",
+            "user_research",
+            "wireframing",
+            "prototyping",
+            "design_thinking"
+          ],
+          "nice_to_have_skills": [
+            "motion_design",
+            "usability_testing",
+            "html_css",
+            "adobe_xd"
+          ],
           "education_level": "D3/S1 atau portofolio",
-          "work_type": ["remote", "hybrid"],
-          "salary_range": { "min": 6000000, "max": 25000000, "currency": "IDR" }
+          "work_type": [
+            "remote",
+            "hybrid"
+          ],
+          "salary_range": {
+            "min": 6000000,
+            "max": 25000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "product_designer",
@@ -213,12 +539,33 @@
           "description": "Mendesain produk digital secara end-to-end dari konsep hingga implementasi.",
           "demand_level": "high",
           "growth_rate": "20%",
-          "company_types": ["tech_startup", "big_tech", "corporate"],
-          "required_skills": ["figma", "product_thinking", "user_research", "prototyping", "design_system"],
-          "nice_to_have_skills": ["motion_design", "data_analysis", "front_end_basics"],
+          "company_types": [
+            "tech_startup",
+            "big_tech",
+            "corporate"
+          ],
+          "required_skills": [
+            "figma",
+            "product_thinking",
+            "user_research",
+            "prototyping",
+            "design_system"
+          ],
+          "nice_to_have_skills": [
+            "motion_design",
+            "data_analysis",
+            "front_end_basics"
+          ],
           "education_level": "S1 atau portofolio",
-          "work_type": ["remote", "hybrid"],
-          "salary_range": { "min": 10000000, "max": 30000000, "currency": "IDR" }
+          "work_type": [
+            "remote",
+            "hybrid"
+          ],
+          "salary_range": {
+            "min": 10000000,
+            "max": 30000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "graphic_designer",
@@ -226,12 +573,37 @@
           "description": "Menciptakan materi visual untuk kebutuhan branding, pemasaran, dan komunikasi.",
           "demand_level": "medium",
           "growth_rate": "3%",
-          "company_types": ["agency", "corporate", "media", "freelance", "ngo"],
-          "required_skills": ["adobe_illustrator", "adobe_photoshop", "typography", "branding", "layout"],
-          "nice_to_have_skills": ["motion_graphics", "figma", "3d_design", "photography"],
+          "company_types": [
+            "agency",
+            "corporate",
+            "media",
+            "freelance",
+            "ngo"
+          ],
+          "required_skills": [
+            "adobe_illustrator",
+            "adobe_photoshop",
+            "typography",
+            "branding",
+            "layout"
+          ],
+          "nice_to_have_skills": [
+            "motion_graphics",
+            "figma",
+            "3d_design",
+            "photography"
+          ],
           "education_level": "D3/S1 atau portofolio",
-          "work_type": ["freelance", "hybrid", "remote"],
-          "salary_range": { "min": 4000000, "max": 18000000, "currency": "IDR" }
+          "work_type": [
+            "freelance",
+            "hybrid",
+            "remote"
+          ],
+          "salary_range": {
+            "min": 4000000,
+            "max": 18000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "motion_designer",
@@ -239,12 +611,37 @@
           "description": "Membuat animasi dan grafis bergerak untuk konten digital, iklan, dan video.",
           "demand_level": "high",
           "growth_rate": "15%",
-          "company_types": ["agency", "media", "tech_startup", "freelance", "entertainment"],
-          "required_skills": ["after_effects", "motion_design", "animation_principles", "adobe_premiere", "storytelling"],
-          "nice_to_have_skills": ["cinema4d", "3d_animation", "blender", "lottie"],
+          "company_types": [
+            "agency",
+            "media",
+            "tech_startup",
+            "freelance",
+            "entertainment"
+          ],
+          "required_skills": [
+            "after_effects",
+            "motion_design",
+            "animation_principles",
+            "adobe_premiere",
+            "storytelling"
+          ],
+          "nice_to_have_skills": [
+            "cinema4d",
+            "3d_animation",
+            "blender",
+            "lottie"
+          ],
           "education_level": "D3/S1 atau portofolio",
-          "work_type": ["freelance", "hybrid", "remote"],
-          "salary_range": { "min": 5000000, "max": 22000000, "currency": "IDR" }
+          "work_type": [
+            "freelance",
+            "hybrid",
+            "remote"
+          ],
+          "salary_range": {
+            "min": 5000000,
+            "max": 22000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "ar_vr_developer",
@@ -252,12 +649,36 @@
           "description": "Mengembangkan pengalaman augmented reality dan virtual reality yang immersive.",
           "demand_level": "high",
           "growth_rate": "emerging",
-          "company_types": ["tech_startup", "gaming", "big_tech", "education", "healthcare"],
-          "required_skills": ["unity", "unreal_engine", "3d_modeling", "c_sharp", "spatial_design"],
-          "nice_to_have_skills": ["blender", "arkit", "arcore", "xr_development"],
+          "company_types": [
+            "tech_startup",
+            "gaming",
+            "big_tech",
+            "education",
+            "healthcare"
+          ],
+          "required_skills": [
+            "unity",
+            "unreal_engine",
+            "3d_modeling",
+            "c_sharp",
+            "spatial_design"
+          ],
+          "nice_to_have_skills": [
+            "blender",
+            "arkit",
+            "arcore",
+            "xr_development"
+          ],
           "education_level": "S1 atau portofolio",
-          "work_type": ["hybrid", "remote"],
-          "salary_range": { "min": 10000000, "max": 35000000, "currency": "IDR" }
+          "work_type": [
+            "hybrid",
+            "remote"
+          ],
+          "salary_range": {
+            "min": 10000000,
+            "max": 35000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "content_creator",
@@ -265,12 +686,37 @@
           "description": "Membuat konten digital yang menarik untuk platform media sosial dan digital.",
           "demand_level": "high",
           "growth_rate": "25%",
-          "company_types": ["media", "agency", "freelance", "corporate", "entertainment"],
-          "required_skills": ["video_editing", "storytelling", "social_media", "photography", "scriptwriting"],
-          "nice_to_have_skills": ["seo", "analytics", "motion_graphics", "copywriting"],
+          "company_types": [
+            "media",
+            "agency",
+            "freelance",
+            "corporate",
+            "entertainment"
+          ],
+          "required_skills": [
+            "video_editing",
+            "storytelling",
+            "social_media",
+            "photography",
+            "scriptwriting"
+          ],
+          "nice_to_have_skills": [
+            "seo",
+            "analytics",
+            "motion_graphics",
+            "copywriting"
+          ],
           "education_level": "Tidak wajib (portofolio)",
-          "work_type": ["freelance", "remote", "hybrid"],
-          "salary_range": { "min": 3000000, "max": 30000000, "currency": "IDR" }
+          "work_type": [
+            "freelance",
+            "remote",
+            "hybrid"
+          ],
+          "salary_range": {
+            "min": 3000000,
+            "max": 30000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "design_system_designer",
@@ -278,12 +724,32 @@
           "description": "Mengembangkan dan memelihara design system agar konsisten di seluruh produk digital.",
           "demand_level": "high",
           "growth_rate": "emerging",
-          "company_types": ["big_tech", "tech_startup", "corporate"],
-          "required_skills": ["figma", "design_system", "ui_design", "component_based_design"],
-          "nice_to_have_skills": ["front_end_basics", "accessibility", "product_thinking"],
+          "company_types": [
+            "big_tech",
+            "tech_startup",
+            "corporate"
+          ],
+          "required_skills": [
+            "figma",
+            "design_system",
+            "ui_design",
+            "component_based_design"
+          ],
+          "nice_to_have_skills": [
+            "front_end_basics",
+            "accessibility",
+            "product_thinking"
+          ],
           "education_level": "S1 atau portofolio kuat",
-          "work_type": ["remote", "hybrid"],
-          "salary_range": { "min": 12000000, "max": 35000000, "currency": "IDR" }
+          "work_type": [
+            "remote",
+            "hybrid"
+          ],
+          "salary_range": {
+            "min": 12000000,
+            "max": 35000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "social_media_designer",
@@ -291,12 +757,34 @@
           "description": "Mendesain konten visual untuk kebutuhan media sosial brand atau personal branding.",
           "demand_level": "very_high",
           "growth_rate": "22%",
-          "company_types": ["agency", "corporate", "startup", "freelance"],
-          "required_skills": ["canva", "branding", "content_marketing", "adobe_photoshop"],
-          "nice_to_have_skills": ["motion_design", "seo_sem", "analytics"],
+          "company_types": [
+            "agency",
+            "corporate",
+            "startup",
+            "freelance"
+          ],
+          "required_skills": [
+            "canva",
+            "branding",
+            "content_marketing",
+            "adobe_photoshop"
+          ],
+          "nice_to_have_skills": [
+            "motion_design",
+            "seo_sem",
+            "analytics"
+          ],
           "education_level": "Tidak wajib (portofolio)",
-          "work_type": ["remote", "freelance", "hybrid"],
-          "salary_range": { "min": 3500000, "max": 18000000, "currency": "IDR" }
+          "work_type": [
+            "remote",
+            "freelance",
+            "hybrid"
+          ],
+          "salary_range": {
+            "min": 3500000,
+            "max": 18000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "3d_artist",
@@ -304,12 +792,34 @@
           "description": "Membuat model, tekstur, dan render 3D untuk kebutuhan game, animasi, dan visualisasi.",
           "demand_level": "high",
           "growth_rate": "emerging",
-          "company_types": ["gaming", "entertainment", "agency", "tech_startup"],
-          "required_skills": ["blender", "3d_modeling", "texturing", "rendering"],
-          "nice_to_have_skills": ["unity", "animation_principles", "substance_painter"],
+          "company_types": [
+            "gaming",
+            "entertainment",
+            "agency",
+            "tech_startup"
+          ],
+          "required_skills": [
+            "blender",
+            "3d_modeling",
+            "texturing",
+            "rendering"
+          ],
+          "nice_to_have_skills": [
+            "unity",
+            "animation_principles",
+            "substance_painter"
+          ],
           "education_level": "D3/S1 atau portofolio",
-          "work_type": ["remote", "freelance", "hybrid"],
-          "salary_range": { "min": 6000000, "max": 30000000, "currency": "IDR" }
+          "work_type": [
+            "remote",
+            "freelance",
+            "hybrid"
+          ],
+          "salary_range": {
+            "min": 6000000,
+            "max": 30000000,
+            "currency": "IDR"
+          }
         }
       ]
     },
@@ -324,12 +834,34 @@
           "description": "Memberikan perawatan langsung kepada pasien dan mendukung dokter dalam prosedur medis.",
           "demand_level": "very_high",
           "growth_rate": "6%",
-          "company_types": ["hospital", "clinic", "government", "ngo"],
-          "required_skills": ["patient_care", "clinical_skills", "medical_knowledge", "empathy", "documentation"],
-          "nice_to_have_skills": ["icu_skills", "wound_care", "telemedicine", "medical_software"],
+          "company_types": [
+            "hospital",
+            "clinic",
+            "government",
+            "ngo"
+          ],
+          "required_skills": [
+            "patient_care",
+            "clinical_skills",
+            "medical_knowledge",
+            "empathy",
+            "documentation"
+          ],
+          "nice_to_have_skills": [
+            "icu_skills",
+            "wound_care",
+            "telemedicine",
+            "medical_software"
+          ],
           "education_level": "D3/S1 Keperawatan + STR",
-          "work_type": ["onsite"],
-          "salary_range": { "min": 3500000, "max": 15000000, "currency": "IDR" }
+          "work_type": [
+            "onsite"
+          ],
+          "salary_range": {
+            "min": 3500000,
+            "max": 15000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "doctor",
@@ -337,12 +869,33 @@
           "description": "Mendiagnosis dan mengobati penyakit serta memberikan saran kesehatan kepada pasien.",
           "demand_level": "very_high",
           "growth_rate": "3%",
-          "company_types": ["hospital", "clinic", "government", "private_practice"],
-          "required_skills": ["medical_diagnosis", "clinical_procedures", "patient_communication", "medical_knowledge", "ethics"],
-          "nice_to_have_skills": ["telemedicine", "research", "healthcare_management"],
+          "company_types": [
+            "hospital",
+            "clinic",
+            "government",
+            "private_practice"
+          ],
+          "required_skills": [
+            "medical_diagnosis",
+            "clinical_procedures",
+            "patient_communication",
+            "medical_knowledge",
+            "ethics"
+          ],
+          "nice_to_have_skills": [
+            "telemedicine",
+            "research",
+            "healthcare_management"
+          ],
           "education_level": "Profesi Dokter + Spesialis",
-          "work_type": ["onsite"],
-          "salary_range": { "min": 10000000, "max": 80000000, "currency": "IDR" }
+          "work_type": [
+            "onsite"
+          ],
+          "salary_range": {
+            "min": 10000000,
+            "max": 80000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "health_informatics",
@@ -350,12 +903,35 @@
           "description": "Mengelola sistem informasi kesehatan dan mengintegrasikan teknologi dalam layanan medis.",
           "demand_level": "high",
           "growth_rate": "17%",
-          "company_types": ["hospital", "government", "tech_startup", "corporate"],
-          "required_skills": ["health_information_systems", "data_analysis", "hl7_fhir", "database", "project_management"],
-          "nice_to_have_skills": ["ai_in_healthcare", "ehr_systems", "sql", "interoperability"],
+          "company_types": [
+            "hospital",
+            "government",
+            "tech_startup",
+            "corporate"
+          ],
+          "required_skills": [
+            "health_information_systems",
+            "data_analysis",
+            "hl7_fhir",
+            "database",
+            "project_management"
+          ],
+          "nice_to_have_skills": [
+            "ai_in_healthcare",
+            "ehr_systems",
+            "sql",
+            "interoperability"
+          ],
           "education_level": "S1/S2",
-          "work_type": ["hybrid", "onsite"],
-          "salary_range": { "min": 7000000, "max": 25000000, "currency": "IDR" }
+          "work_type": [
+            "hybrid",
+            "onsite"
+          ],
+          "salary_range": {
+            "min": 7000000,
+            "max": 25000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "medical_researcher",
@@ -363,12 +939,35 @@
           "description": "Melakukan penelitian ilmiah untuk mengembangkan pengobatan, vaksin, dan teknologi medis baru.",
           "demand_level": "high",
           "growth_rate": "10%",
-          "company_types": ["research_institution", "university", "pharmaceutical", "government"],
-          "required_skills": ["research_methodology", "data_analysis", "laboratory_skills", "scientific_writing", "statistics"],
-          "nice_to_have_skills": ["bioinformatics", "clinical_trials", "grant_writing", "r"],
+          "company_types": [
+            "research_institution",
+            "university",
+            "pharmaceutical",
+            "government"
+          ],
+          "required_skills": [
+            "research_methodology",
+            "data_analysis",
+            "laboratory_skills",
+            "scientific_writing",
+            "statistics"
+          ],
+          "nice_to_have_skills": [
+            "bioinformatics",
+            "clinical_trials",
+            "grant_writing",
+            "r"
+          ],
           "education_level": "S2/S3",
-          "work_type": ["onsite", "hybrid"],
-          "salary_range": { "min": 6000000, "max": 25000000, "currency": "IDR" }
+          "work_type": [
+            "onsite",
+            "hybrid"
+          ],
+          "salary_range": {
+            "min": 6000000,
+            "max": 25000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "mental_health_counselor",
@@ -376,12 +975,38 @@
           "description": "Memberikan dukungan psikologis dan terapi kepada individu yang mengalami gangguan mental.",
           "demand_level": "high",
           "growth_rate": "18%",
-          "company_types": ["clinic", "hospital", "ngo", "corporate", "private_practice", "education"],
-          "required_skills": ["counseling", "psychology", "empathy", "active_listening", "assessment"],
-          "nice_to_have_skills": ["cbt", "trauma_therapy", "teletherapy", "group_therapy"],
+          "company_types": [
+            "clinic",
+            "hospital",
+            "ngo",
+            "corporate",
+            "private_practice",
+            "education"
+          ],
+          "required_skills": [
+            "counseling",
+            "psychology",
+            "empathy",
+            "active_listening",
+            "assessment"
+          ],
+          "nice_to_have_skills": [
+            "cbt",
+            "trauma_therapy",
+            "teletherapy",
+            "group_therapy"
+          ],
           "education_level": "S1/S2 Psikologi + Sertifikasi",
-          "work_type": ["hybrid", "onsite", "remote"],
-          "salary_range": { "min": 5000000, "max": 20000000, "currency": "IDR" }
+          "work_type": [
+            "hybrid",
+            "onsite",
+            "remote"
+          ],
+          "salary_range": {
+            "min": 5000000,
+            "max": 20000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "pharmacist",
@@ -389,12 +1014,34 @@
           "description": "Mengelola dan mendistribusikan obat serta memberikan konsultasi farmasi kepada pasien.",
           "demand_level": "high",
           "growth_rate": "3%",
-          "company_types": ["hospital", "clinic", "pharmacy", "pharmaceutical", "government"],
-          "required_skills": ["pharmacology", "drug_dispensing", "patient_counseling", "drug_interaction", "regulation"],
-          "nice_to_have_skills": ["clinical_pharmacy", "pharmaceutical_research", "inventory_management"],
+          "company_types": [
+            "hospital",
+            "clinic",
+            "pharmacy",
+            "pharmaceutical",
+            "government"
+          ],
+          "required_skills": [
+            "pharmacology",
+            "drug_dispensing",
+            "patient_counseling",
+            "drug_interaction",
+            "regulation"
+          ],
+          "nice_to_have_skills": [
+            "clinical_pharmacy",
+            "pharmaceutical_research",
+            "inventory_management"
+          ],
           "education_level": "S1 Farmasi + Apoteker",
-          "work_type": ["onsite"],
-          "salary_range": { "min": 5000000, "max": 20000000, "currency": "IDR" }
+          "work_type": [
+            "onsite"
+          ],
+          "salary_range": {
+            "min": 5000000,
+            "max": 20000000,
+            "currency": "IDR"
+          }
         }
       ]
     },
@@ -409,12 +1056,34 @@
           "description": "Menentukan visi produk digital dan memimpin tim lintas fungsi untuk mewujudkannya.",
           "demand_level": "very_high",
           "growth_rate": "19%",
-          "company_types": ["tech_startup", "big_tech", "corporate"],
-          "required_skills": ["product_strategy", "data_analysis", "stakeholder_management", "agile", "user_research"],
-          "nice_to_have_skills": ["sql", "a_b_testing", "roadmapping", "ux_basics"],
+          "company_types": [
+            "tech_startup",
+            "big_tech",
+            "corporate"
+          ],
+          "required_skills": [
+            "product_strategy",
+            "data_analysis",
+            "stakeholder_management",
+            "agile",
+            "user_research"
+          ],
+          "nice_to_have_skills": [
+            "sql",
+            "a_b_testing",
+            "roadmapping",
+            "ux_basics"
+          ],
           "education_level": "S1 (berbagai jurusan)",
-          "work_type": ["hybrid", "remote"],
-          "salary_range": { "min": 12000000, "max": 40000000, "currency": "IDR" }
+          "work_type": [
+            "hybrid",
+            "remote"
+          ],
+          "salary_range": {
+            "min": 12000000,
+            "max": 40000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "financial_analyst",
@@ -422,12 +1091,35 @@
           "description": "Menganalisis data keuangan untuk mendukung keputusan investasi dan strategi bisnis.",
           "demand_level": "high",
           "growth_rate": "9%",
-          "company_types": ["finance", "corporate", "investment", "consulting"],
-          "required_skills": ["financial_modeling", "excel", "accounting", "data_analysis", "reporting"],
-          "nice_to_have_skills": ["bloomberg", "python", "power_bi", "cfa"],
+          "company_types": [
+            "finance",
+            "corporate",
+            "investment",
+            "consulting"
+          ],
+          "required_skills": [
+            "financial_modeling",
+            "excel",
+            "accounting",
+            "data_analysis",
+            "reporting"
+          ],
+          "nice_to_have_skills": [
+            "bloomberg",
+            "python",
+            "power_bi",
+            "cfa"
+          ],
           "education_level": "S1 Akuntansi/Keuangan",
-          "work_type": ["hybrid", "onsite"],
-          "salary_range": { "min": 7000000, "max": 25000000, "currency": "IDR" }
+          "work_type": [
+            "hybrid",
+            "onsite"
+          ],
+          "salary_range": {
+            "min": 7000000,
+            "max": 25000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "digital_marketer",
@@ -435,12 +1127,36 @@
           "description": "Merencanakan dan mengeksekusi strategi pemasaran digital lintas platform.",
           "demand_level": "high",
           "growth_rate": "8%",
-          "company_types": ["agency", "corporate", "tech_startup", "retail", "freelance"],
-          "required_skills": ["seo_sem", "social_media_marketing", "content_marketing", "analytics", "copywriting"],
-          "nice_to_have_skills": ["paid_ads", "email_marketing", "crm", "video_marketing"],
+          "company_types": [
+            "agency",
+            "corporate",
+            "tech_startup",
+            "retail",
+            "freelance"
+          ],
+          "required_skills": [
+            "seo_sem",
+            "social_media_marketing",
+            "content_marketing",
+            "analytics",
+            "copywriting"
+          ],
+          "nice_to_have_skills": [
+            "paid_ads",
+            "email_marketing",
+            "crm",
+            "video_marketing"
+          ],
           "education_level": "D3/S1 atau sertifikasi",
-          "work_type": ["remote", "hybrid"],
-          "salary_range": { "min": 5000000, "max": 20000000, "currency": "IDR" }
+          "work_type": [
+            "remote",
+            "hybrid"
+          ],
+          "salary_range": {
+            "min": 5000000,
+            "max": 20000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "business_analyst",
@@ -448,12 +1164,35 @@
           "description": "Mengidentifikasi kebutuhan bisnis dan merancang solusi untuk meningkatkan efisiensi organisasi.",
           "demand_level": "high",
           "growth_rate": "14%",
-          "company_types": ["corporate", "consulting", "finance", "tech_startup"],
-          "required_skills": ["business_process", "data_analysis", "requirements_gathering", "sql", "presentation"],
-          "nice_to_have_skills": ["power_bi", "agile", "erp_systems", "bpmn"],
+          "company_types": [
+            "corporate",
+            "consulting",
+            "finance",
+            "tech_startup"
+          ],
+          "required_skills": [
+            "business_process",
+            "data_analysis",
+            "requirements_gathering",
+            "sql",
+            "presentation"
+          ],
+          "nice_to_have_skills": [
+            "power_bi",
+            "agile",
+            "erp_systems",
+            "bpmn"
+          ],
           "education_level": "S1",
-          "work_type": ["hybrid", "onsite"],
-          "salary_range": { "min": 7000000, "max": 25000000, "currency": "IDR" }
+          "work_type": [
+            "hybrid",
+            "onsite"
+          ],
+          "salary_range": {
+            "min": 7000000,
+            "max": 25000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "operations_manager",
@@ -461,12 +1200,36 @@
           "description": "Mengelola operasional harian dan meningkatkan efisiensi proses di organisasi.",
           "demand_level": "high",
           "growth_rate": "68%",
-          "company_types": ["corporate", "logistics", "retail", "manufacturing", "healthcare"],
-          "required_skills": ["project_management", "process_improvement", "leadership", "data_analysis", "supply_chain"],
-          "nice_to_have_skills": ["lean_six_sigma", "erp", "budget_management", "kpi_tracking"],
+          "company_types": [
+            "corporate",
+            "logistics",
+            "retail",
+            "manufacturing",
+            "healthcare"
+          ],
+          "required_skills": [
+            "project_management",
+            "process_improvement",
+            "leadership",
+            "data_analysis",
+            "supply_chain"
+          ],
+          "nice_to_have_skills": [
+            "lean_six_sigma",
+            "erp",
+            "budget_management",
+            "kpi_tracking"
+          ],
           "education_level": "S1 (berbagai jurusan)",
-          "work_type": ["onsite", "hybrid"],
-          "salary_range": { "min": 10000000, "max": 35000000, "currency": "IDR" }
+          "work_type": [
+            "onsite",
+            "hybrid"
+          ],
+          "salary_range": {
+            "min": 10000000,
+            "max": 35000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "hr_manager",
@@ -474,12 +1237,35 @@
           "description": "Mengelola sumber daya manusia, rekrutmen, pengembangan, dan budaya organisasi.",
           "demand_level": "medium",
           "growth_rate": "8%",
-          "company_types": ["corporate", "tech_startup", "government", "ngo"],
-          "required_skills": ["recruitment", "employee_relations", "hr_policies", "performance_management", "communication"],
-          "nice_to_have_skills": ["hris", "employer_branding", "learning_development", "organizational_development"],
+          "company_types": [
+            "corporate",
+            "tech_startup",
+            "government",
+            "ngo"
+          ],
+          "required_skills": [
+            "recruitment",
+            "employee_relations",
+            "hr_policies",
+            "performance_management",
+            "communication"
+          ],
+          "nice_to_have_skills": [
+            "hris",
+            "employer_branding",
+            "learning_development",
+            "organizational_development"
+          ],
           "education_level": "S1 Psikologi/Manajemen",
-          "work_type": ["hybrid", "onsite"],
-          "salary_range": { "min": 7000000, "max": 25000000, "currency": "IDR" }
+          "work_type": [
+            "hybrid",
+            "onsite"
+          ],
+          "salary_range": {
+            "min": 7000000,
+            "max": 25000000,
+            "currency": "IDR"
+          }
         }
       ]
     },
@@ -494,12 +1280,32 @@
           "description": "Mendidik dan membimbing siswa dalam memahami materi pelajaran di berbagai jenjang pendidikan.",
           "demand_level": "high",
           "growth_rate": "5%",
-          "company_types": ["school", "government", "private_institution"],
-          "required_skills": ["curriculum_design", "pedagogy", "subject_expertise", "classroom_management", "communication"],
-          "nice_to_have_skills": ["edtech", "differentiated_instruction", "assessment_design"],
+          "company_types": [
+            "school",
+            "government",
+            "private_institution"
+          ],
+          "required_skills": [
+            "curriculum_design",
+            "pedagogy",
+            "subject_expertise",
+            "classroom_management",
+            "communication"
+          ],
+          "nice_to_have_skills": [
+            "edtech",
+            "differentiated_instruction",
+            "assessment_design"
+          ],
           "education_level": "S1 Pendidikan + PPG",
-          "work_type": ["onsite"],
-          "salary_range": { "min": 3000000, "max": 15000000, "currency": "IDR" }
+          "work_type": [
+            "onsite"
+          ],
+          "salary_range": {
+            "min": 3000000,
+            "max": 15000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "instructional_designer",
@@ -507,12 +1313,35 @@
           "description": "Merancang materi pembelajaran digital yang efektif dan engaging untuk berbagai platform.",
           "demand_level": "high",
           "growth_rate": "11%",
-          "company_types": ["edtech", "corporate", "university", "ngo"],
-          "required_skills": ["instructional_design", "elearning_tools", "curriculum_design", "lms", "content_writing"],
-          "nice_to_have_skills": ["articulate_storyline", "video_production", "gamification", "ux_design"],
+          "company_types": [
+            "edtech",
+            "corporate",
+            "university",
+            "ngo"
+          ],
+          "required_skills": [
+            "instructional_design",
+            "elearning_tools",
+            "curriculum_design",
+            "lms",
+            "content_writing"
+          ],
+          "nice_to_have_skills": [
+            "articulate_storyline",
+            "video_production",
+            "gamification",
+            "ux_design"
+          ],
           "education_level": "S1",
-          "work_type": ["remote", "hybrid"],
-          "salary_range": { "min": 5000000, "max": 20000000, "currency": "IDR" }
+          "work_type": [
+            "remote",
+            "hybrid"
+          ],
+          "salary_range": {
+            "min": 5000000,
+            "max": 20000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "education_technologist",
@@ -520,12 +1349,34 @@
           "description": "Mengintegrasikan teknologi ke dalam sistem pendidikan untuk meningkatkan hasil belajar.",
           "demand_level": "high",
           "growth_rate": "15%",
-          "company_types": ["edtech", "school", "corporate", "government"],
-          "required_skills": ["edtech_platforms", "data_analysis", "curriculum_design", "training", "lms_administration"],
-          "nice_to_have_skills": ["ai_in_education", "coding", "project_management"],
+          "company_types": [
+            "edtech",
+            "school",
+            "corporate",
+            "government"
+          ],
+          "required_skills": [
+            "edtech_platforms",
+            "data_analysis",
+            "curriculum_design",
+            "training",
+            "lms_administration"
+          ],
+          "nice_to_have_skills": [
+            "ai_in_education",
+            "coding",
+            "project_management"
+          ],
           "education_level": "S1/S2",
-          "work_type": ["hybrid", "remote"],
-          "salary_range": { "min": 6000000, "max": 20000000, "currency": "IDR" }
+          "work_type": [
+            "hybrid",
+            "remote"
+          ],
+          "salary_range": {
+            "min": 6000000,
+            "max": 20000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "researcher_lecturer",
@@ -533,12 +1384,34 @@
           "description": "Melakukan penelitian ilmiah dan mengajar di perguruan tinggi dalam bidang spesialisasi tertentu.",
           "demand_level": "medium",
           "growth_rate": "10%",
-          "company_types": ["university", "research_institution", "government"],
-          "required_skills": ["research_methodology", "academic_writing", "teaching", "statistics", "critical_thinking"],
-          "nice_to_have_skills": ["grant_writing", "publication", "data_analysis", "mentoring"],
+          "company_types": [
+            "university",
+            "research_institution",
+            "government"
+          ],
+          "required_skills": [
+            "research_methodology",
+            "academic_writing",
+            "teaching",
+            "statistics",
+            "critical_thinking"
+          ],
+          "nice_to_have_skills": [
+            "grant_writing",
+            "publication",
+            "data_analysis",
+            "mentoring"
+          ],
           "education_level": "S2/S3",
-          "work_type": ["hybrid", "onsite"],
-          "salary_range": { "min": 5000000, "max": 25000000, "currency": "IDR" }
+          "work_type": [
+            "hybrid",
+            "onsite"
+          ],
+          "salary_range": {
+            "min": 5000000,
+            "max": 25000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "corporate_trainer",
@@ -546,12 +1419,34 @@
           "description": "Merancang dan menjalankan program pelatihan untuk meningkatkan kapabilitas karyawan.",
           "demand_level": "medium",
           "growth_rate": "8%",
-          "company_types": ["corporate", "consulting", "ngo"],
-          "required_skills": ["training_facilitation", "curriculum_design", "presentation", "needs_assessment", "coaching"],
-          "nice_to_have_skills": ["lms", "instructional_design", "elearning", "data_analysis"],
+          "company_types": [
+            "corporate",
+            "consulting",
+            "ngo"
+          ],
+          "required_skills": [
+            "training_facilitation",
+            "curriculum_design",
+            "presentation",
+            "needs_assessment",
+            "coaching"
+          ],
+          "nice_to_have_skills": [
+            "lms",
+            "instructional_design",
+            "elearning",
+            "data_analysis"
+          ],
           "education_level": "S1",
-          "work_type": ["hybrid", "onsite"],
-          "salary_range": { "min": 6000000, "max": 20000000, "currency": "IDR" }
+          "work_type": [
+            "hybrid",
+            "onsite"
+          ],
+          "salary_range": {
+            "min": 6000000,
+            "max": 20000000,
+            "currency": "IDR"
+          }
         }
       ]
     },
@@ -566,12 +1461,35 @@
           "description": "Merancang dan membangun video game untuk berbagai platform digital.",
           "demand_level": "high",
           "growth_rate": "20%",
-          "company_types": ["gaming", "tech_startup", "entertainment", "freelance"],
-          "required_skills": ["unity", "c_sharp", "game_design", "programming", "3d_modeling"],
-          "nice_to_have_skills": ["unreal_engine", "game_monetization", "multiplayer_networking", "vr_development"],
+          "company_types": [
+            "gaming",
+            "tech_startup",
+            "entertainment",
+            "freelance"
+          ],
+          "required_skills": [
+            "unity",
+            "c_sharp",
+            "game_design",
+            "programming",
+            "3d_modeling"
+          ],
+          "nice_to_have_skills": [
+            "unreal_engine",
+            "game_monetization",
+            "multiplayer_networking",
+            "vr_development"
+          ],
           "education_level": "S1 atau portofolio",
-          "work_type": ["remote", "hybrid"],
-          "salary_range": { "min": 7000000, "max": 30000000, "currency": "IDR" }
+          "work_type": [
+            "remote",
+            "hybrid"
+          ],
+          "salary_range": {
+            "min": 7000000,
+            "max": 30000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "journalist_writer",
@@ -579,12 +1497,36 @@
           "description": "Menulis dan memproduksi konten berita, artikel, atau narasi untuk media digital.",
           "demand_level": "medium",
           "growth_rate": "3%",
-          "company_types": ["media", "agency", "freelance", "corporate"],
-          "required_skills": ["writing", "research", "storytelling", "seo", "social_media"],
-          "nice_to_have_skills": ["data_journalism", "podcast_production", "video_production", "photography"],
+          "company_types": [
+            "media",
+            "agency",
+            "freelance",
+            "corporate"
+          ],
+          "required_skills": [
+            "writing",
+            "research",
+            "storytelling",
+            "seo",
+            "social_media"
+          ],
+          "nice_to_have_skills": [
+            "data_journalism",
+            "podcast_production",
+            "video_production",
+            "photography"
+          ],
           "education_level": "S1 (berbagai jurusan)",
-          "work_type": ["remote", "hybrid", "freelance"],
-          "salary_range": { "min": 4000000, "max": 18000000, "currency": "IDR" }
+          "work_type": [
+            "remote",
+            "hybrid",
+            "freelance"
+          ],
+          "salary_range": {
+            "min": 4000000,
+            "max": 18000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "film_director_producer",
@@ -592,12 +1534,35 @@
           "description": "Memimpin produksi konten film, iklan, atau video dari konsep hingga distribusi.",
           "demand_level": "medium",
           "growth_rate": "10%",
-          "company_types": ["entertainment", "agency", "media", "freelance"],
-          "required_skills": ["directing", "production_management", "storytelling", "cinematography", "editing"],
-          "nice_to_have_skills": ["vfx", "budgeting", "distribution", "color_grading"],
+          "company_types": [
+            "entertainment",
+            "agency",
+            "media",
+            "freelance"
+          ],
+          "required_skills": [
+            "directing",
+            "production_management",
+            "storytelling",
+            "cinematography",
+            "editing"
+          ],
+          "nice_to_have_skills": [
+            "vfx",
+            "budgeting",
+            "distribution",
+            "color_grading"
+          ],
           "education_level": "S1 Film atau portofolio",
-          "work_type": ["project_based", "freelance"],
-          "salary_range": { "min": 5000000, "max": 50000000, "currency": "IDR" }
+          "work_type": [
+            "project_based",
+            "freelance"
+          ],
+          "salary_range": {
+            "min": 5000000,
+            "max": 50000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "3d_artist",
@@ -605,19 +1570,44 @@
           "description": "Membuat aset visual 3D untuk game, film, arsitektur, atau iklan.",
           "demand_level": "high",
           "growth_rate": "18%",
-          "company_types": ["gaming", "entertainment", "architecture", "agency", "freelance"],
-          "required_skills": ["blender", "3d_modeling", "texturing", "rendering", "animation"],
-          "nice_to_have_skills": ["maya", "substance_painter", "vfx", "unreal_engine"],
+          "company_types": [
+            "gaming",
+            "entertainment",
+            "architecture",
+            "agency",
+            "freelance"
+          ],
+          "required_skills": [
+            "blender",
+            "3d_modeling",
+            "texturing",
+            "rendering",
+            "animation"
+          ],
+          "nice_to_have_skills": [
+            "maya",
+            "substance_painter",
+            "vfx",
+            "unreal_engine"
+          ],
           "education_level": "D3/S1 atau portofolio",
-          "work_type": ["remote", "freelance", "hybrid"],
-          "salary_range": { "min": 5000000, "max": 25000000, "currency": "IDR" }
+          "work_type": [
+            "remote",
+            "freelance",
+            "hybrid"
+          ],
+          "salary_range": {
+            "min": 5000000,
+            "max": 25000000,
+            "currency": "IDR"
+          }
         }
       ]
     },
     {
       "id": "green_sustainability",
       "label": "Lingkungan & Sustainability",
-      "icon": "bi bi-leaf",
+      "icon": "bi bi-globe2",
       "jobs": [
         {
           "id": "environmental_engineer",
@@ -625,12 +1615,35 @@
           "description": "Merancang solusi teknis untuk mengatasi masalah lingkungan dan mendorong pembangunan berkelanjutan.",
           "demand_level": "high",
           "growth_rate": "15%",
-          "company_types": ["government", "corporate", "ngo", "consultancy"],
-          "required_skills": ["environmental_science", "engineering", "data_analysis", "regulation_compliance", "project_management"],
-          "nice_to_have_skills": ["gis", "esg_reporting", "climate_modeling", "waste_management"],
+          "company_types": [
+            "government",
+            "corporate",
+            "ngo",
+            "consultancy"
+          ],
+          "required_skills": [
+            "environmental_science",
+            "engineering",
+            "data_analysis",
+            "regulation_compliance",
+            "project_management"
+          ],
+          "nice_to_have_skills": [
+            "gis",
+            "esg_reporting",
+            "climate_modeling",
+            "waste_management"
+          ],
           "education_level": "S1 Teknik Lingkungan",
-          "work_type": ["hybrid", "onsite"],
-          "salary_range": { "min": 7000000, "max": 25000000, "currency": "IDR" }
+          "work_type": [
+            "hybrid",
+            "onsite"
+          ],
+          "salary_range": {
+            "min": 7000000,
+            "max": 25000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "sustainability_consultant",
@@ -638,12 +1651,35 @@
           "description": "Membantu organisasi merancang dan mengimplementasikan strategi ESG dan keberlanjutan.",
           "demand_level": "high",
           "growth_rate": "emerging",
-          "company_types": ["corporate", "consulting", "finance", "ngo"],
-          "required_skills": ["esg_frameworks", "data_analysis", "reporting", "stakeholder_engagement", "policy"],
-          "nice_to_have_skills": ["carbon_accounting", "supply_chain", "gri_standards", "climate_risk"],
+          "company_types": [
+            "corporate",
+            "consulting",
+            "finance",
+            "ngo"
+          ],
+          "required_skills": [
+            "esg_frameworks",
+            "data_analysis",
+            "reporting",
+            "stakeholder_engagement",
+            "policy"
+          ],
+          "nice_to_have_skills": [
+            "carbon_accounting",
+            "supply_chain",
+            "gri_standards",
+            "climate_risk"
+          ],
           "education_level": "S1/S2",
-          "work_type": ["hybrid", "remote"],
-          "salary_range": { "min": 8000000, "max": 30000000, "currency": "IDR" }
+          "work_type": [
+            "hybrid",
+            "remote"
+          ],
+          "salary_range": {
+            "min": 8000000,
+            "max": 30000000,
+            "currency": "IDR"
+          }
         },
         {
           "id": "renewable_energy_engineer",
@@ -651,12 +1687,221 @@
           "description": "Merancang dan mengembangkan sistem energi terbarukan seperti solar, angin, dan geothermal.",
           "demand_level": "high",
           "growth_rate": "25%",
-          "company_types": ["energy", "government", "corporate", "consultancy"],
-          "required_skills": ["electrical_engineering", "energy_systems", "project_management", "data_analysis", "regulation"],
-          "nice_to_have_skills": ["solar_pv_design", "grid_integration", "energy_storage", "gis"],
+          "company_types": [
+            "energy",
+            "government",
+            "corporate",
+            "consultancy"
+          ],
+          "required_skills": [
+            "electrical_engineering",
+            "energy_systems",
+            "project_management",
+            "data_analysis",
+            "regulation"
+          ],
+          "nice_to_have_skills": [
+            "solar_pv_design",
+            "grid_integration",
+            "energy_storage",
+            "gis"
+          ],
           "education_level": "S1 Teknik",
-          "work_type": ["hybrid", "onsite"],
-          "salary_range": { "min": 8000000, "max": 30000000, "currency": "IDR" }
+          "work_type": [
+            "hybrid",
+            "onsite"
+          ],
+          "salary_range": {
+            "min": 8000000,
+            "max": 30000000,
+            "currency": "IDR"
+          }
+        }
+      ]
+    },
+    {
+      "id": "teknik_manufaktur",
+      "label": "Teknik & Manufaktur",
+      "icon": "bi bi-gear",
+      "jobs": [
+        {
+          "id": "mechanical_engineer",
+          "title": "Mechanical Engineer",
+          "description": "Merancang, mengembangkan, dan menguji sistem mekanikal untuk industri manufaktur dan produksi.",
+          "demand_level": "high",
+          "growth_rate": "7%",
+          "company_types": [
+            "manufacturing",
+            "corporate",
+            "energy",
+            "government"
+          ],
+          "required_skills": [
+            "mechanical_design",
+            "cad",
+            "project_management",
+            "material_science",
+            "quality_control"
+          ],
+          "nice_to_have_skills": [
+            "fea_simulation",
+            "lean_manufacturing",
+            "autocad",
+            "solidworks"
+          ],
+          "education_level": "S1 Teknik Mesin",
+          "work_type": [
+            "onsite",
+            "hybrid"
+          ],
+          "salary_range": {
+            "min": 7000000,
+            "max": 25000000,
+            "currency": "IDR"
+          }
+        },
+        {
+          "id": "electrical_engineer",
+          "title": "Electrical Engineer",
+          "description": "Merancang dan mengelola sistem kelistrikan untuk industri, infrastruktur, dan perangkat elektronik.",
+          "demand_level": "high",
+          "growth_rate": "9%",
+          "company_types": [
+            "energy",
+            "manufacturing",
+            "corporate",
+            "government"
+          ],
+          "required_skills": [
+            "electrical_design",
+            "plc_programming",
+            "power_systems",
+            "safety_standards",
+            "project_management"
+          ],
+          "nice_to_have_skills": [
+            "scada",
+            "renewable_energy",
+            "autocad_electrical",
+            "iot"
+          ],
+          "education_level": "S1 Teknik Elektro",
+          "work_type": [
+            "onsite",
+            "hybrid"
+          ],
+          "salary_range": {
+            "min": 7000000,
+            "max": 28000000,
+            "currency": "IDR"
+          }
+        },
+        {
+          "id": "industrial_engineer",
+          "title": "Industrial Engineer",
+          "description": "Mengoptimalkan proses produksi dan operasional untuk meningkatkan efisiensi dan kualitas.",
+          "demand_level": "high",
+          "growth_rate": "10%",
+          "company_types": [
+            "manufacturing",
+            "logistics",
+            "corporate",
+            "consultancy"
+          ],
+          "required_skills": [
+            "process_improvement",
+            "lean_manufacturing",
+            "data_analysis",
+            "project_management",
+            "quality_control"
+          ],
+          "nice_to_have_skills": [
+            "six_sigma",
+            "erp",
+            "simulation",
+            "supply_chain"
+          ],
+          "education_level": "S1 Teknik Industri",
+          "work_type": [
+            "onsite",
+            "hybrid"
+          ],
+          "salary_range": {
+            "min": 6000000,
+            "max": 22000000,
+            "currency": "IDR"
+          }
+        },
+        {
+          "id": "quality_engineer",
+          "title": "Quality Assurance / Quality Control Engineer",
+          "description": "Memastikan produk dan proses memenuhi standar kualitas yang ditetapkan.",
+          "demand_level": "high",
+          "growth_rate": "8%",
+          "company_types": [
+            "manufacturing",
+            "pharmaceutical",
+            "corporate",
+            "automotive"
+          ],
+          "required_skills": [
+            "quality_control",
+            "iso_standards",
+            "inspection",
+            "data_analysis",
+            "documentation"
+          ],
+          "nice_to_have_skills": [
+            "six_sigma",
+            "spc",
+            "fmea",
+            "iso9001"
+          ],
+          "education_level": "S1 Teknik",
+          "work_type": [
+            "onsite"
+          ],
+          "salary_range": {
+            "min": 6000000,
+            "max": 20000000,
+            "currency": "IDR"
+          }
+        },
+        {
+          "id": "automation_engineer",
+          "title": "Automation Engineer",
+          "description": "Mengembangkan dan mengimplementasikan sistem otomasi untuk meningkatkan efisiensi produksi.",
+          "demand_level": "very_high",
+          "growth_rate": "15%",
+          "company_types": [
+            "manufacturing",
+            "energy",
+            "corporate",
+            "tech_startup"
+          ],
+          "required_skills": [
+            "plc_programming",
+            "robotics",
+            "electrical_design",
+            "scada",
+            "python"
+          ],
+          "nice_to_have_skills": [
+            "iot",
+            "ai_manufacturing",
+            "computer_vision",
+            "ros"
+          ],
+          "education_level": "S1 Teknik",
+          "work_type": [
+            "onsite",
+            "hybrid"
+          ],
+          "salary_range": {
+            "min": 9000000,
+            "max": 35000000,
+            "currency": "IDR"
+          }
         }
       ]
     }
@@ -664,87 +1909,179 @@
   "company_types": {
     "big_tech": {
       "label": "Big Tech / Perusahaan Teknologi Besar",
-      "examples": ["Google", "Microsoft", "Meta", "Amazon", "Gojek", "Tokopedia"],
+      "examples": [
+        "Google",
+        "Microsoft",
+        "Meta",
+        "Amazon",
+        "Gojek",
+        "Tokopedia"
+      ],
       "culture": "Inovatif, benefit besar, kompetitif, fast-paced",
-      "size": "large"
+      "size": "large",
+      "icon": "bi bi-building"
     },
     "tech_startup": {
       "label": "Tech Startup",
-      "examples": ["Startup Series A-C", "Unicorn lokal", "Scaleup"],
+      "examples": [
+        "Startup Series A-C",
+        "Unicorn lokal",
+        "Scaleup"
+      ],
       "culture": "Agile, ownership tinggi, growth mindset, flat structure",
-      "size": "small_medium"
+      "size": "small_medium",
+      "icon": "bi bi-rocket"
     },
     "agency": {
       "label": "Agensi Kreatif / Digital",
-      "examples": ["Digital agency", "Advertising agency", "Design studio"],
+      "examples": [
+        "Digital agency",
+        "Advertising agency",
+        "Design studio"
+      ],
       "culture": "Kreatif, deadline ketat, banyak klien, portfolio building",
-      "size": "small_medium"
+      "size": "small_medium",
+      "icon": "bi bi-lightbulb"
     },
     "corporate": {
       "label": "Perusahaan Korporat / BUMN",
-      "examples": ["Perusahaan multinasional", "BUMN", "Konglomerat"],
+      "examples": [
+        "Perusahaan multinasional",
+        "BUMN",
+        "Konglomerat"
+      ],
       "culture": "Stabil, jenjang karir jelas, proses terstruktur, benefir lengkap",
-      "size": "large"
+      "size": "large",
+      "icon": "bi bi-briefcase"
     },
     "finance": {
       "label": "Perbankan & Keuangan",
-      "examples": ["Bank", "Fintech", "Perusahaan asuransi", "Investment firm"],
+      "examples": [
+        "Bank",
+        "Fintech",
+        "Perusahaan asuransi",
+        "Investment firm"
+      ],
       "culture": "Detail-oriented, regulasi ketat, stabil, kompensasi baik",
-      "size": "medium_large"
+      "size": "medium_large",
+      "icon": "bi bi-bank"
     },
     "government": {
       "label": "Instansi Pemerintah",
-      "examples": ["Kementerian", "BPJS", "Pemda", "Lembaga negara"],
+      "examples": [
+        "Kementerian",
+        "BPJS",
+        "Pemda",
+        "Lembaga negara"
+      ],
       "culture": "Stabil, jenjang PNS, pengabdian masyarakat, proses birokratis",
-      "size": "large"
+      "size": "large",
+      "icon": "bi bi-flag"
     },
     "hospital": {
       "label": "Rumah Sakit & Klinik",
-      "examples": ["RS swasta", "RS pemerintah", "Klinik spesialis"],
+      "examples": [
+        "RS swasta",
+        "RS pemerintah",
+        "Klinik spesialis"
+      ],
       "culture": "Patient-centered, shift kerja, high pressure, meaningful work",
-      "size": "medium_large"
+      "size": "medium_large",
+      "icon": "bi bi-hospital"
     },
     "ngo": {
       "label": "NGO / Nirlaba",
-      "examples": ["UNICEF", "WWF", "Yayasan lokal", "Social enterprise"],
+      "examples": [
+        "UNICEF",
+        "WWF",
+        "Yayasan lokal",
+        "Social enterprise"
+      ],
       "culture": "Mission-driven, dampak sosial, salary moderat, meaningful",
-      "size": "small_medium"
+      "size": "small_medium",
+      "icon": "bi bi-heart"
     },
     "freelance": {
       "label": "Freelance / Self-Employed",
-      "examples": ["Freelancer platform", "Konsultan independen", "Bisnis sendiri"],
+      "examples": [
+        "Freelancer platform",
+        "Konsultan independen",
+        "Bisnis sendiri"
+      ],
       "culture": "Fleksibel, self-manage, income variatif, portofolio building",
-      "size": "individual"
+      "size": "individual",
+      "icon": "bi bi-person-workspace"
     },
     "consultancy": {
       "label": "Perusahaan Konsultan",
-      "examples": ["McKinsey", "Accenture", "Lokal consultancy", "Boutique firm"],
+      "examples": [
+        "McKinsey",
+        "Accenture",
+        "Lokal consultancy",
+        "Boutique firm"
+      ],
       "culture": "High intensity, banyak belajar, networking luas, traveling",
-      "size": "medium_large"
+      "size": "medium_large",
+      "icon": "bi bi-people"
     },
     "edtech": {
       "label": "Perusahaan Edukasi / EdTech",
-      "examples": ["Ruangguru", "Zenius", "Coursera lokal", "Sekolah swasta"],
+      "examples": [
+        "Ruangguru",
+        "Zenius",
+        "Coursera lokal",
+        "Sekolah swasta"
+      ],
       "culture": "Impactful, inovatif, kolaboratif, learning-focused",
-      "size": "small_medium"
+      "size": "small_medium",
+      "icon": "bi bi-mortarboard"
     },
     "gaming": {
       "label": "Industri Game",
-      "examples": ["Game studio", "Publisher game", "Indie developer"],
+      "examples": [
+        "Game studio",
+        "Publisher game",
+        "Indie developer"
+      ],
       "culture": "Kreatif, passion-driven, crunch culture, portofolio penting",
-      "size": "small_large"
+      "size": "small_large",
+      "icon": "bi bi-controller"
     },
     "media": {
       "label": "Media & Entertainment",
-      "examples": ["TV/streaming", "Koran digital", "Media online", "Label musik"],
+      "examples": [
+        "TV/streaming",
+        "Koran digital",
+        "Media online",
+        "Label musik"
+      ],
       "culture": "Kreatif, dinamis, deadline-driven, storytelling",
-      "size": "medium_large"
+      "size": "medium_large",
+      "icon": "bi bi-camera-video"
     },
     "energy": {
       "label": "Perusahaan Energi",
-      "examples": ["Pertamina", "PLN", "Perusahaan solar", "Geothermal"],
+      "examples": [
+        "Pertamina",
+        "PLN",
+        "Perusahaan solar",
+        "Geothermal"
+      ],
       "culture": "Teknikal, operasional besar, stabil, berdampak nasional",
-      "size": "large"
+      "size": "large",
+      "icon": "bi bi-lightning-charge"
+    },
+    "manufacturing": {
+      "label": "Industri Manufaktur",
+      "examples": [
+        "Astra",
+        "Unilever",
+        "Toyota",
+        "Pertamina",
+        "Pabrik lokal"
+      ],
+      "culture": "Terstruktur, operasional besar, shift kerja, orientasi produksi",
+      "size": "medium_large"
     }
   }
 }
