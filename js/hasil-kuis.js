@@ -40,7 +40,7 @@ const PENDIDIKAN_LABELS = {
     s3:      'S3/Doktor',
 };
 
-const LEVEL_LABELS = { beginner: 'Pemula', intermediate: 'Menengah', advanced: 'Jago' };
+const LEVEL_LABELS = { beginner: 'Pemula', intermediate: 'Menengah', advanced: 'Mahir' };
 
 document.addEventListener('DOMContentLoaded', () => {
     const raw = sessionStorage.getItem('lakar_result');
@@ -390,7 +390,7 @@ function renderRoadmap(roadmap) {
 
         const levelLabels = document.createElement('div');
         levelLabels.className = 'level-labels';
-        ['Pemula', 'Menengah', 'Jago'].forEach((lbl, i) => {
+        ['Pemula', 'Menengah', 'Mahir'].forEach((lbl, i) => {
             const span = document.createElement('span');
             span.textContent = lbl;
             if (TARGET_IDX[item.targetLevel] === i) span.classList.add('active');
