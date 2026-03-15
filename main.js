@@ -161,6 +161,7 @@ function getFieldDesc(id) {
     education:        'Mengajar, E-Learning, Riset',
     art_media:        'Game, Film, Jurnalisme, Seni',
     green_sustainability: 'Lingkungan, ESG, Energi Terbarukan',
+    teknik_manufaktur: 'Mesin, Elektro, Otomasi, Manufaktur'
   };
   return descs[id] || '';
 }
@@ -223,6 +224,7 @@ function getRelevantCategories() {
     education:        ['education_skills','business_skills', 'soft_skills'],
     art_media:        ['design_tools', 'ai_emerging'],
     green_sustainability: ['green_skills','business_skills'],
+    teknik_manufaktur: ['manufacturing_skills']
   };
 
   const relevantCatIds = new Set(['soft_skills']);
