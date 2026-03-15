@@ -9,7 +9,7 @@ Politeknik Negeri Malang
 - Anggota 2: Nadia Minatul Salma
 
 ## Deskripsi Karya
-Menurut data Badan Pusat Statistik, jumlah pengangguran terbuka di Indonesia pada Agustus 2025 mencapai 7,46 juta orang, dengan Tingkat Pengangguran Terbuka sebesar 4,85% dari total angkatan kerja. Angka ini menurun dibandingkan Agustus 2024 yang mencatat 7,47 juta pengangguran dan Tingkat Pengangguran Terbuka 4,91%. Meskipun ada penurunan, masih ada jutaan pencari kerja yang belum terserap sepenuhnya oleh pasar kerja.
+Menurut data Badan Pusat Statistik, jumlah pengangguran terbuka di Indonesia pada Agustus 2025 mencapai 7,46 juta orang, dengan Tingkat Pengangguran Terbuka sebesar 4,85% dari total angkatan kerja. Angka ini menurun dibandingkan Agustus 2024 yang mencatat 7,47 juta pengangguran dan Tingkat Pengangguran Terbuka 4,91%. Meskipun ada penurunan, masih terdapat jutaan pencari kerja yang belum terserap sepenuhnya oleh pasar kerja.
 
 Salah satu faktor yang memengaruhi kondisi ini adalah ketidaksesuaian antara skill yang dimiliki oleh pencari kerja dengan kebutuhan industri. Perkembangan teknologi dan digitalisasi juga menyebabkan kebutuhan skill di dunia kerja terus berubah. Akibatnya, banyak mahasiswa maupun fresh graduate yang masih kesulitan menentukan arah karier serta kurangnya pemahaman mengenai skill apa saja yang paling dibutuhkan oleh industri saat ini.
 
