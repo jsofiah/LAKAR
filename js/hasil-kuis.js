@@ -1,4 +1,7 @@
 'use strict';
+const EMAILJS_PUBLIC_KEY  = 'FLVhFAPstzKapHhIV';
+const EMAILJS_SERVICE_ID  = 'service_vv6lv7c';
+const EMAILJS_TEMPLATE_ID = 'template_1030r4l';
 
 const CIRCUMFERENCE = 2 * Math.PI * 54;
 
@@ -618,12 +621,8 @@ function buildShareModal(r) {
  
     fillPreview(r);
  
-    const savedKey = localStorage.getItem('lakar_emailjs_key');
-    if (savedKey) {
-        document.getElementById('spConfigSection').style.display = 'none';
-        document.getElementById('spGuide').style.display         = 'none';
-        emailjs.init(savedKey);
-    }
+    document.getElementById('spConfigSection').style.display = 'none';
+    document.getElementById('spGuide').style.display         = 'none';
 }
  
 function fillPreview(r) {
@@ -684,10 +683,7 @@ function loadEmailJS() {
     if (window.emailjs) return;
     const s = document.createElement('script');
     s.src = 'https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js';
-    s.onload = () => {
-        const savedKey = localStorage.getItem('lakar_emailjs_key');
-        if (savedKey) emailjs.init(savedKey);
-    };
+    s.onload = () => emailjs.init(EMAILJS_PUBLIC_KEY);
     document.head.appendChild(s);
 }
 
@@ -911,9 +907,9 @@ async function doSendEmail() {
     }
     document.getElementById('spToEmail').style.borderColor = '';
  
-    const serviceId  = localStorage.getItem('lakar_emailjs_service_id');
-    const templateId = localStorage.getItem('lakar_emailjs_template_id');
-    const publicKey  = localStorage.getItem('lakar_emailjs_key');
+    const serviceId  = EMAILJS_SERVICE_ID;
+    const templateId = EMAILJS_TEMPLATE_ID;
+    const publicKey  = EMAILJS_PUBLIC_KEY;
  
     if (!serviceId || !templateId || !publicKey) {
         alert('Konfigurasi EmailJS belum lengkap. Isi dulu di bagian setup.');
