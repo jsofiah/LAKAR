@@ -1831,6 +1831,240 @@
       ]
     },
     {
+      "id": "manufacturing_skills",
+      "label": "Teknik & Manufaktur",
+      "icon": "bi bi-gear",
+      "skills": [
+        {
+          "id": "mechanical_design",
+          "label": "Mechanical Design",
+          "description": "Kemampuan merancang komponen mekanik, mesin, dan sistem mekanikal untuk kebutuhan industri.",
+          "type": "hard",
+          "field_tags": ["teknik_manufaktur"],
+          "levels": {
+            "beginner": {
+              "can_do": [
+                "Memahami dasar mekanika",
+                "Membaca gambar teknik",
+                "Mengenal komponen mesin"
+              ],
+              "learn_from": [
+                "Dasar Teknik Mesin",
+                "YouTube Mechanical Design Basics"
+              ],
+              "duration_estimate": "2-3 bulan"
+            },
+            "intermediate": {
+              "can_do": [
+                "Merancang komponen sederhana",
+                "Membuat gambar teknik lengkap",
+                "Menghitung kekuatan material dasar"
+              ],
+              "learn_from": [
+                "Mechanical Design Course",
+                "SolidWorks Training"
+              ],
+              "duration_estimate": "4-6 bulan"
+            },
+            "advanced": {
+              "can_do": [
+                "Merancang sistem mekanikal kompleks",
+                "Optimasi desain mesin",
+                "Integrasi sistem mekanik dengan sistem lain"
+              ],
+              "learn_from": [
+                "Advanced Mechanical Engineering",
+                "Professional Mechanical Design Certification"
+              ],
+              "duration_estimate": "1-2 tahun"
+            }
+          },
+          "tools": ["SolidWorks", "AutoCAD", "Fusion 360"],
+          "related_skills": ["cad", "material_science", "fea_simulation"]
+        },
+        {
+          "id": "cad",
+          "label": "CAD (Computer Aided Design)",
+          "description": "Penggunaan software CAD untuk membuat desain teknik, gambar 2D, dan model 3D.",
+          "type": "hard",
+          "field_tags": ["teknik_manufaktur"],
+          "levels": {
+            "beginner": {
+              "can_do": [
+                "Membuat gambar teknik 2D",
+                "Menggunakan tools dasar CAD",
+                "Memahami layer dan dimension"
+              ],
+              "learn_from": [
+                "AutoCAD Beginner Course",
+                "CAD Basics Training"
+              ],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": [
+                "Membuat model 3D",
+                "Membuat assembly",
+                "Membuat drawing manufacturing"
+              ],
+              "learn_from": [
+                "SolidWorks Intermediate",
+                "Fusion 360 Training"
+              ],
+              "duration_estimate": "3-4 bulan"
+            },
+            "advanced": {
+              "can_do": [
+                "Parametric modeling",
+                "Simulation dan rendering",
+                "Desain kompleks untuk manufaktur"
+              ],
+              "learn_from": [
+                "Advanced CAD Certification"
+              ],
+              "duration_estimate": "6+ bulan"
+            }
+          },
+          "tools": ["AutoCAD", "SolidWorks", "Fusion 360", "CATIA"],
+          "related_skills": ["mechanical_design", "fea_simulation"]
+        },
+        {
+          "id": "plc_programming",
+          "label": "PLC Programming",
+          "description": "Pemrograman Programmable Logic Controller untuk mengendalikan mesin dan sistem otomasi industri.",
+          "type": "hard",
+          "field_tags": ["teknik_manufaktur"],
+          "levels": {
+            "beginner": {
+              "can_do": [
+                "Memahami konsep PLC",
+                "Membuat ladder diagram sederhana",
+                "Menghubungkan sensor dasar"
+              ],
+              "learn_from": [
+                "PLC Fundamentals",
+                "Industrial Automation Basics"
+              ],
+              "duration_estimate": "2-3 bulan"
+            },
+            "intermediate": {
+              "can_do": [
+                "Mengontrol sistem mesin produksi",
+                "Integrasi PLC dengan HMI",
+                "Troubleshooting PLC"
+              ],
+              "learn_from": [
+                "Siemens PLC Training",
+                "Industrial Automation Course"
+              ],
+              "duration_estimate": "4-6 bulan"
+            },
+            "advanced": {
+              "can_do": [
+                "Mendesain sistem otomasi kompleks",
+                "Integrasi PLC dengan SCADA",
+                "Optimasi proses industri"
+              ],
+              "learn_from": [
+                "Advanced Automation Engineering"
+              ],
+              "duration_estimate": "1 tahun"
+            }
+          },
+          "tools": ["Siemens TIA Portal", "Allen Bradley", "Mitsubishi PLC"],
+          "related_skills": ["scada", "robotics", "electrical_design"]
+        },
+        {
+          "id": "lean_manufacturing",
+          "label": "Lean Manufacturing",
+          "description": "Metode peningkatan efisiensi produksi dengan mengurangi pemborosan dalam proses manufaktur.",
+          "type": "hard",
+          "field_tags": ["teknik_manufaktur"],
+          "levels": {
+            "beginner": {
+              "can_do": [
+                "Memahami konsep 5S",
+                "Identifikasi waste dalam produksi",
+                "Dasar continuous improvement"
+              ],
+              "learn_from": [
+                "Lean Manufacturing Fundamentals"
+              ],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": [
+                "Value Stream Mapping",
+                "Improvement proses produksi",
+                "Implementasi Kaizen"
+              ],
+              "learn_from": [
+                "Lean Practitioner Training"
+              ],
+              "duration_estimate": "3-4 bulan"
+            },
+            "advanced": {
+              "can_do": [
+                "Transformasi sistem produksi",
+                "Lean strategy perusahaan",
+                "Operational excellence"
+              ],
+              "learn_from": [
+                "Lean Six Sigma Black Belt"
+              ],
+              "duration_estimate": "6-12 bulan"
+            }
+          },
+          "tools": ["Value Stream Mapping", "Kaizen tools", "Process mapping software"],
+          "related_skills": ["process_improvement", "six_sigma", "quality_control"]
+        },
+        {
+          "id": "quality_control",
+          "label": "Quality Control",
+          "description": "Metode untuk memastikan produk memenuhi standar kualitas yang telah ditetapkan.",
+          "type": "hard",
+          "field_tags": ["teknik_manufaktur"],
+          "levels": {
+            "beginner": {
+              "can_do": [
+                "Memahami konsep QC",
+                "Melakukan inspeksi produk",
+                "Mencatat data kualitas"
+              ],
+              "learn_from": [
+                "Quality Management Basics"
+              ],
+              "duration_estimate": "1-2 bulan"
+            },
+            "intermediate": {
+              "can_do": [
+                "Analisis defect produk",
+                "Statistical Quality Control",
+                "Root cause analysis"
+              ],
+              "learn_from": [
+                "Six Sigma Green Belt"
+              ],
+              "duration_estimate": "3-4 bulan"
+            },
+            "advanced": {
+              "can_do": [
+                "Quality system design",
+                "Audit kualitas",
+                "Continuous quality improvement"
+              ],
+              "learn_from": [
+                "ISO 9001 Lead Auditor"
+              ],
+              "duration_estimate": "6+ bulan"
+            }
+          },
+          "tools": ["SPC tools", "Minitab", "Quality inspection tools"],
+          "related_skills": ["six_sigma", "inspection", "iso_standards"]
+        }
+      ]
+    },
+    {
       "id": "soft_skills",
       "label": "Soft Skills & Umum",
       "icon": "bi bi-people",
