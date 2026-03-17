@@ -420,7 +420,7 @@ function computeResults() {
 
     const relevantSkills = new Set();
     const relevantCats = new Set();
-    
+
     userFields.forEach(f => {
         (fieldToCatMap[f] || []).forEach(cat => relevantCats.add(cat));
     });
@@ -456,6 +456,7 @@ function computeResults() {
         skillsData:         state.skillsData,
     };
 }
+
 function buildRoadmap(top3) {
     const roadmap = [], seen = new Set();
     top3.forEach((job, rank) => {
