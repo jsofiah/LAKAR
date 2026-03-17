@@ -418,15 +418,28 @@ function computeResults() {
     const top3 = scoredJobs.slice(0, 3);
     const roadmap = buildRoadmap(top3);
 
-    const allJobSkills = new Set();
-    state.jobsData.fields.forEach(f =>
-        f.jobs.forEach(j => {
-            (j.required_skills || []).forEach(s => allJobSkills.add(s));
-        })
-    );
-    const userSkillCount = Object.keys(userSkills).length;
-    const overallSkillScore = userSkillCount > 0
-        ? Math.round((userSkillCount / Math.max(allJobSkills.size, 1)) * 100)
+    const relevantSkills = new Set();
+    const relevantCats = new Set();
+    
+    userFields.forEach(f => {
+        (fieldToCatMap[f] || []).forEach(cat => relevantCats.add(cat));
+    });
+
+    state.skillsData.categories.forEach(cat => {
+        if (cat.id === 'soft_skills') {
+            cat.skills.forEach(sk => relevantSkills.add(sk.id));
+        } else if (relevantCats.has(cat.id)) {
+            cat.skills.forEach(sk => relevantSkills.add(sk.id));
+        }
+    });
+
+    const userTotalScore = Object.entries(userSkills)
+        .filter(([id]) => relevantSkills.has(id))
+        .reduce((sum, [, level]) => sum + (levelScore[level] || 0), 0);
+
+    const maxScore = relevantSkills.size * 3;
+    const overallSkillScore = maxScore > 0
+        ? Math.round((userTotalScore / maxScore) * 100)
         : 0;
 
     return {
@@ -443,7 +456,6 @@ function computeResults() {
         skillsData:         state.skillsData,
     };
 }
-
 function buildRoadmap(top3) {
     const roadmap = [], seen = new Set();
     top3.forEach((job, rank) => {
