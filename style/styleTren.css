@@ -49,6 +49,9 @@ filter:invert(1);
 .navbar-custom .nav-link:hover {
     color: var(--gold) !important;
 }
+.nav-link.active-link{
+    color: var(--gold) !important;
+}
 
 .navbar-logo{
     height:40px;
